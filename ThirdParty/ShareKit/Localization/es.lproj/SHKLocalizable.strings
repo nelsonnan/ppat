@@ -1,0 +1,91 @@
+"Email" = "Enviar";
+"Username" = "Nombre de usuario";
+"Password" = "Contraseña";
+"Follow %@" = "Siga %@";
+"Continue" = "Continuar";
+"Share" = "Compartir";
+"More..." = "Más...";
+"Cancel" = "Cancelar";
+"Slug" = "Slug";
+"Private" = "Privada";
+"Public" = "Público";
+"Caption" = "Leyenda";
+"Title" = "Título";
+"Tags" = "Etiquetas";
+"Close" = "Cerrar";
+"Notes" = "Notas";
+"Note" = "Nota";
+"Share" = "Compartir";
+"Shared" = "Compartido";
+"Edit" = "Editar";
+"Actions" = "Acciones";
+"Services" = "Servicios";
+"Send to %@" = "Enviar a %@";
+"Copy" = "Copiar";
+"Copied!" = "¡Copiado!";
+"Saving to %@" = "Guardado en %@";
+"Saved!" = "¡Salvados!";
+"Offline" = "Offline";
+"Error" = "Error";
+"Login" = "Login";
+"Logging In..." = "Inicio de sesión en...";
+"Login Error" = "Error de inicio de sesión";
+"Connecting..." = "Conectando...";
+
+"Shortening URL..." = "Acortar URL...";
+"Shorten URL Error" = "Acortar URL de error";
+"We could not shorten the URL." = "No hemos podido acortar la URL.";
+
+"Create a free account at %@" = "Crear una cuenta gratuita en %@";
+"Create an account at %@" = "Crear una cuenta en %@";
+
+"Send to Twitter" = "Enviar a Twitter";
+
+"Message is too long" = "El mensaje es demasiado larga";
+"Twitter posts can only be 140 characters in length." = "Mensajes de Twitter sólo puede ser de 140 caracteres de longitud.";
+"Message is empty" = "El mensaje está vacío";
+"You must enter a message in order to post." = "Debe introducir un mensaje para poder escribir.";
+
+"Enter your message:" = "Escriba el mensaje:";
+
+"Invalid email or password." = "Correo electrónico no válido o contraseña.";
+"The service encountered an error. Please try again later." = "El servicio ha detectado un error. Por favor, inténtelo de nuevo más tarde.";
+"There was an error sending your post to Tumblr." = "Se ha producido un error al enviar su mensaje a Tumblr.";
+
+"There was an error saving to Pinboard" = "Se ha producido un error al enviar su mensaje a Pinboard";
+
+"Sorry, Instapaper did not accept your credentials. Please try again." = "Lo sentimos, Instapaper no aceptó las credenciales. Por favor, inténtelo de nuevo.";
+"Sorry, Instapaper encountered an error. Please try again." = "Lo sentimos, Instapaper ha detectado un error. Por favor, inténtelo de nuevo..";
+"There was a problem saving to Instapaper." = "Hubo un problema al guardar a Instapaper.";
+
+"Incorrect username and password" = "Incorrecto nombre de usuario y contraseña";
+"There was an error logging into Google Reader" = "Se produjo un error de registro en Google Reader";
+"There was a problem authenticating your account." = "Hubo un problema al autenticar su cuenta.";
+"There was a problem saving your note." = "Hubo un problema al guardar su nota.";
+
+"There was a problem saving to Delicious." = "Hubo un problema al guardar en Delicious.";
+
+"Open in Safari" = "Abrir en Safari";
+"Attached: %@" = "Adjunto: %@";
+
+"You must be online to login to %@" = "Usted debe estar en línea para acceder a %@";
+
+"Auto Share" = "Compartir Auto";
+"Enable auto share to skip this step in the future." = "Activar compartir auto para omitir este paso en el futuro.";
+
+"You must be online in order to share with %@" = "Usted debe estar en línea con el fin de compartir con %@";
+"There was an error while sharing" = "Se ha producido un error al compartir";
+
+"Could not authenticate you. Please relogin." = "No se pudo autenticar. Por favor iniciar la sesión.";
+"There was a problem requesting authorization from %@" = "Hubo una autorización problema solicitando a %@";
+"Request Error" = "Error de Solicitud";
+"There was an error while sharing" = "Se ha producido un error al compartir";
+
+"Authorize Error" = "Error de Autorizar";
+"There was an error while authorizing" = "Se ha producido un error al autorizar";
+
+"Authenticating..." = "Autenticación...";
+"There was a problem requesting access from %@" = "Hubo un problema al que solicita el acceso a %@";
+
+"Access Error" = "Error de acceso";
+"There was an error while sharing" = "Se ha producido un error al compartir";

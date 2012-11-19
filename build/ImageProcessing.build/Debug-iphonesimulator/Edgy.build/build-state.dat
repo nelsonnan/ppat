@@ -1,0 +1,1566 @@
+TEdgy
+v7
+r0
+t374194867.165714
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Info.plist" Resources/Edgy/Edgy-Info.plist
+cCpResource build/Debug-iphonesimulator/Edgy.app/Icon-512.png Resources/Edgy/Icon-512.png
+cCpResource build/Debug-iphonesimulator/Edgy.app/Default.png Resources/Edgy/Default.png
+cCpResource build/Debug-iphonesimulator/Edgy.app/Default@2x.png Resources/Edgy/Default@2x.png
+cCpResource build/Debug-iphonesimulator/Edgy.app/camera_dslr_small.png Resources/Edgy/camera_dslr_small.png
+cCpResource build/Debug-iphonesimulator/Edgy.app/colors_small.png Resources/Edgy/colors_small.png
+cCpResource build/Debug-iphonesimulator/Edgy.app/Icon-57.png Resources/Edgy/Icon-57.png
+cCpResource build/Debug-iphonesimulator/Edgy.app/Icon-114.png Resources/Edgy/Icon-114.png
+cCpResource build/Debug-iphonesimulator/Edgy.app/reload_small.png Resources/Edgy/reload_small.png
+cCpResource build/Debug-iphonesimulator/Edgy.app/lightbulb_small_selected.png Resources/Edgy/lightbulb_small_selected.png
+cCpResource build/Debug-iphonesimulator/Edgy.app/lightbulb_small.png Resources/Edgy/lightbulb_small.png
+cCpResource build/Debug-iphonesimulator/Edgy.app/Icon-50.png Resources/Edgy/Icon-50.png
+cCpResource build/Debug-iphonesimulator/Edgy.app/Icon-72.png Resources/Edgy/Icon-72.png
+cCpResource build/Debug-iphonesimulator/Edgy.app/Icon-Small.png Resources/Edgy/Icon-Small.png
+cCpResource build/Debug-iphonesimulator/Edgy.app/legal.txt Resources/Edgy/legal.txt
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/en.lproj/Localizable.strings" Resources/Edgy/en.lproj/Localizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/es.lproj/Localizable.strings" Resources/Edgy/es.lproj/Localizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/de.lproj/Localizable.strings" Resources/Edgy/de.lproj/Localizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/fr.lproj/Localizable.strings" Resources/Edgy/fr.lproj/Localizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/ja.lproj/Localizable.strings" Resources/Edgy/ja.lproj/Localizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/de.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/de.lproj/SHKLocalizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/en.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/en.lproj/SHKLocalizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/es.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/es.lproj/SHKLocalizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/eu.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/eu.lproj/SHKLocalizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/fr.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/fr.lproj/SHKLocalizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/ja.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/ja.lproj/SHKLocalizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/ko.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/ko.lproj/SHKLocalizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/nl.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/nl.lproj/SHKLocalizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/vi.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/zh_CN.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/zh_CN.lproj/SHKLocalizable.strings
+cCopyPlistFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/SHKSharers.plist" ThirdParty/ShareKit/Core/SHKSharers.plist
+cCpResource build/Debug-iphonesimulator/Edgy.app/FBConnect.bundle ThirdParty/ShareKit/Sharers/Services/Facebook/FBConnect/FBConnect.bundle
+cProcessPCH /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-eqmptfypjvhczuddkprksundedbo/Edgy_Prefix.pch.gch Edgy_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH++ /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bxufditfgafhenaldssvxmhcqizg/Edgy_Prefix.pch.gch Edgy_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-dwbhwxmsokbjqtdbcdihmlqgjcma/Edgy_Prefix.pch.pth Edgy_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cCompileC build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/Edgy-main.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/EGEdgyAppDelegate.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/EGCaptureController.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm" normal i386 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/EGEdgyView.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/UIImage-OpenCVExtensions.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm" normal i386 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/ImageOrientationAccelerometer.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm" normal i386 objective-c++ com.apple.compilers.llvmgcc42
+cLd "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Edgy" normal i386
+cAnalyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m"
+cAnalyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m"
+cAnalyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m"
+cGenerateDSYMFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app.dSYM" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Edgy"
+cTouch "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004D779F160000000000000110
+t1299685142
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC1288A00000000000F34A0
+t1287727242
+s996512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC128840000000000000733
+t1287727236
+s1843
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000004AD4F4D80000000000006500
+t1255470296
+s25856
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004CC127FC0000000000063DD0
+t1287727100
+s409040
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.h
+c000000004CC127F400000000000001F4
+t1287727092
+s500
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004CC122DE0000000000018050
+t1287725790
+s98384
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004CC6562D000000000009BEC0
+t1288066605
+s638656
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004CC122D0000000000005BF20
+t1287725776
+s376608
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004CC121E20000000000088320
+t1287725538
+s557856
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CC121F60000000000068970
+t1287725558
+s428400
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004CC657750000000000000071
+t1288066933
+s113
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004CC65780000000000002F590
+t1288066944
+s193936
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/assert.h
+c000000004CB3E4860000000000000DCB
+t1286857862
+s3531
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/float.h
+c000000004CB3E4860000000000001F2C
+t1286857862
+s7980
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/limits.h
+c000000004CB3E486000000000000145A
+t1286857862
+s5210
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdarg.h
+c000000004CB3E48600000000000000EA
+t1286857862
+s234
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdint.h
+c000000004A11A512000000000000190C
+t1242670354
+s6412
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdio.h
+c000000004CB3E48600000000000040AC
+t1286857862
+s16556
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4860000000000002DF5
+t1286857862
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h
+c000000004CB3E4860000000000001731
+t1286857862
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/time.h
+c000000004CB3E486000000000000178E
+t1286857862
+s6030
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libz.dylib
+c000000004CC109C300000000000123B0
+t1287719363
+s74672
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m
+c000000004E6D23D7000000000000018C
+t1315775447
+s396
+i<UIKit/UIKit.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.h
+c000000004E6D23D70000000000000358
+t1315775447
+s856
+i<UIKit/UIKit.h>
+i<CoreMedia/CoreMedia.h>
+i<iAd/iAd.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm
+c00000000509D8B27000000000000447D
+t1352502055
+s17533
+i"EGCaptureController.h"
+i<AVFoundation/AVFoundation.h>
+i<QuartzCore/QuartzCore.h>
+i"SHK.h"
+i"opencv2/opencv.hpp"
+i"EGEdgyView.h"
+i"UIImage-OpenCVExtensions.h"
+i"Binarization.hpp"
+i"ImageOrientationAccelerometer.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.h
+c000000004E6D23D700000000000001D6
+t1315775447
+s470
+i<UIKit/UIKit.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m
+c000000004E6D23D700000000000004D2
+t1315775447
+s1234
+i"EGEdgyAppDelegate.h"
+i"EGCaptureController.h"
+i"SHK.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.h
+c000000004E6D23D700000000000003D4
+t1315775447
+s980
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i<iAd/iAd.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m
+c000000004E6D23D7000000000000176F
+t1315775447
+s5999
+i"EGEdgyView.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch
+c000000004E6D23D70000000000000155
+t1315775447
+s341
+i"opencv2/opencv.hpp"
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/Binarization.hpp
+c000000004E6D23D70000000000000543
+t1315775447
+s1347
+i"opencv2/opencv.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.h
+c000000004E6D23D700000000000002D7
+t1315775447
+s727
+i<UIKit/UIKit.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm
+c000000004E6D23D70000000000000EA6
+t1315775447
+s3750
+i"ImageOrientationAccelerometer.h"
+i<QuartzCore/QuartzCore.h>
+i"opencv2/opencv.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.h
+c000000004E6D23D70000000000000343
+t1315775447
+s835
+i<UIKit/UIKit.h>
+i"opencv2/opencv.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm
+c000000004E6D23D700000000000021D8
+t1315775447
+s8664
+i"UIImage-OpenCVExtensions.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Default.png
+c000000004E6D23D70000000000004F8D
+t1315775447
+s20365
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Default@2x.png
+c000000004E6D23D70000000000004436
+t1315775447
+s17462
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-114.png
+c000000004E6D23D70000000000001CA5
+t1315775447
+s7333
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-50.png
+c000000004E6D23D70000000000000C0C
+t1315775447
+s3084
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-512.png
+c000000004E6D23D7000000000000A2C2
+t1315775447
+s41666
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-57.png
+c000000004E6D23D70000000000000BCF
+t1315775447
+s3023
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-72.png
+c000000004E6D23D70000000000001083
+t1315775447
+s4227
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-Small.png
+c000000004E6D23D70000000000000571
+t1315775447
+s1393
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/camera_dslr_small.png
+c000000004E6D23D70000000000000213
+t1315775447
+s531
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/colors_small.png
+c000000004E6D23D7000000000000025D
+t1315775447
+s605
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/de.lproj/Localizable.strings
+c000000004E6D23D70000000000000074
+t1315775447
+s116
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/en.lproj/Localizable.strings
+c000000004E6D23D7000000000000006E
+t1315775447
+s110
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/es.lproj/Localizable.strings
+c000000004E6D23D70000000000000074
+t1315775447
+s116
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/fr.lproj/Localizable.strings
+c000000004E6D23D70000000000000073
+t1315775447
+s115
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/ja.lproj/Localizable.strings
+c000000004E6D23D7000000000000007A
+t1315775447
+s122
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/legal.txt
+c000000004E6D23D70000000000003BDE
+t1315775447
+s15326
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/lightbulb_small.png
+c000000004E6D23D700000000000001A8
+t1315775447
+s424
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/lightbulb_small_selected.png
+c000000004E6D23D70000000000000C05
+t1315775447
+s3077
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/reload_small.png
+c000000004E6D23D7000000000000019B
+t1315775447
+s411
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/include/opencv2/opencv.hpp
+c000000004E6D23D70000000000000AC8
+t1315775447
+s2760
+i"opencv2/core/core_c.h"
+i"opencv2/core/core.hpp"
+i"opencv2/flann/flann.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/video/tracking.hpp"
+i"opencv2/video/background_segm.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/objdetect/objdetect.hpp"
+i"opencv2/calib3d/calib3d.hpp"
+i"opencv2/ml/ml.hpp"
+i"opencv2/highgui/highgui_c.h"
+i"opencv2/highgui/highgui.hpp"
+i"opencv2/contrib/contrib.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
+c000000004E6D23D7000000000000938A
+t1315775447
+s37770
+i"opencv2/core/core.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/contrib/include/opencv2/contrib/contrib.hpp
+c000000004E6D23D700000000000055ED
+t1315775447
+s21997
+i"opencv2/core/core.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/objdetect/objdetect.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/core.hpp
+c000000004E6D23D7000000000002729D
+t1315775447
+s160413
+i"opencv2/core/types_c.h"
+i"opencv2/core/version.hpp"
+i<limits.h>
+i<algorithm>
+i<cmath>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i"opencv2/core/operations.hpp"
+i"opencv2/core/mat.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/core_c.h
+c000000004E6D23D700000000000132CE
+t1315775447
+s78542
+i"opencv2/core/types_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/mat.hpp
+c000000004E6D23D7000000000001285A
+t1315775447
+s75866
+i<limits.h>
+i<string.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/operations.hpp
+c000000004E6D23D7000000000001C7EF
+t1315775447
+s116719
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i"windows.h"
+i<limits>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/types_c.h
+c000000004E6D23D7000000000000DD3A
+t1315775447
+s56634
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<intrin.h>
+i<emmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/version.hpp
+c000000004E6D23D700000000000009EA
+t1315775447
+s2538
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/features2d/include/opencv2/features2d/features2d.hpp
+c000000004E6D23D7000000000001B707
+t1315775447
+s112391
+i"opencv2/core/core.hpp"
+i"opencv2/flann/flann.hpp"
+i<limits>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/all_indices.h
+c000000004E6D23D70000000000000B0D
+t1315775447
+s2829
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/kdtree_index.h"
+i"opencv2/flann/kmeans_index.h"
+i"opencv2/flann/composite_index.h"
+i"opencv2/flann/linear_index.h"
+i"opencv2/flann/autotuned_index.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/allocator.h
+c000000004E6D23D700000000000015E5
+t1315775447
+s5605
+i<stdlib.h>
+i<stdio.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/autotuned_index.h
+c000000004E6D23D7000000000000548E
+t1315775447
+s21646
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/ground_truth.h"
+i"opencv2/flann/index_testing.h"
+i"opencv2/flann/sampling.h"
+i"opencv2/flann/all_indices.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/composite_index.h
+c000000004E6D23D70000000000001310
+t1315775447
+s4880
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/dist.h
+c000000004E6D23D7000000000000291E
+t1315775447
+s10526
+i<cmath>
+i"opencv2/flann/general.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/flann.hpp
+c000000004E6D23D70000000000001DF2
+t1315775447
+s7666
+i"opencv2/flann/flann_base.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/flann_base.hpp
+c000000004E6D23D70000000000001CD6
+t1315775447
+s7382
+i<vector>
+i<string>
+i<cassert>
+i<cstdio>
+i"opencv2/flann/general.h"
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/index_testing.h"
+i"opencv2/flann/object_factory.h"
+i"opencv2/flann/saving.h"
+i"opencv2/flann/all_indices.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/general.h
+c000000004E6D23D70000000000000DFD
+t1315775447
+s3581
+i<stdexcept>
+i<cassert>
+i"opencv2/flann/object_factory.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/ground_truth.h
+c000000004E6D23D70000000000000C0F
+t1315775447
+s3087
+i"opencv2/flann/dist.h"
+i"opencv2/flann/matrix.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/heap.h
+c000000004E6D23D700000000000012F4
+t1315775447
+s4852
+i<algorithm>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/index_testing.h
+c000000004E6D23D700000000000025BB
+t1315775447
+s9659
+i<cstring>
+i<cassert>
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/logger.h"
+i"opencv2/flann/timer.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/kdtree_index.h
+c000000004E6D23D700000000000041A9
+t1315775447
+s16809
+i<algorithm>
+i<map>
+i<cassert>
+i<cstring>
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/heap.h"
+i"opencv2/flann/allocator.h"
+i"opencv2/flann/random.h"
+i"opencv2/flann/saving.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/kmeans_index.h
+c000000004E6D23D700000000000076BE
+t1315775447
+s30398
+i<algorithm>
+i<string>
+i<map>
+i<cassert>
+i<limits>
+i<cmath>
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/heap.h"
+i"opencv2/flann/allocator.h"
+i"opencv2/flann/random.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/linear_index.h
+c000000004E6D23D70000000000000C7F
+t1315775447
+s3199
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/logger.h
+c000000004E6D23D70000000000000A84
+t1315775447
+s2692
+i<cstdio>
+i<stdarg.h>
+i"opencv2/flann/general.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/matrix.h
+c000000004E6D23D70000000000000BAE
+t1315775447
+s2990
+i<stdio.h>
+i"opencv2/flann/general.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/nn_index.h
+c000000004E6D23D70000000000000B6A
+t1315775447
+s2922
+i<string>
+i"opencv2/flann/general.h"
+i"opencv2/flann/matrix.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/object_factory.h
+c000000004E6D23D70000000000000BA3
+t1315775447
+s2979
+i"opencv2/core/types_c.h"
+i<map>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/random.h
+c000000004E6D23D70000000000000DF2
+t1315775447
+s3570
+i<algorithm>
+i<cstdlib>
+i<cassert>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/result_set.h
+c000000004E6D23D70000000000001A7E
+t1315775447
+s6782
+i<algorithm>
+i<limits>
+i<vector>
+i"opencv2/flann/dist.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/sampling.h
+c000000004E6D23D70000000000000C04
+t1315775447
+s3076
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/random.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/saving.h
+c000000004E6D23D70000000000000FC5
+t1315775447
+s4037
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i<cstdio>
+i<cstring>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/timer.h
+c000000004E6D23D70000000000000997
+t1315775447
+s2455
+i<time.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/highgui/include/opencv2/highgui/highgui.hpp
+c000000004E6D23D70000000000001A87
+t1315775447
+s6791
+i"opencv2/core/core.hpp"
+i"opencv2/highgui/highgui_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/highgui/include/opencv2/highgui/highgui_c.h
+c000000004E6D23D70000000000003D5C
+t1315775447
+s15708
+i"opencv2/core/core_c.h"
+i<windows.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
+c000000004E6D23D7000000000000A768
+t1315775447
+s42856
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/types_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/include/opencv2/imgproc/imgproc_c.h
+c000000004E6D23D70000000000009012
+t1315775447
+s36882
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/include/opencv2/imgproc/types_c.h
+c000000004E6D23D70000000000003352
+t1315775447
+s13138
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/ml/include/opencv2/ml/ml.hpp
+c000000004E6D23D70000000000013A24
+t1315775447
+s80420
+i"opencv2/core/core.hpp"
+i<limits.h>
+i<windows.h>
+i<map>
+i<string>
+i<iostream>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
+c000000004E6D23D70000000000003CC1
+t1315775447
+s15553
+i"opencv2/core/core.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/video/include/opencv2/video/background_segm.hpp
+c000000004E6D23D70000000000003E07
+t1315775447
+s15879
+i"opencv2/core/core.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/video/include/opencv2/video/tracking.hpp
+c000000004E6D23D700000000000040D9
+t1315775447
+s16601
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Core/Categories/UIWebView+SHK.h
+c000000004E6D23D70000000000000567
+t1315775447
+s1383
+i<Foundation/Foundation.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Core/Helpers/SHKRequest.h
+c000000004E6D23D7000000000000089E
+t1315775447
+s2206
+i<Foundation/Foundation.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Core/SHK.h
+c000000004E6D23D70000000000000EAB
+t1315775447
+s3755
+i<Foundation/Foundation.h>
+i"SHKConfig.h"
+i"SHKItem.h"
+i"SHKActionSheet.h"
+i"SHKRequest.h"
+i"SHKActivityIndicator.h"
+i"SHKFormFieldSettings.h"
+i"UIWebView+SHK.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Core/SHKItem.h
+c000000004E6D23D70000000000000A00
+t1315775447
+s2560
+i<Foundation/Foundation.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Core/SHKSharers.plist
+c000000004E6D23D700000000000002BF
+t1315775447
+s703
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/de.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000001020
+t1315775447
+s4128
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/en.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000000E90
+t1315775447
+s3728
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/es.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000000FBE
+t1315775447
+s4030
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/eu.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000000F2A
+t1315775447
+s3882
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/fr.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000001113
+t1315775447
+s4371
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/ja.lproj/SHKLocalizable.strings
+c000000004E6D23D7000000000000112B
+t1315775447
+s4395
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/ko.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000000FB1
+t1315775447
+s4017
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/nl.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000000F11
+t1315775447
+s3857
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000001B4A
+t1315775447
+s6986
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/zh_CN.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000000E4C
+t1315775447
+s3660
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/SHKConfig.h
+c000000004E6D23D7000000000000192D
+t1315775447
+s6445
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Sharers/Services/Facebook/FBConnect/FBConnect.bundle
+c000000004E6D2D310000000000000066
+t1315777841
+s102
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/UI/SHKActionSheet.h
+c000000004E6D23D70000000000000608
+t1315775447
+s1544
+i<Foundation/Foundation.h>
+i"SHK.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/UI/SHKActivityIndicator.h
+c000000004E6D23D70000000000000780
+t1315775447
+s1920
+i<Foundation/Foundation.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/UI/SHKFormFieldSettings.h
+c000000004E6D23D70000000000000704
+t1315775447
+s1796
+i<Foundation/Foundation.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app
+t1352502062
+s1054
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app.dSYM
+t1352502062
+s102
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Default.png
+t1352501906
+s20365
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Default@2x.png
+t1352501906
+s17462
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Edgy
+t1352502061
+s6042180
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/FBConnect.bundle
+t1352501907
+s102
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Icon-114.png
+t1352501906
+s7333
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Icon-50.png
+t1352501906
+s3084
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Icon-512.png
+t1352501906
+s41666
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Icon-57.png
+t1352501906
+s3023
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Icon-72.png
+t1352501906
+s4227
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Icon-Small.png
+t1352501906
+s1393
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Info.plist
+t1352501906
+s907
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/PkgInfo
+t1352501906
+s8
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/SHKSharers.plist
+t1352501907
+s269
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/camera_dslr_small.png
+t1352501906
+s531
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/colors_small.png
+t1352501906
+s605
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/de.lproj/Localizable.strings
+t1352501907
+s160
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/de.lproj/SHKLocalizable.strings
+t1352501907
+s4518
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/en.lproj/Localizable.strings
+t1352501907
+s100
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/en.lproj/SHKLocalizable.strings
+t1352501907
+s1919
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/es.lproj/Localizable.strings
+t1352501907
+s160
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/es.lproj/SHKLocalizable.strings
+t1352501907
+s4605
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/eu.lproj/SHKLocalizable.strings
+t1352501907
+s3771
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/fr.lproj/Localizable.strings
+t1352501907
+s208
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/fr.lproj/SHKLocalizable.strings
+t1352501907
+s5273
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/ja.lproj/Localizable.strings
+t1352501907
+s166
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/ja.lproj/SHKLocalizable.strings
+t1352501907
+s3698
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/ko.lproj/SHKLocalizable.strings
+t1352501907
+s3585
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/legal.txt
+t1352501906
+s15326
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/lightbulb_small.png
+t1352501906
+s424
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/lightbulb_small_selected.png
+t1352501906
+s3077
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/nl.lproj/SHKLocalizable.strings
+t1352501907
+s3789
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/reload_small.png
+t1352501906
+s411
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/vi.lproj/SHKLocalizable.strings
+t1352501907
+s4576
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/zh_CN.lproj/SHKLocalizable.strings
+t1352501907
+s3279
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/libOpenCV-iPhone.a
+c00000000509D8A850000000000F01A00
+t1352501893
+s15735296
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/libShareKit.a
+c00000000509D8A92000000000060A620
+t1352501906
+s6333984
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/EGCaptureController.o
+t1352502058
+s89292
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/EGEdgyAppDelegate.o
+t1352501912
+s48060
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/EGEdgyView.o
+t1352501911
+s55976
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/Edgy-main.o
+t1352501911
+s4100
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/Edgy.LinkFileList
+c00000000509D8A920000000000000390
+t1352501906
+s912
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/ImageOrientationAccelerometer.o
+t1352501912
+s49152
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/UIImage-OpenCVExtensions.o
+t1352501912
+s40352
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/StaticAnalyzer/normal/i386/EGEdgyAppDelegate.plist
+t1352501912
+s276
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/StaticAnalyzer/normal/i386/EGEdgyView.plist
+t1352501912
+s276
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/StaticAnalyzer/normal/i386/Edgy-main.plist
+t1352501912
+s276
+
+N/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bxufditfgafhenaldssvxmhcqizg/Edgy_Prefix.pch.gch
+t1352501911
+s58572976
+
+N/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-dwbhwxmsokbjqtdbcdihmlqgjcma/Edgy_Prefix.pch.pth
+t1352501909
+s2786340
+
+N/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-eqmptfypjvhczuddkprksundedbo/Edgy_Prefix.pch.gch
+t1352501910
+s11943120
+
+NResources/Edgy/Edgy-Info.plist
+c000000004E6D23D70000000000000570
+t1315775447
+s1392
+
+CAnalyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m"
+s374194712.138421
+e374194712.289125
+r1
+xAnalyze
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m
+lSLF07#2@69"Analyze /Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m374194712#374194712#0(0"0(0#0#61"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m4320133120#2218"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Werror -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Edgy.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources/i386" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources" -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-dwbhwxmsokbjqtdbcdihmlqgjcma/Edgy_Prefix.pch --analyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/StaticAnalyzer/normal/i386/Edgy-main.plist"0#
+
+CAnalyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m"
+s374194712.202897
+e374194712.312321
+r1
+xAnalyze
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m
+lSLF07#2@82"Analyze /Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m374194712#374194712#0(0"0(0#0#74"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m4320133120#2239"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Werror -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Edgy.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources/i386" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources" -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-dwbhwxmsokbjqtdbcdihmlqgjcma/Edgy_Prefix.pch --analyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/StaticAnalyzer/normal/i386/EGEdgyAppDelegate.plist"0#
+
+CAnalyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m"
+s374194712.210038
+e374194712.311873
+r1
+xAnalyze
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m
+lSLF07#2@75"Analyze /Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m374194712#374194712#0(0"0(0#0#67"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m4320133120#2225"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Werror -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Edgy.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources/i386" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources" -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-dwbhwxmsokbjqtdbcdihmlqgjcma/Edgy_Prefix.pch --analyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/StaticAnalyzer/normal/i386/EGEdgyView.plist"0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies374194867#374194867#0(0"0(0#1#0"4320133120#0"0#
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/EGCaptureController.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm" normal i386 objective-c++ com.apple.compilers.llvmgcc42
+s374194858.458779
+e374194858.767752
+r1
+xCompileC
+xbuild/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/EGCaptureController.o
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@85"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm374194858#374194858#0(0"0(0#0#77"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm4320133120#2377"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -Werror -Wundeclared-selector -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Edgy.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources/i386" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bxufditfgafhenaldssvxmhcqizg/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/EGCaptureController.o"0#
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/EGEdgyAppDelegate.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s374194711.800563
+e374194712.138292
+r1
+xCompileC
+xbuild/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/EGEdgyAppDelegate.o
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@82"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m374194711#374194712#0(0"0(0#0#74"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m4320133120#2351"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -Werror -Wundeclared-selector -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Edgy.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources/i386" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-eqmptfypjvhczuddkprksundedbo/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/EGEdgyAppDelegate.o"0#
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/EGEdgyView.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s374194711.803124
+e374194711.963445
+r1
+xCompileC
+xbuild/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/EGEdgyView.o
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@75"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m374194711#374194711#0(0"0(0#0#67"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m4320133120#2337"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -Werror -Wundeclared-selector -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Edgy.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources/i386" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-eqmptfypjvhczuddkprksundedbo/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/EGEdgyView.o"0#
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/Edgy-main.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s374194711.798864
+e374194711.938783
+r1
+xCompileC
+xbuild/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/Edgy-main.o
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@69"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m374194711#374194711#0(0"0(0#0#61"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m4320133120#2330"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -Werror -Wundeclared-selector -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Edgy.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources/i386" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-eqmptfypjvhczuddkprksundedbo/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/Edgy-main.o"0#
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/ImageOrientationAccelerometer.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm" normal i386 objective-c++ com.apple.compilers.llvmgcc42
+s374194711.963574
+e374194712.209908
+r1
+xCompileC
+xbuild/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/ImageOrientationAccelerometer.o
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@106"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm374194711#374194712#0(0"0(0#0#98"/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm4320133120#2408"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -Werror -Wundeclared-selector -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Edgy.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources/i386" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bxufditfgafhenaldssvxmhcqizg/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/ImageOrientationAccelerometer.o"0#
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/UIImage-OpenCVExtensions.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm" normal i386 objective-c++ com.apple.compilers.llvmgcc42
+s374194711.940163
+e374194712.202591
+r1
+xCompileC
+xbuild/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/UIImage-OpenCVExtensions.o
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@101"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm374194711#374194712#0(0"0(0#0#93"/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm4320133120#2398"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -Werror -Wundeclared-selector -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Edgy.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources/i386" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bxufditfgafhenaldssvxmhcqizg/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/UIImage-OpenCVExtensions.o"0#
+
+CCopyPlistFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/SHKSharers.plist" ThirdParty/ShareKit/Core/SHKSharers.plist
+s374194707.583518
+e374194707.692115
+r1
+xCopyPlistFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/SHKSharers.plist
+xThirdParty/ShareKit/Core/SHKSharers.plist
+lSLF07#2@46"Copy ThirdParty/ShareKit/Core/SHKSharers.plist374194707#374194707#0(0"0(0#0#91"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Core/SHKSharers.plist4320133120#439"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 ThirdParty/ShareKit/Core/SHKSharers.plist --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/de.lproj/Localizable.strings" Resources/Edgy/de.lproj/Localizable.strings
+s374194706.528908
+e374194707.453483
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/de.lproj/Localizable.strings
+xResources/Edgy/de.lproj/Localizable.strings
+lSLF07#2@48"Copy Resources/Edgy/de.lproj/Localizable.strings374194706#374194707#0(0"0(0#0#93"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/de.lproj/Localizable.strings4320133120#523"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary Resources/Edgy/de.lproj/Localizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/de.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/de.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/de.lproj/SHKLocalizable.strings
+s374194707.453570
+e374194707.532382
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/de.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/de.lproj/SHKLocalizable.strings
+lSLF07#2@69"Copy ThirdParty/ShareKit/Localization/de.lproj/SHKLocalizable.strings374194707#374194707#0(0"0(0#0#114"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/de.lproj/SHKLocalizable.strings4320133120#544"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/de.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/de.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/en.lproj/Localizable.strings" Resources/Edgy/en.lproj/Localizable.strings
+s374194706.511552
+e374194707.453339
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/en.lproj/Localizable.strings
+xResources/Edgy/en.lproj/Localizable.strings
+lSLF07#2@48"Copy Resources/Edgy/en.lproj/Localizable.strings374194706#374194707#0(0"0(0#0#93"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/en.lproj/Localizable.strings4320133120#523"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary Resources/Edgy/en.lproj/Localizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/en.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/en.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/en.lproj/SHKLocalizable.strings
+s374194707.454537
+e374194707.532534
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/en.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/en.lproj/SHKLocalizable.strings
+lSLF07#2@69"Copy ThirdParty/ShareKit/Localization/en.lproj/SHKLocalizable.strings374194707#374194707#0(0"0(0#0#114"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/en.lproj/SHKLocalizable.strings4320133120#544"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/en.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/en.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/es.lproj/Localizable.strings" Resources/Edgy/es.lproj/Localizable.strings
+s374194706.528169
+e374194707.451702
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/es.lproj/Localizable.strings
+xResources/Edgy/es.lproj/Localizable.strings
+lSLF07#2@48"Copy Resources/Edgy/es.lproj/Localizable.strings374194706#374194707#0(0"0(0#0#93"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/es.lproj/Localizable.strings4320133120#523"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary Resources/Edgy/es.lproj/Localizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/es.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/es.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/es.lproj/SHKLocalizable.strings
+s374194707.455440
+e374194707.531015
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/es.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/es.lproj/SHKLocalizable.strings
+lSLF07#2@69"Copy ThirdParty/ShareKit/Localization/es.lproj/SHKLocalizable.strings374194707#374194707#0(0"0(0#0#114"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/es.lproj/SHKLocalizable.strings4320133120#544"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/es.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/es.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/eu.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/eu.lproj/SHKLocalizable.strings
+s374194707.515651
+e374194707.561509
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/eu.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/eu.lproj/SHKLocalizable.strings
+lSLF07#2@69"Copy ThirdParty/ShareKit/Localization/eu.lproj/SHKLocalizable.strings374194707#374194707#0(0"0(0#0#114"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/eu.lproj/SHKLocalizable.strings4320133120#544"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/eu.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/eu.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/fr.lproj/Localizable.strings" Resources/Edgy/fr.lproj/Localizable.strings
+s374194706.529696
+e374194707.455365
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/fr.lproj/Localizable.strings
+xResources/Edgy/fr.lproj/Localizable.strings
+lSLF07#2@48"Copy Resources/Edgy/fr.lproj/Localizable.strings374194706#374194707#0(0"0(0#0#93"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/fr.lproj/Localizable.strings4320133120#523"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary Resources/Edgy/fr.lproj/Localizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/fr.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/fr.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/fr.lproj/SHKLocalizable.strings
+s374194707.531155
+e374194707.580827
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/fr.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/fr.lproj/SHKLocalizable.strings
+lSLF07#2@69"Copy ThirdParty/ShareKit/Localization/fr.lproj/SHKLocalizable.strings374194707#374194707#0(0"0(0#0#114"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/fr.lproj/SHKLocalizable.strings4320133120#544"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/fr.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/fr.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/ja.lproj/Localizable.strings" Resources/Edgy/ja.lproj/Localizable.strings
+s374194707.451832
+e374194707.515520
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/ja.lproj/Localizable.strings
+xResources/Edgy/ja.lproj/Localizable.strings
+lSLF07#2@48"Copy Resources/Edgy/ja.lproj/Localizable.strings374194707#374194707#0(0"0(0#0#93"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/ja.lproj/Localizable.strings4320133120#523"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary Resources/Edgy/ja.lproj/Localizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/ja.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/ja.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/ja.lproj/SHKLocalizable.strings
+s374194707.532648
+e374194707.580662
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/ja.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/ja.lproj/SHKLocalizable.strings
+lSLF07#2@69"Copy ThirdParty/ShareKit/Localization/ja.lproj/SHKLocalizable.strings374194707#374194707#0(0"0(0#0#114"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/ja.lproj/SHKLocalizable.strings4320133120#544"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/ja.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/ja.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/ko.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/ko.lproj/SHKLocalizable.strings
+s374194707.533550
+e374194707.583431
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/ko.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/ko.lproj/SHKLocalizable.strings
+lSLF07#2@69"Copy ThirdParty/ShareKit/Localization/ko.lproj/SHKLocalizable.strings374194707#374194707#0(0"0(0#0#114"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/ko.lproj/SHKLocalizable.strings4320133120#544"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/ko.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/ko.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/nl.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/nl.lproj/SHKLocalizable.strings
+s374194707.561630
+e374194707.645036
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/nl.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/nl.lproj/SHKLocalizable.strings
+lSLF07#2@69"Copy ThirdParty/ShareKit/Localization/nl.lproj/SHKLocalizable.strings374194707#374194707#0(0"0(0#0#114"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/nl.lproj/SHKLocalizable.strings4320133120#544"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/nl.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/nl.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/vi.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings
+s374194707.580926
+e374194707.646326
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/vi.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings
+oThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-16
+lSLF07#2@69"Copy ThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings374194707#374194707#0(166"ThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-160(0#0#114"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings4320133120#544"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/vi.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/zh_CN.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/zh_CN.lproj/SHKLocalizable.strings
+s374194707.582267
+e374194707.646478
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/zh_CN.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/zh_CN.lproj/SHKLocalizable.strings
+lSLF07#2@72"Copy ThirdParty/ShareKit/Localization/zh_CN.lproj/SHKLocalizable.strings374194707#374194707#0(0"0(0#0#117"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/zh_CN.lproj/SHKLocalizable.strings4320133120#550"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/zh_CN.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/zh_CN.lproj"0#
+
+CCpResource build/Debug-iphonesimulator/Edgy.app/Default.png Resources/Edgy/Default.png
+s374194706.400746
+e374194706.503903
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Edgy.app/Default.png
+xResources/Edgy/Default.png
+lSLF07#2@31"Copy Resources/Edgy/Default.png374194706#374194706#0(0"0(0#0#76"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Default.png4320133120#541"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Default.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"0#
+
+CCpResource build/Debug-iphonesimulator/Edgy.app/Default@2x.png Resources/Edgy/Default@2x.png
+s374194706.401368
+e374194706.504074
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Edgy.app/Default@2x.png
+xResources/Edgy/Default@2x.png
+lSLF07#2@34"Copy Resources/Edgy/Default@2x.png374194706#374194706#0(0"0(0#0#79"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Default@2x.png4320133120#544"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Default@2x.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"0#
+
+CCpResource build/Debug-iphonesimulator/Edgy.app/FBConnect.bundle ThirdParty/ShareKit/Sharers/Services/Facebook/FBConnect/FBConnect.bundle
+s374194707.645190
+e374194707.693508
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Edgy.app/FBConnect.bundle
+xThirdParty/ShareKit/Sharers/Services/Facebook/FBConnect/FBConnect.bundle
+lSLF07#2@77"Copy ThirdParty/ShareKit/Sharers/Services/Facebook/FBConnect/FBConnect.bundle374194707#374194707#0(0"0(0#0#122"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Sharers/Services/Facebook/FBConnect/FBConnect.bundle4320133120#587"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Sharers/Services/Facebook/FBConnect/FBConnect.bundle" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"0#
+
+CCpResource build/Debug-iphonesimulator/Edgy.app/Icon-114.png Resources/Edgy/Icon-114.png
+s374194706.404626
+e374194706.494112
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Edgy.app/Icon-114.png
+xResources/Edgy/Icon-114.png
+lSLF07#2@32"Copy Resources/Edgy/Icon-114.png374194706#374194706#0(0"0(0#0#77"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-114.png4320133120#542"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-114.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"0#
+
+CCpResource build/Debug-iphonesimulator/Edgy.app/Icon-50.png Resources/Edgy/Icon-50.png
+s374194706.494242
+e374194706.515579
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Edgy.app/Icon-50.png
+xResources/Edgy/Icon-50.png
+lSLF07#2@31"Copy Resources/Edgy/Icon-50.png374194706#374194706#0(0"0(0#0#76"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-50.png4320133120#541"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-50.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"0#
+
+CCpResource build/Debug-iphonesimulator/Edgy.app/Icon-512.png Resources/Edgy/Icon-512.png
+s374194706.399930
+e374194706.510866
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Edgy.app/Icon-512.png
+xResources/Edgy/Icon-512.png
+lSLF07#2@32"Copy Resources/Edgy/Icon-512.png374194706#374194706#0(0"0(0#0#77"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-512.png4320133120#542"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-512.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"0#
+
+CCpResource build/Debug-iphonesimulator/Edgy.app/Icon-57.png Resources/Edgy/Icon-57.png
+s374194706.403793
+e374194706.504231
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Edgy.app/Icon-57.png
+xResources/Edgy/Icon-57.png
+lSLF07#2@31"Copy Resources/Edgy/Icon-57.png374194706#374194706#0(0"0(0#0#76"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-57.png4320133120#541"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-57.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"0#
+
+CCpResource build/Debug-iphonesimulator/Edgy.app/Icon-72.png Resources/Edgy/Icon-72.png
+s374194706.504328
+e374194706.527822
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Edgy.app/Icon-72.png
+xResources/Edgy/Icon-72.png
+lSLF07#2@31"Copy Resources/Edgy/Icon-72.png374194706#374194706#0(0"0(0#0#76"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-72.png4320133120#541"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-72.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"0#
+
+CCpResource build/Debug-iphonesimulator/Edgy.app/Icon-Small.png Resources/Edgy/Icon-Small.png
+s374194706.508962
+e374194706.527929
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Edgy.app/Icon-Small.png
+xResources/Edgy/Icon-Small.png
+lSLF07#2@34"Copy Resources/Edgy/Icon-Small.png374194706#374194706#0(0"0(0#0#79"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-Small.png4320133120#544"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-Small.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"0#
+
+CCpResource build/Debug-iphonesimulator/Edgy.app/camera_dslr_small.png Resources/Edgy/camera_dslr_small.png
+s374194706.402159
+e374194706.511028
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Edgy.app/camera_dslr_small.png
+xResources/Edgy/camera_dslr_small.png
+lSLF07#2@41"Copy Resources/Edgy/camera_dslr_small.png374194706#374194706#0(0"0(0#0#86"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/camera_dslr_small.png4320133120#551"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/camera_dslr_small.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"0#
+
+CCpResource build/Debug-iphonesimulator/Edgy.app/colors_small.png Resources/Edgy/colors_small.png
+s374194706.402939
+e374194706.511167
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Edgy.app/colors_small.png
+xResources/Edgy/colors_small.png
+lSLF07#2@36"Copy Resources/Edgy/colors_small.png374194706#374194706#0(0"0(0#0#81"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/colors_small.png4320133120#546"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/colors_small.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"0#
+
+CCpResource build/Debug-iphonesimulator/Edgy.app/legal.txt Resources/Edgy/legal.txt
+s374194706.509692
+e374194706.528008
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Edgy.app/legal.txt
+xResources/Edgy/legal.txt
+lSLF07#2@29"Copy Resources/Edgy/legal.txt374194706#374194706#0(0"0(0#0#74"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/legal.txt4320133120#539"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/legal.txt" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"0#
+
+CCpResource build/Debug-iphonesimulator/Edgy.app/lightbulb_small.png Resources/Edgy/lightbulb_small.png
+s374194706.407146
+e374194706.514222
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Edgy.app/lightbulb_small.png
+xResources/Edgy/lightbulb_small.png
+lSLF07#2@39"Copy Resources/Edgy/lightbulb_small.png374194706#374194706#0(0"0(0#0#84"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/lightbulb_small.png4320133120#549"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/lightbulb_small.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"0#
+
+CCpResource build/Debug-iphonesimulator/Edgy.app/lightbulb_small_selected.png Resources/Edgy/lightbulb_small_selected.png
+s374194706.406419
+e374194706.511457
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Edgy.app/lightbulb_small_selected.png
+xResources/Edgy/lightbulb_small_selected.png
+lSLF07#2@48"Copy Resources/Edgy/lightbulb_small_selected.png374194706#374194706#0(0"0(0#0#93"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/lightbulb_small_selected.png4320133120#558"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/lightbulb_small_selected.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"0#
+
+CCpResource build/Debug-iphonesimulator/Edgy.app/reload_small.png Resources/Edgy/reload_small.png
+s374194706.405646
+e374194706.511328
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Edgy.app/reload_small.png
+xResources/Edgy/reload_small.png
+lSLF07#2@36"Copy Resources/Edgy/reload_small.png374194706#374194706#0(0"0(0#0#81"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/reload_small.png4320133120#546"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/reload_small.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"0#
+
+CGenerateDSYMFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app.dSYM" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Edgy"
+s374194861.589268
+e374194862.634873
+r1
+xGenerateDSYMFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app.dSYM
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Edgy
+lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/Edgy.app.dSYM build/Debug-iphonesimulator/Edgy.app/Edgy374194861#374194862#0(0"0(0#0#91"/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Edgy4320133120#413"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Edgy" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app.dSYM"0#
+
+CLd "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Edgy" normal i386
+s374194858.767829
+e374194861.589148
+r1
+xLd
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Edgy
+xnormal
+xi386
+lSLF07#2@96"Link /Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Edgy374194858#374194861#0(0"0(0#0#0"4320133120#1249"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-g++-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator" "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator" -filelist "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Objects-normal/i386/Edgy.LinkFileList" -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -lOpenCV-iPhone -framework Foundation -framework CoreGraphics -framework UIKit -framework CoreMedia -framework QuartzCore -framework AVFoundation -framework CoreVideo -framework Accelerate -framework MessageUI -framework MobileCoreServices -lz -framework Security -framework SystemConfiguration -lShareKit -framework iAd -prebind -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Edgy"0#
+
+CProcessInfoPlistFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Info.plist" Resources/Edgy/Edgy-Info.plist
+s374194706.390810
+e374194706.399848
+r1
+xProcessInfoPlistFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Info.plist
+xResources/Edgy/Edgy-Info.plist
+lSLF07#2@38"Process Resources/Edgy/Edgy-Info.plist374194706#374194706#0(0"0(0#0#80"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Edgy-Info.plist4320133120#524"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Resources/Edgy/Edgy-Info.plist -genpkginfo "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app/Info.plist"0#
+
+CProcessPCH /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-dwbhwxmsokbjqtdbcdihmlqgjcma/Edgy_Prefix.pch.pth Edgy_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s374194707.695514
+e374194709.891476
+r1
+xProcessPCH
+x/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-dwbhwxmsokbjqtdbcdihmlqgjcma/Edgy_Prefix.pch.pth
+xEdgy_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@26"Precompile Edgy_Prefix.pch374194707#374194709#0(0"0(0#0#65"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch4320133120#2061"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Werror -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Edgy.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources/i386" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources" -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch" -o /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-dwbhwxmsokbjqtdbcdihmlqgjcma/Edgy_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-eqmptfypjvhczuddkprksundedbo/Edgy_Prefix.pch.gch Edgy_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s374194707.693605
+e374194710.338665
+r1
+xProcessPCH
+x/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-eqmptfypjvhczuddkprksundedbo/Edgy_Prefix.pch.gch
+xEdgy_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@26"Precompile Edgy_Prefix.pch374194707#374194710#0(0"0(0#0#65"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch4320133120#2191"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -Werror -Wundeclared-selector -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Edgy.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources/i386" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch" -o /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-eqmptfypjvhczuddkprksundedbo/Edgy_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bxufditfgafhenaldssvxmhcqizg/Edgy_Prefix.pch.gch Edgy_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvmgcc42
+s374194707.694549
+e374194711.798671
+r1
+xProcessPCH++
+x/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bxufditfgafhenaldssvxmhcqizg/Edgy_Prefix.pch.gch
+xEdgy_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@26"Precompile Edgy_Prefix.pch374194707#374194711#0(0"0(0#0#65"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch4320133120#2212"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -Werror -Wundeclared-selector -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/Edgy.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources/i386" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/Edgy.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch" -o /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bxufditfgafhenaldssvxmhcqizg/Edgy_Prefix.pch.gch0#
+
+CTouch "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"
+s374194862.635103
+e374194862.653994
+r1
+xTouch
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app
+lSLF07#2@92"Touch /Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app374194862#374194862#0(0"0(0#0#0"4320133120#301"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/Edgy.app"0#
+

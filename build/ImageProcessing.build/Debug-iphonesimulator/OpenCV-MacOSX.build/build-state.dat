@@ -1,0 +1,1120 @@
+TOpenCV-MacOSX
+v7
+r1
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004D779F160000000000000110
+t1299685142
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000004AD4F4D80000000000006500
+t1255470296
+s25856
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers/clapack.h
+c000000004CC10A18000000000006B3F5
+t1287719448
+s439285
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/alloca.h
+c000000004CB3E4860000000000000588
+t1286857862
+s1416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/assert.h
+c000000004CB3E4860000000000000DCB
+t1286857862
+s3531
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/ctype.h
+c000000004CB3E4860000000000002C18
+t1286857862
+s11288
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/float.h
+c000000004CB3E4860000000000001F2C
+t1286857862
+s7980
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/limits.h
+c000000004CB3E486000000000000145A
+t1286857862
+s5210
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/mach/mach.h
+c000000004A73D4540000000000001057
+t1249104980
+s4183
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/mach/mach_time.h
+c000000004CBFACAC0000000000000746
+t1287629996
+s1862
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/pthread.h
+c000000004CB3E48600000000000038F0
+t1286857862
+s14576
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdarg.h
+c000000004CB3E48600000000000000EA
+t1286857862
+s234
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdint.h
+c000000004A11A512000000000000190C
+t1242670354
+s6412
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdio.h
+c000000004CB3E48600000000000040AC
+t1286857862
+s16556
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4860000000000002DF5
+t1286857862
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h
+c000000004CB3E4860000000000001731
+t1286857862
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/mman.h
+c000000004CBFACAB00000000000020EC
+t1287629995
+s8428
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/time.h
+c000000004CBFACAC0000000000001E17
+t1287629996
+s7703
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/time.h
+c000000004CB3E486000000000000178E
+t1286857862
+s6030
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/wchar.h
+c000000004CB3E48600000000000025DA
+t1286857862
+s9690
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/zlib.h
+c000000004CC109BF00000000000102A5
+t1287719359
+s66213
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libz.dylib
+c000000004CC109C300000000000123B0
+t1287719363
+s74672
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/core.hpp
+c000000004E6D23D7000000000002729D
+t1315775447
+s160413
+i"opencv2/core/types_c.h"
+i"opencv2/core/version.hpp"
+i<limits.h>
+i<algorithm>
+i<cmath>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i"opencv2/core/operations.hpp"
+i"opencv2/core/mat.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/core_c.h
+c000000004E6D23D700000000000132CE
+t1315775447
+s78542
+i"opencv2/core/types_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/eigen.hpp
+c000000004E6D23D7000000000000193E
+t1315775447
+s6462
+i"cxcore.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/internal.hpp
+c000000004E6D23D700000000000079C6
+t1315775447
+s31174
+i<vector>
+i<windows.h>
+i<pthread.h>
+i<sys/mman.h>
+i"ipp.h"
+i"emmintrin.h"
+i"pmmintrin.h"
+i"tbb/tbb_stddef.h"
+i"tbb/tbb.h"
+i<Eigen/Core>
+i"opencv2/core/eigen.hpp"
+i<malloc.h>
+i<alloca.h>
+i<stdlib.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/mat.hpp
+c000000004E6D23D7000000000001285A
+t1315775447
+s75866
+i<limits.h>
+i<string.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/operations.hpp
+c000000004E6D23D7000000000001C7EF
+t1315775447
+s116719
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i"windows.h"
+i<limits>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/types_c.h
+c000000004E6D23D7000000000000DD3A
+t1315775447
+s56634
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<intrin.h>
+i<emmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/version.hpp
+c000000004E6D23D700000000000009EA
+t1315775447
+s2538
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/alloc.cpp
+c000000004E6D23D70000000000004AE7
+t1315775447
+s19175
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/arithm.cpp
+c000000004E6D23D7000000000000F94C
+t1315775447
+s63820
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/array.cpp
+c000000004E6D23D70000000000014FED
+t1315775447
+s85997
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/convert.cpp
+c000000004E6D23D700000000000085FD
+t1315775447
+s34301
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/copy.cpp
+c000000004E6D23D700000000000042BF
+t1315775447
+s17087
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/datastructs.cpp
+c000000004E6D23D7000000000001C33E
+t1315775447
+s115518
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/drawing.cpp
+c000000004E6D23D70000000000012938
+t1315775447
+s76088
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/dxt.cpp
+c000000004E6D23D70000000000017540
+t1315775447
+s95552
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/lapack.cpp
+c000000004E6D23D7000000000000C689
+t1315775447
+s50825
+i"precomp.hpp"
+i<vecLib/clapack.h>
+i"clapack.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/mathfuncs.cpp
+c000000004E6D23D70000000000018103
+t1315775447
+s98563
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/matmul.cpp
+c000000004E6D23D7000000000001AF40
+t1315775447
+s110400
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/matop.cpp
+c000000004E6D23D70000000000009A8B
+t1315775447
+s39563
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/matrix.cpp
+c000000004E6D23D7000000000001561F
+t1315775447
+s87583
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/out.cpp
+c000000004E6D23D70000000000002442
+t1315775447
+s9282
+i"precomp.hpp"
+i<iterator>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/persistence.cpp
+c000000004E6D23D70000000000026DDE
+t1315775447
+s159198
+i"precomp.hpp"
+i<ctype.h>
+i<wchar.h>
+i<zlib.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/precomp.cpp
+c000000004E6D23D70000000000000898
+t1315775447
+s2200
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/precomp.hpp
+c000000004E6D23D70000000000003A7D
+t1315775447
+s14973
+i<cvconfig.h>
+i"opencv2/core/core.hpp"
+i"opencv2/core/core_c.h"
+i"opencv2/core/internal.hpp"
+i<assert.h>
+i<ctype.h>
+i<float.h>
+i<limits.h>
+i<math.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/rand.cpp
+c000000004E6D23D700000000000053B5
+t1315775447
+s21429
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/stat.cpp
+c000000004E6D23D7000000000000C527
+t1315775447
+s50471
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/system.cpp
+c000000004E6D23D70000000000004C22
+t1315775447
+s19490
+i"precomp.hpp"
+i<tchar.h>
+i<intrin.h>
+i<pthread.h>
+i<sys/time.h>
+i<time.h>
+i<mach/mach.h>
+i<mach/mach_time.h>
+i"omp.h"
+i<stdarg.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/tables.cpp
+c000000004E6D23D7000000000001B36B
+t1315775447
+s111467
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/_featuretree.h
+c000000004E6D23D70000000000000A6C
+t1315775447
+s2668
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/_kdtree.hpp
+c000000004E6D23D700000000000039F7
+t1315775447
+s14839
+i"precomp.hpp"
+i<vector>
+i<algorithm>
+i<limits>
+i<iostream>
+i"assert.h"
+i"math.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/_list.h
+c000000004E6D23D70000000000002C21
+t1315775447
+s11297
+i<stdlib.h>
+i<assert.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/accum.cpp
+c000000004E6D23D70000000000005493
+t1315775447
+s21651
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/approx.cpp
+c000000004E6D23D70000000000005C42
+t1315775447
+s23618
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/canny.cpp
+c000000004E6D23D70000000000002E5F
+t1315775447
+s11871
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/color.cpp
+c000000004E6D23D700000000000188EC
+t1315775447
+s100588
+i"precomp.hpp"
+i<limits>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/contours.cpp
+c000000004E6D23D7000000000000DD30
+t1315775447
+s56624
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/convhull.cpp
+c000000004E6D23D700000000000060C1
+t1315775447
+s24769
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/corner.cpp
+c000000004E6D23D700000000000033C7
+t1315775447
+s13255
+i"precomp.hpp"
+i<stdio.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/cornersubpix.cpp
+c000000004E6D23D7000000000000222A
+t1315775447
+s8746
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/deriv.cpp
+c000000004E6D23D70000000000003175
+t1315775447
+s12661
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/distransform.cpp
+c000000004E6D23D700000000000068C9
+t1315775447
+s26825
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/emd.cpp
+c000000004E6D23D700000000000086B1
+t1315775447
+s34481
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/featureselect.cpp
+c000000004E6D23D70000000000002018
+t1315775447
+s8216
+i"precomp.hpp"
+i<cstdio>
+i<vector>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/featuretree.cpp
+c000000004E6D23D70000000000000A7F
+t1315775447
+s2687
+i"precomp.hpp"
+i"_featuretree.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/filter.cpp
+c000000004E6D23D7000000000001C6A7
+t1315775447
+s116391
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/floodfill.cpp
+c000000004E6D23D7000000000000A15D
+t1315775447
+s41309
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/gcgraph.hpp
+c000000004E6D23D70000000000002CB8
+t1315775447
+s11448
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/geometry.cpp
+c000000004E6D23D700000000000026EC
+t1315775447
+s9964
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/grabcut.cpp
+c000000004E6D23D70000000000004A73
+t1315775447
+s19059
+i"precomp.hpp"
+i"gcgraph.hpp"
+i<limits>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/histogram.cpp
+c000000004E6D23D70000000000013B5B
+t1315775447
+s80731
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/hough.cpp
+c000000004E6D23D70000000000008D6B
+t1315775447
+s36203
+i"precomp.hpp"
+i"_list.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/imgwarp.cpp
+c000000004E6D23D7000000000001F2D3
+t1315775447
+s127699
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/inpaint.cpp
+c000000004E6D23D70000000000008284
+t1315775447
+s33412
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/kdtree.cpp
+c000000004E6D23D700000000000021B5
+t1315775447
+s8629
+i"precomp.hpp"
+i"_kdtree.hpp"
+i"_featuretree.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/linefit.cpp
+c000000004E6D23D70000000000004C4B
+t1315775447
+s19531
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/lsh.cpp
+c000000004E6D23D7000000000000375F
+t1315775447
+s14175
+i"precomp.hpp"
+i<math.h>
+i<vector>
+i<algorithm>
+i<limits>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/matchcontours.cpp
+c000000004E6D23D7000000000000186F
+t1315775447
+s6255
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/moments.cpp
+c000000004E6D23D70000000000004C93
+t1315775447
+s19603
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/morph.cpp
+c000000004E6D23D70000000000009FB3
+t1315775447
+s40883
+i"precomp.hpp"
+i<limits.h>
+i<stdio.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/precomp.cpp
+c000000004E6D23D70000000000000852
+t1315775447
+s2130
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/pyramids.cpp
+c000000004E6D23D70000000000004F13
+t1315775447
+s20243
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/pyrsegmentation.cpp
+c000000004E6D23D7000000000000E1F4
+t1315775447
+s57844
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/rotcalipers.cpp
+c000000004E6D23D700000000000036F3
+t1315775447
+s14067
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/samplers.cpp
+c000000004E6D23D7000000000000B4AB
+t1315775447
+s46251
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/segmentation.cpp
+c000000004E6D23D70000000000004933
+t1315775447
+s18739
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/shapedescr.cpp
+c000000004E6D23D70000000000008E9F
+t1315775447
+s36511
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/smooth.cpp
+c000000004E6D23D7000000000000D8BA
+t1315775447
+s55482
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/spilltree.cpp
+c000000004E6D23D700000000000036F4
+t1315775447
+s14068
+i"precomp.hpp"
+i"_featuretree.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/subdivision2d.cpp
+c000000004E6D23D70000000000005468
+t1315775447
+s21608
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/sumpixels.cpp
+c000000004E6D23D70000000000002454
+t1315775447
+s9300
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/tables.cpp
+c000000004E6D23D70000000000003951
+t1315775447
+s14673
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/templmatch.cpp
+c000000004E6D23D700000000000035CD
+t1315775447
+s13773
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/thresh.cpp
+c000000004E6D23D7000000000000511B
+t1315775447
+s20763
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/undistort.cpp
+c000000004E6D23D7000000000000501E
+t1315775447
+s20510
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/utils.cpp
+c000000004E6D23D70000000000003B3B
+t1315775447
+s15163
+i"precomp.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/cvconfig.h
+c000000004E6D23D7000000000000109F
+t1315775447
+s4255
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/libOpenCV-MacOSX.a
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/OpenCV-MacOSX.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/accum.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/alloc.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/approx.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/arithm.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/array.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/canny.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/color.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/contours.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/convert.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/convhull.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/copy.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/corner.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/cornersubpix.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/datastructs.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/deriv.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/distransform.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/drawing.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/dxt.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/emd.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/featureselect.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/featuretree.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/filter.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/floodfill.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/geometry.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/grabcut.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/histogram.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/hough.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/imgwarp.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/inpaint.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/kdtree.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/lapack.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/linefit.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/lsh.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/matchcontours.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/mathfuncs.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/matmul.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/matop.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/matrix.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/moments.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/morph.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/out.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/persistence.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/precomp-6EED35E08BFDCC65.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/precomp-B2D71D9C164E1E63.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/pyramids.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/pyrsegmentation.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/rand.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/rotcalipers.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/samplers.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/segmentation.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/shapedescr.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/smooth.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/spilltree.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/stat.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/subdivision2d.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/sumpixels.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/system.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/tables-14FDABDADD9E8C71.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/tables-CAB22A4EF9F5EF60.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/templmatch.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/thresh.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/undistort.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/utils.o
+t2
+s0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/accum.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/accum.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/alloc.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/alloc.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/approx.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/approx.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/arithm.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/arithm.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/array.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/array.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/canny.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/canny.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/color.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/color.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/contours.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/contours.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/convert.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/convert.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/convhull.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/convhull.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/copy.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/copy.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/corner.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/corner.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/cornersubpix.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/cornersubpix.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/datastructs.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/datastructs.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/deriv.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/deriv.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/distransform.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/distransform.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/drawing.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/drawing.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/dxt.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/dxt.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/emd.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/emd.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/featureselect.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/featureselect.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/featuretree.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/featuretree.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/filter.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/filter.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/floodfill.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/floodfill.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/geometry.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/geometry.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/grabcut.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/grabcut.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/histogram.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/histogram.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/hough.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/hough.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/imgwarp.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/imgwarp.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/inpaint.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/inpaint.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/kdtree.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/kdtree.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/lapack.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/lapack.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/linefit.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/linefit.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/lsh.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/lsh.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/matchcontours.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/matchcontours.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/mathfuncs.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/mathfuncs.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/matmul.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/matmul.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/matop.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/matop.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/matrix.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/matrix.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/moments.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/moments.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/morph.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/morph.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/out.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/out.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/persistence.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/persistence.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/precomp-6EED35E08BFDCC65.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/precomp.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/precomp-B2D71D9C164E1E63.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/precomp.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/pyramids.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/pyramids.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/pyrsegmentation.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/pyrsegmentation.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/rand.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/rand.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/rotcalipers.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/rotcalipers.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/samplers.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/samplers.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/segmentation.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/segmentation.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/shapedescr.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/shapedescr.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/smooth.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/smooth.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/spilltree.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/spilltree.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/stat.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/stat.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/subdivision2d.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/subdivision2d.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/sumpixels.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/sumpixels.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/system.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/system.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/tables-14FDABDADD9E8C71.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/src/tables.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/tables-CAB22A4EF9F5EF60.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/tables.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/templmatch.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/templmatch.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/thresh.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/thresh.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/undistort.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/undistort.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/OpenCV-MacOSX.build/Objects-normal/i386/utils.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/src/utils.cpp" normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CLibtool "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/libOpenCV-MacOSX.a" normal i386
+r0
+

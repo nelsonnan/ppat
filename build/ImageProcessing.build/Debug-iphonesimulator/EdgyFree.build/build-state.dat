@@ -1,0 +1,1197 @@
+TEdgyFree
+v7
+r1
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004D779F160000000000000110
+t1299685142
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC1288A00000000000F34A0
+t1287727242
+s996512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC128840000000000000733
+t1287727236
+s1843
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000004AD4F4D80000000000006500
+t1255470296
+s25856
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004CC127FC0000000000063DD0
+t1287727100
+s409040
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.h
+c000000004CC127F400000000000001F4
+t1287727092
+s500
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004CC122DE0000000000018050
+t1287725790
+s98384
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004CC6562D000000000009BEC0
+t1288066605
+s638656
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004CC122D0000000000005BF20
+t1287725776
+s376608
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004CC121E20000000000088320
+t1287725538
+s557856
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CC121F60000000000068970
+t1287725558
+s428400
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004CC657750000000000000071
+t1288066933
+s113
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004CC65780000000000002F590
+t1288066944
+s193936
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/assert.h
+c000000004CB3E4860000000000000DCB
+t1286857862
+s3531
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/float.h
+c000000004CB3E4860000000000001F2C
+t1286857862
+s7980
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/limits.h
+c000000004CB3E486000000000000145A
+t1286857862
+s5210
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdarg.h
+c000000004CB3E48600000000000000EA
+t1286857862
+s234
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdint.h
+c000000004A11A512000000000000190C
+t1242670354
+s6412
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdio.h
+c000000004CB3E48600000000000040AC
+t1286857862
+s16556
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4860000000000002DF5
+t1286857862
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h
+c000000004CB3E4860000000000001731
+t1286857862
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/time.h
+c000000004CB3E486000000000000178E
+t1286857862
+s6030
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libz.dylib
+c000000004CC109C300000000000123B0
+t1287719363
+s74672
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m
+c000000004E6D23D7000000000000018C
+t1315775447
+s396
+i<UIKit/UIKit.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.h
+c000000004E6D23D70000000000000358
+t1315775447
+s856
+i<UIKit/UIKit.h>
+i<CoreMedia/CoreMedia.h>
+i<iAd/iAd.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm
+c00000000509D8B27000000000000447D
+t1352502055
+s17533
+i"EGCaptureController.h"
+i<AVFoundation/AVFoundation.h>
+i<QuartzCore/QuartzCore.h>
+i"SHK.h"
+i"opencv2/opencv.hpp"
+i"EGEdgyView.h"
+i"UIImage-OpenCVExtensions.h"
+i"Binarization.hpp"
+i"ImageOrientationAccelerometer.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.h
+c000000004E6D23D700000000000001D6
+t1315775447
+s470
+i<UIKit/UIKit.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m
+c000000004E6D23D700000000000004D2
+t1315775447
+s1234
+i"EGEdgyAppDelegate.h"
+i"EGCaptureController.h"
+i"SHK.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.h
+c000000004E6D23D700000000000003D4
+t1315775447
+s980
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i<iAd/iAd.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m
+c000000004E6D23D7000000000000176F
+t1315775447
+s5999
+i"EGEdgyView.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch
+c000000004E6D23D70000000000000155
+t1315775447
+s341
+i"opencv2/opencv.hpp"
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/Binarization.hpp
+c000000004E6D23D70000000000000543
+t1315775447
+s1347
+i"opencv2/opencv.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.h
+c000000004E6D23D700000000000002D7
+t1315775447
+s727
+i<UIKit/UIKit.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm
+c000000004E6D23D70000000000000EA6
+t1315775447
+s3750
+i"ImageOrientationAccelerometer.h"
+i<QuartzCore/QuartzCore.h>
+i"opencv2/opencv.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.h
+c000000004E6D23D70000000000000343
+t1315775447
+s835
+i<UIKit/UIKit.h>
+i"opencv2/opencv.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm
+c000000004E6D23D700000000000021D8
+t1315775447
+s8664
+i"UIImage-OpenCVExtensions.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Default.png
+c000000004E6D23D70000000000004F8D
+t1315775447
+s20365
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Default@2x.png
+c000000004E6D23D70000000000004436
+t1315775447
+s17462
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-114.png
+c000000004E6D23D70000000000001CA5
+t1315775447
+s7333
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-50.png
+c000000004E6D23D70000000000000C0C
+t1315775447
+s3084
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-512.png
+c000000004E6D23D7000000000000A2C2
+t1315775447
+s41666
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-57.png
+c000000004E6D23D70000000000000BCF
+t1315775447
+s3023
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-72.png
+c000000004E6D23D70000000000001083
+t1315775447
+s4227
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-Small.png
+c000000004E6D23D70000000000000571
+t1315775447
+s1393
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/camera_dslr_small.png
+c000000004E6D23D70000000000000213
+t1315775447
+s531
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/colors_small.png
+c000000004E6D23D7000000000000025D
+t1315775447
+s605
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/de.lproj/Localizable.strings
+c000000004E6D23D70000000000000074
+t1315775447
+s116
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/en.lproj/Localizable.strings
+c000000004E6D23D7000000000000006E
+t1315775447
+s110
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/es.lproj/Localizable.strings
+c000000004E6D23D70000000000000074
+t1315775447
+s116
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/fr.lproj/Localizable.strings
+c000000004E6D23D70000000000000073
+t1315775447
+s115
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/ja.lproj/Localizable.strings
+c000000004E6D23D7000000000000007A
+t1315775447
+s122
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/legal.txt
+c000000004E6D23D70000000000003BDE
+t1315775447
+s15326
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/lightbulb_small.png
+c000000004E6D23D700000000000001A8
+t1315775447
+s424
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/lightbulb_small_selected.png
+c000000004E6D23D70000000000000C05
+t1315775447
+s3077
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/reload_small.png
+c000000004E6D23D7000000000000019B
+t1315775447
+s411
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/include/opencv2/opencv.hpp
+c000000004E6D23D70000000000000AC8
+t1315775447
+s2760
+i"opencv2/core/core_c.h"
+i"opencv2/core/core.hpp"
+i"opencv2/flann/flann.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/video/tracking.hpp"
+i"opencv2/video/background_segm.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/objdetect/objdetect.hpp"
+i"opencv2/calib3d/calib3d.hpp"
+i"opencv2/ml/ml.hpp"
+i"opencv2/highgui/highgui_c.h"
+i"opencv2/highgui/highgui.hpp"
+i"opencv2/contrib/contrib.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
+c000000004E6D23D7000000000000938A
+t1315775447
+s37770
+i"opencv2/core/core.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/contrib/include/opencv2/contrib/contrib.hpp
+c000000004E6D23D700000000000055ED
+t1315775447
+s21997
+i"opencv2/core/core.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/objdetect/objdetect.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/core.hpp
+c000000004E6D23D7000000000002729D
+t1315775447
+s160413
+i"opencv2/core/types_c.h"
+i"opencv2/core/version.hpp"
+i<limits.h>
+i<algorithm>
+i<cmath>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i"opencv2/core/operations.hpp"
+i"opencv2/core/mat.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/core_c.h
+c000000004E6D23D700000000000132CE
+t1315775447
+s78542
+i"opencv2/core/types_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/mat.hpp
+c000000004E6D23D7000000000001285A
+t1315775447
+s75866
+i<limits.h>
+i<string.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/operations.hpp
+c000000004E6D23D7000000000001C7EF
+t1315775447
+s116719
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i"windows.h"
+i<limits>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/types_c.h
+c000000004E6D23D7000000000000DD3A
+t1315775447
+s56634
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<intrin.h>
+i<emmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/version.hpp
+c000000004E6D23D700000000000009EA
+t1315775447
+s2538
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/features2d/include/opencv2/features2d/features2d.hpp
+c000000004E6D23D7000000000001B707
+t1315775447
+s112391
+i"opencv2/core/core.hpp"
+i"opencv2/flann/flann.hpp"
+i<limits>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/all_indices.h
+c000000004E6D23D70000000000000B0D
+t1315775447
+s2829
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/kdtree_index.h"
+i"opencv2/flann/kmeans_index.h"
+i"opencv2/flann/composite_index.h"
+i"opencv2/flann/linear_index.h"
+i"opencv2/flann/autotuned_index.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/allocator.h
+c000000004E6D23D700000000000015E5
+t1315775447
+s5605
+i<stdlib.h>
+i<stdio.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/autotuned_index.h
+c000000004E6D23D7000000000000548E
+t1315775447
+s21646
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/ground_truth.h"
+i"opencv2/flann/index_testing.h"
+i"opencv2/flann/sampling.h"
+i"opencv2/flann/all_indices.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/composite_index.h
+c000000004E6D23D70000000000001310
+t1315775447
+s4880
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/dist.h
+c000000004E6D23D7000000000000291E
+t1315775447
+s10526
+i<cmath>
+i"opencv2/flann/general.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/flann.hpp
+c000000004E6D23D70000000000001DF2
+t1315775447
+s7666
+i"opencv2/flann/flann_base.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/flann_base.hpp
+c000000004E6D23D70000000000001CD6
+t1315775447
+s7382
+i<vector>
+i<string>
+i<cassert>
+i<cstdio>
+i"opencv2/flann/general.h"
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/index_testing.h"
+i"opencv2/flann/object_factory.h"
+i"opencv2/flann/saving.h"
+i"opencv2/flann/all_indices.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/general.h
+c000000004E6D23D70000000000000DFD
+t1315775447
+s3581
+i<stdexcept>
+i<cassert>
+i"opencv2/flann/object_factory.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/ground_truth.h
+c000000004E6D23D70000000000000C0F
+t1315775447
+s3087
+i"opencv2/flann/dist.h"
+i"opencv2/flann/matrix.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/heap.h
+c000000004E6D23D700000000000012F4
+t1315775447
+s4852
+i<algorithm>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/index_testing.h
+c000000004E6D23D700000000000025BB
+t1315775447
+s9659
+i<cstring>
+i<cassert>
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/logger.h"
+i"opencv2/flann/timer.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/kdtree_index.h
+c000000004E6D23D700000000000041A9
+t1315775447
+s16809
+i<algorithm>
+i<map>
+i<cassert>
+i<cstring>
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/heap.h"
+i"opencv2/flann/allocator.h"
+i"opencv2/flann/random.h"
+i"opencv2/flann/saving.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/kmeans_index.h
+c000000004E6D23D700000000000076BE
+t1315775447
+s30398
+i<algorithm>
+i<string>
+i<map>
+i<cassert>
+i<limits>
+i<cmath>
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/heap.h"
+i"opencv2/flann/allocator.h"
+i"opencv2/flann/random.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/linear_index.h
+c000000004E6D23D70000000000000C7F
+t1315775447
+s3199
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/logger.h
+c000000004E6D23D70000000000000A84
+t1315775447
+s2692
+i<cstdio>
+i<stdarg.h>
+i"opencv2/flann/general.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/matrix.h
+c000000004E6D23D70000000000000BAE
+t1315775447
+s2990
+i<stdio.h>
+i"opencv2/flann/general.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/nn_index.h
+c000000004E6D23D70000000000000B6A
+t1315775447
+s2922
+i<string>
+i"opencv2/flann/general.h"
+i"opencv2/flann/matrix.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/object_factory.h
+c000000004E6D23D70000000000000BA3
+t1315775447
+s2979
+i"opencv2/core/types_c.h"
+i<map>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/random.h
+c000000004E6D23D70000000000000DF2
+t1315775447
+s3570
+i<algorithm>
+i<cstdlib>
+i<cassert>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/result_set.h
+c000000004E6D23D70000000000001A7E
+t1315775447
+s6782
+i<algorithm>
+i<limits>
+i<vector>
+i"opencv2/flann/dist.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/sampling.h
+c000000004E6D23D70000000000000C04
+t1315775447
+s3076
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/random.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/saving.h
+c000000004E6D23D70000000000000FC5
+t1315775447
+s4037
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i<cstdio>
+i<cstring>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/timer.h
+c000000004E6D23D70000000000000997
+t1315775447
+s2455
+i<time.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/highgui/include/opencv2/highgui/highgui.hpp
+c000000004E6D23D70000000000001A87
+t1315775447
+s6791
+i"opencv2/core/core.hpp"
+i"opencv2/highgui/highgui_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/highgui/include/opencv2/highgui/highgui_c.h
+c000000004E6D23D70000000000003D5C
+t1315775447
+s15708
+i"opencv2/core/core_c.h"
+i<windows.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
+c000000004E6D23D7000000000000A768
+t1315775447
+s42856
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/types_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/include/opencv2/imgproc/imgproc_c.h
+c000000004E6D23D70000000000009012
+t1315775447
+s36882
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/include/opencv2/imgproc/types_c.h
+c000000004E6D23D70000000000003352
+t1315775447
+s13138
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/ml/include/opencv2/ml/ml.hpp
+c000000004E6D23D70000000000013A24
+t1315775447
+s80420
+i"opencv2/core/core.hpp"
+i<limits.h>
+i<windows.h>
+i<map>
+i<string>
+i<iostream>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
+c000000004E6D23D70000000000003CC1
+t1315775447
+s15553
+i"opencv2/core/core.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/video/include/opencv2/video/background_segm.hpp
+c000000004E6D23D70000000000003E07
+t1315775447
+s15879
+i"opencv2/core/core.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/video/include/opencv2/video/tracking.hpp
+c000000004E6D23D700000000000040D9
+t1315775447
+s16601
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Core/Categories/UIWebView+SHK.h
+c000000004E6D23D70000000000000567
+t1315775447
+s1383
+i<Foundation/Foundation.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Core/Helpers/SHKRequest.h
+c000000004E6D23D7000000000000089E
+t1315775447
+s2206
+i<Foundation/Foundation.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Core/SHK.h
+c000000004E6D23D70000000000000EAB
+t1315775447
+s3755
+i<Foundation/Foundation.h>
+i"SHKConfig.h"
+i"SHKItem.h"
+i"SHKActionSheet.h"
+i"SHKRequest.h"
+i"SHKActivityIndicator.h"
+i"SHKFormFieldSettings.h"
+i"UIWebView+SHK.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Core/SHKItem.h
+c000000004E6D23D70000000000000A00
+t1315775447
+s2560
+i<Foundation/Foundation.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Core/SHKSharers.plist
+c000000004E6D23D700000000000002BF
+t1315775447
+s703
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/de.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000001020
+t1315775447
+s4128
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/en.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000000E90
+t1315775447
+s3728
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/es.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000000FBE
+t1315775447
+s4030
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/eu.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000000F2A
+t1315775447
+s3882
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/fr.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000001113
+t1315775447
+s4371
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/ja.lproj/SHKLocalizable.strings
+c000000004E6D23D7000000000000112B
+t1315775447
+s4395
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/ko.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000000FB1
+t1315775447
+s4017
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/nl.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000000F11
+t1315775447
+s3857
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000001B4A
+t1315775447
+s6986
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/zh_CN.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000000E4C
+t1315775447
+s3660
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/SHKConfig.h
+c000000004E6D23D7000000000000192D
+t1315775447
+s6445
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Sharers/Services/Facebook/FBConnect/FBConnect.bundle
+c000000004E6D2D310000000000000066
+t1315777841
+s102
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/UI/SHKActionSheet.h
+c000000004E6D23D70000000000000608
+t1315775447
+s1544
+i<Foundation/Foundation.h>
+i"SHK.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/UI/SHKActivityIndicator.h
+c000000004E6D23D70000000000000780
+t1315775447
+s1920
+i<Foundation/Foundation.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/UI/SHKFormFieldSettings.h
+c000000004E6D23D70000000000000704
+t1315775447
+s1796
+i<Foundation/Foundation.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app.dSYM
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/Default.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/Default@2x.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/EdgyFree
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/FBConnect.bundle
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/Icon-114.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/Icon-50.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/Icon-512.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/Icon-57.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/Icon-72.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/Icon-Small.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/Info.plist
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/PkgInfo
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/SHKSharers.plist
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/camera_dslr_small.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/colors_small.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/de.lproj/SHKLocalizable.strings
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/en.lproj/SHKLocalizable.strings
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/es.lproj/SHKLocalizable.strings
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/eu.lproj/SHKLocalizable.strings
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/fr.lproj/Localizable.strings
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/fr.lproj/SHKLocalizable.strings
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/ja.lproj/Localizable.strings
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/ja.lproj/SHKLocalizable.strings
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/ko.lproj/SHKLocalizable.strings
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/legal.txt
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/lightbulb_small.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/lightbulb_small_selected.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/nl.lproj/SHKLocalizable.strings
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/reload_small.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/vi.lproj/SHKLocalizable.strings
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/zh_CN.lproj/SHKLocalizable.strings
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/libOpenCV-iPhone.a
+c00000000509D8A850000000000F01A00
+t1352501893
+s15735296
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/libShareKit.a
+c00000000509D8A92000000000060A620
+t1352501906
+s6333984
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/EdgyFree.build/Objects-normal/i386/EGCaptureController.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/EdgyFree.build/Objects-normal/i386/EGEdgyAppDelegate.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/EdgyFree.build/Objects-normal/i386/EGEdgyView.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/EdgyFree.build/Objects-normal/i386/Edgy-main.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/EdgyFree.build/Objects-normal/i386/EdgyFree.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/EdgyFree.build/Objects-normal/i386/ImageOrientationAccelerometer.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/EdgyFree.build/Objects-normal/i386/UIImage-OpenCVExtensions.o
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/EdgyFree.build/StaticAnalyzer/normal/i386/EGEdgyAppDelegate.plist
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/EdgyFree.build/StaticAnalyzer/normal/i386/EGEdgyView.plist
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphonesimulator/EdgyFree.build/StaticAnalyzer/normal/i386/Edgy-main.plist
+t2
+s0
+
+N/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-ayghddhzcassfefufuoemusgiiua/Edgy_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bpecytpkvicbueftreqrnqdspmnq/Edgy_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bqvzobdutayqufavhepxqgaclbmz/Edgy_Prefix.pch.gch
+t2
+s0
+
+NResources/Edgy/EdgyFree-Info.plist
+c000000004E6D23D70000000000000574
+t1315775447
+s1396
+
+CAnalyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m"
+r0
+
+CAnalyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m"
+r0
+
+CAnalyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m"
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/EdgyFree.build/Objects-normal/i386/EGCaptureController.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm" normal i386 objective-c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/EdgyFree.build/Objects-normal/i386/EGEdgyAppDelegate.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/EdgyFree.build/Objects-normal/i386/EGEdgyView.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/EdgyFree.build/Objects-normal/i386/Edgy-main.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/EdgyFree.build/Objects-normal/i386/ImageOrientationAccelerometer.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm" normal i386 objective-c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/ImageProcessing.build/Debug-iphonesimulator/EdgyFree.build/Objects-normal/i386/UIImage-OpenCVExtensions.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm" normal i386 objective-c++ com.apple.compilers.llvmgcc42
+r0
+
+CCopyPlistFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/SHKSharers.plist" ThirdParty/ShareKit/Core/SHKSharers.plist
+r0
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/de.lproj/Localizable.strings" Resources/Edgy/de.lproj/Localizable.strings
+r0
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/de.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/de.lproj/SHKLocalizable.strings
+r0
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/en.lproj/Localizable.strings" Resources/Edgy/en.lproj/Localizable.strings
+r0
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/en.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/en.lproj/SHKLocalizable.strings
+r0
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/es.lproj/Localizable.strings" Resources/Edgy/es.lproj/Localizable.strings
+r0
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/es.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/es.lproj/SHKLocalizable.strings
+r0
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/eu.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/eu.lproj/SHKLocalizable.strings
+r0
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/fr.lproj/Localizable.strings" Resources/Edgy/fr.lproj/Localizable.strings
+r0
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/fr.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/fr.lproj/SHKLocalizable.strings
+r0
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/ja.lproj/Localizable.strings" Resources/Edgy/ja.lproj/Localizable.strings
+r0
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/ja.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/ja.lproj/SHKLocalizable.strings
+r0
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/ko.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/ko.lproj/SHKLocalizable.strings
+r0
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/nl.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/nl.lproj/SHKLocalizable.strings
+r0
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/vi.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings
+r0
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/zh_CN.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/zh_CN.lproj/SHKLocalizable.strings
+r0
+
+CCpResource build/Debug-iphonesimulator/EdgyFree.app/Default.png Resources/Edgy/Default.png
+r0
+
+CCpResource build/Debug-iphonesimulator/EdgyFree.app/Default@2x.png Resources/Edgy/Default@2x.png
+r0
+
+CCpResource build/Debug-iphonesimulator/EdgyFree.app/FBConnect.bundle ThirdParty/ShareKit/Sharers/Services/Facebook/FBConnect/FBConnect.bundle
+r0
+
+CCpResource build/Debug-iphonesimulator/EdgyFree.app/Icon-114.png Resources/Edgy/Icon-114.png
+r0
+
+CCpResource build/Debug-iphonesimulator/EdgyFree.app/Icon-50.png Resources/Edgy/Icon-50.png
+r0
+
+CCpResource build/Debug-iphonesimulator/EdgyFree.app/Icon-512.png Resources/Edgy/Icon-512.png
+r0
+
+CCpResource build/Debug-iphonesimulator/EdgyFree.app/Icon-57.png Resources/Edgy/Icon-57.png
+r0
+
+CCpResource build/Debug-iphonesimulator/EdgyFree.app/Icon-72.png Resources/Edgy/Icon-72.png
+r0
+
+CCpResource build/Debug-iphonesimulator/EdgyFree.app/Icon-Small.png Resources/Edgy/Icon-Small.png
+r0
+
+CCpResource build/Debug-iphonesimulator/EdgyFree.app/camera_dslr_small.png Resources/Edgy/camera_dslr_small.png
+r0
+
+CCpResource build/Debug-iphonesimulator/EdgyFree.app/colors_small.png Resources/Edgy/colors_small.png
+r0
+
+CCpResource build/Debug-iphonesimulator/EdgyFree.app/legal.txt Resources/Edgy/legal.txt
+r0
+
+CCpResource build/Debug-iphonesimulator/EdgyFree.app/lightbulb_small.png Resources/Edgy/lightbulb_small.png
+r0
+
+CCpResource build/Debug-iphonesimulator/EdgyFree.app/lightbulb_small_selected.png Resources/Edgy/lightbulb_small_selected.png
+r0
+
+CCpResource build/Debug-iphonesimulator/EdgyFree.app/reload_small.png Resources/Edgy/reload_small.png
+r0
+
+CGenerateDSYMFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app.dSYM" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/EdgyFree"
+r0
+
+CLd "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/EdgyFree" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app/Info.plist" Resources/Edgy/EdgyFree-Info.plist
+r0
+
+CProcessPCH /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-ayghddhzcassfefufuoemusgiiua/Edgy_Prefix.pch.pth Edgy_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+r0
+
+CProcessPCH /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bqvzobdutayqufavhepxqgaclbmz/Edgy_Prefix.pch.gch Edgy_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CProcessPCH++ /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bpecytpkvicbueftreqrnqdspmnq/Edgy_Prefix.pch.gch Edgy_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvmgcc42
+r0
+
+CTouch "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphonesimulator/EdgyFree.app"
+r0
+

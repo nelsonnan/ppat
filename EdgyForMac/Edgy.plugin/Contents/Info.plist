@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>TextAssistQC</string>
+	<key>CFBundleExecutable</key>
+	<string>TextAssistQC</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.chrismarcellino.TextAssistQC</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>TextAssistQC</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>QCPlugInClasses</key>
+	<array>
+		<string>CvChannelSplitterQcPlugin</string>
+		<string>CvYUVSplitterQcPlugin</string>
+		<string>CvSmooth</string>
+		<string>CvNot</string>
+		<string>CvCannyQcPlugin</string>
+		<string>CvOrQcPlugin</string>
+		<string>CannyEdgeBinarizationQcPlugin</string>
+		<string>FindContigousIslands</string>
+		<string>KasarBinarizationQcPlugin</string>
+	</array>
+</dict>
+</plist>

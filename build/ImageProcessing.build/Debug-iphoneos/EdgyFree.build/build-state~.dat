@@ -1,0 +1,1857 @@
+TEdgyFree
+v7
+r0
+t374996500.168115
+cCheck dependencies
+cCpResource build/Debug-iphoneos/EdgyFree.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Info.plist" Resources/Edgy/EdgyFree-Info.plist
+cCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-512.png" Resources/Edgy/Icon-512.png
+cCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Default.png" Resources/Edgy/Default.png
+cCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Default@2x.png" Resources/Edgy/Default@2x.png
+cCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/camera_dslr_small.png" Resources/Edgy/camera_dslr_small.png
+cCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/colors_small.png" Resources/Edgy/colors_small.png
+cCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-57.png" Resources/Edgy/Icon-57.png
+cCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-114.png" Resources/Edgy/Icon-114.png
+cCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/reload_small.png" Resources/Edgy/reload_small.png
+cCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/lightbulb_small_selected.png" Resources/Edgy/lightbulb_small_selected.png
+cCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/lightbulb_small.png" Resources/Edgy/lightbulb_small.png
+cCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-50.png" Resources/Edgy/Icon-50.png
+cCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-72.png" Resources/Edgy/Icon-72.png
+cCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-Small.png" Resources/Edgy/Icon-Small.png
+cCpResource build/Debug-iphoneos/EdgyFree.app/legal.txt Resources/Edgy/legal.txt
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/en.lproj/Localizable.strings" Resources/Edgy/en.lproj/Localizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/es.lproj/Localizable.strings" Resources/Edgy/es.lproj/Localizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/de.lproj/Localizable.strings" Resources/Edgy/de.lproj/Localizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/fr.lproj/Localizable.strings" Resources/Edgy/fr.lproj/Localizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/ja.lproj/Localizable.strings" Resources/Edgy/ja.lproj/Localizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/de.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/de.lproj/SHKLocalizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/en.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/en.lproj/SHKLocalizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/es.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/es.lproj/SHKLocalizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/eu.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/eu.lproj/SHKLocalizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/fr.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/fr.lproj/SHKLocalizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/ja.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/ja.lproj/SHKLocalizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/ko.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/ko.lproj/SHKLocalizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/nl.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/nl.lproj/SHKLocalizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/vi.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings
+cCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/zh_CN.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/zh_CN.lproj/SHKLocalizable.strings
+cCopyPlistFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/SHKSharers.plist" ThirdParty/ShareKit/Core/SHKSharers.plist
+cCpResource build/Debug-iphoneos/EdgyFree.app/FBConnect.bundle ThirdParty/ShareKit/Sharers/Services/Facebook/FBConnect/FBConnect.bundle
+cProcessPCH /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-drocpykwvjdsnfbapfwwhhqwimyh/Edgy_Prefix.pch.gch Edgy_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH++ /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-dxwairrbktygvxbfynemokzulacj/Edgy_Prefix.pch.gch Edgy_Prefix.pch normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-eccqaqgdraqgfybigcfstogukqzh/Edgy_Prefix.pch.gch Edgy_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH++ /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bncmlzgnbqgstdabkmgmehktyois/Edgy_Prefix.pch.gch Edgy_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-ejgycgirutwxoyaksttnjyogoekv/Edgy_Prefix.pch.pth Edgy_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cProcessPCH /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bmmfbynlbxbvnydmjrxzayvjvqgr/Edgy_Prefix.pch.pth Edgy_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/Edgy-main.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EGEdgyAppDelegate.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EGCaptureController.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm" normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EGEdgyView.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/UIImage-OpenCVExtensions.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm" normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/ImageOrientationAccelerometer.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm" normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/Edgy-main.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EGEdgyAppDelegate.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EGCaptureController.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm" normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EGEdgyView.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/UIImage-OpenCVExtensions.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm" normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/ImageOrientationAccelerometer.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm" normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+cAnalyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m"
+cAnalyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m"
+cAnalyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m"
+cLd "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EdgyFree" normal armv6
+cLd "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EdgyFree" normal armv7
+cAnalyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m"
+cAnalyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m"
+cAnalyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m"
+cCreateUniversalBinary "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/EdgyFree" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app.dSYM" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/EdgyFree"
+cProcessProductPackaging "/Users/Marcus/Library/MobileDevice/Provisioning Profiles/A0A20239-C802-4963-A4C5-300FEBA3953C.mobileprovision" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/embedded.mobileprovision"
+cTouch "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.xcent"
+cCodeSign "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app"
+cValidate "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004D779EAE0000000000000110
+t1299685038
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC11C42000000000020BF30
+t1287724098
+s2146096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC11C240000000000000733
+t1287724068
+s1843
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000004CC10A5C0000000000004180
+t1287719516
+s16768
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004CC110B500000000000E44B0
+t1287721141
+s935088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.h
+c000000004CC110A700000000000001F4
+t1287721127
+s500
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004CC110220000000000030DE0
+t1287720994
+s200160
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004D779AC30000000000112F80
+t1299684035
+s1126272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004CC110680000000000094AF0
+t1287721064
+s609008
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004CC10E3C00000000000CDE60
+t1287720508
+s843360
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CC10E7900000000000B0C10
+t1287720569
+s723984
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004CC12BDD0000000000000071
+t1287728093
+s113
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004D779AC30000000000050EB0
+t1299684035
+s331440
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/assert.h
+c000000004CB3E4B80000000000000DCB
+t1286857912
+s3531
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/float.h
+c000000004CB3E4B80000000000001F2C
+t1286857912
+s7980
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/limits.h
+c000000004CB3E4B8000000000000145A
+t1286857912
+s5210
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/math.h
+c000000004CB3E44400000000000004F1
+t1286857796
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdarg.h
+c000000004CB3E4B800000000000000EA
+t1286857912
+s234
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdint.h
+c000000004C5A5787000000000000190C
+t1280989063
+s6412
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdio.h
+c000000004CB3E4B800000000000040AC
+t1286857912
+s16556
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4B80000000000002DF5
+t1286857912
+s11765
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/string.h
+c000000004CB3E4B80000000000001731
+t1286857912
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/time.h
+c000000004CB3E4B8000000000000178E
+t1286857912
+s6030
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/libz.dylib
+c000000004CC105400000000000020FF0
+t1287718208
+s135152
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m
+c000000004E6D23D7000000000000018C
+t1315775447
+s396
+i<UIKit/UIKit.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.h
+c00000000509E7F1A0000000000000399
+t1352564506
+s921
+i<UIKit/UIKit.h>
+i<CoreMedia/CoreMedia.h>
+i<iAd/iAd.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm
+c0000000050A9C65A0000000000004431
+t1353303642
+s17457
+i"EGCaptureController.h"
+i<AVFoundation/AVFoundation.h>
+i<QuartzCore/QuartzCore.h>
+i"SHK.h"
+i"opencv2/opencv.hpp"
+i"EGEdgyView.h"
+i"UIImage-OpenCVExtensions.h"
+i"Binarization.hpp"
+i"ImageOrientationAccelerometer.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.h
+c000000004E6D23D700000000000001D6
+t1315775447
+s470
+i<UIKit/UIKit.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m
+c000000004E6D23D700000000000004D2
+t1315775447
+s1234
+i"EGEdgyAppDelegate.h"
+i"EGCaptureController.h"
+i"SHK.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.h
+c000000004E6D23D700000000000003D4
+t1315775447
+s980
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i<iAd/iAd.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m
+c000000004E6D23D7000000000000176F
+t1315775447
+s5999
+i"EGEdgyView.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch
+c000000004E6D23D70000000000000155
+t1315775447
+s341
+i"opencv2/opencv.hpp"
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/Binarization.hpp
+c000000004E6D23D70000000000000543
+t1315775447
+s1347
+i"opencv2/opencv.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.h
+c000000004E6D23D700000000000002D7
+t1315775447
+s727
+i<UIKit/UIKit.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm
+c000000004E6D23D70000000000000EA6
+t1315775447
+s3750
+i"ImageOrientationAccelerometer.h"
+i<QuartzCore/QuartzCore.h>
+i"opencv2/opencv.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.h
+c000000004E6D23D70000000000000343
+t1315775447
+s835
+i<UIKit/UIKit.h>
+i"opencv2/opencv.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm
+c000000004E6D23D700000000000021D8
+t1315775447
+s8664
+i"UIImage-OpenCVExtensions.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Default.png
+c000000004E6D23D70000000000004F8D
+t1315775447
+s20365
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Default@2x.png
+c000000004E6D23D70000000000004436
+t1315775447
+s17462
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-114.png
+c000000004E6D23D70000000000001CA5
+t1315775447
+s7333
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-50.png
+c000000004E6D23D70000000000000C0C
+t1315775447
+s3084
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-512.png
+c000000004E6D23D7000000000000A2C2
+t1315775447
+s41666
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-57.png
+c000000004E6D23D70000000000000BCF
+t1315775447
+s3023
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-72.png
+c000000004E6D23D70000000000001083
+t1315775447
+s4227
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-Small.png
+c000000004E6D23D70000000000000571
+t1315775447
+s1393
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/camera_dslr_small.png
+c000000004E6D23D70000000000000213
+t1315775447
+s531
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/colors_small.png
+c000000004E6D23D7000000000000025D
+t1315775447
+s605
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/de.lproj/Localizable.strings
+c000000004E6D23D70000000000000074
+t1315775447
+s116
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/en.lproj/Localizable.strings
+c000000004E6D23D7000000000000006E
+t1315775447
+s110
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/es.lproj/Localizable.strings
+c000000004E6D23D70000000000000074
+t1315775447
+s116
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/fr.lproj/Localizable.strings
+c000000004E6D23D70000000000000073
+t1315775447
+s115
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/ja.lproj/Localizable.strings
+c000000004E6D23D7000000000000007A
+t1315775447
+s122
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/legal.txt
+c000000004E6D23D70000000000003BDE
+t1315775447
+s15326
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/lightbulb_small.png
+c000000004E6D23D700000000000001A8
+t1315775447
+s424
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/lightbulb_small_selected.png
+c000000004E6D23D70000000000000C05
+t1315775447
+s3077
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/reload_small.png
+c000000004E6D23D7000000000000019B
+t1315775447
+s411
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/include/opencv2/opencv.hpp
+c000000004E6D23D70000000000000AC8
+t1315775447
+s2760
+i"opencv2/core/core_c.h"
+i"opencv2/core/core.hpp"
+i"opencv2/flann/flann.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/video/tracking.hpp"
+i"opencv2/video/background_segm.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/objdetect/objdetect.hpp"
+i"opencv2/calib3d/calib3d.hpp"
+i"opencv2/ml/ml.hpp"
+i"opencv2/highgui/highgui_c.h"
+i"opencv2/highgui/highgui.hpp"
+i"opencv2/contrib/contrib.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
+c000000004E6D23D7000000000000938A
+t1315775447
+s37770
+i"opencv2/core/core.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/contrib/include/opencv2/contrib/contrib.hpp
+c000000004E6D23D700000000000055ED
+t1315775447
+s21997
+i"opencv2/core/core.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/objdetect/objdetect.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/core.hpp
+c000000004E6D23D7000000000002729D
+t1315775447
+s160413
+i"opencv2/core/types_c.h"
+i"opencv2/core/version.hpp"
+i<limits.h>
+i<algorithm>
+i<cmath>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i"opencv2/core/operations.hpp"
+i"opencv2/core/mat.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/core_c.h
+c000000004E6D23D700000000000132CE
+t1315775447
+s78542
+i"opencv2/core/types_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/mat.hpp
+c000000004E6D23D7000000000001285A
+t1315775447
+s75866
+i<limits.h>
+i<string.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/operations.hpp
+c000000004E6D23D7000000000001C7EF
+t1315775447
+s116719
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i"windows.h"
+i<limits>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/types_c.h
+c000000004E6D23D7000000000000DD3A
+t1315775447
+s56634
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<intrin.h>
+i<emmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/core/include/opencv2/core/version.hpp
+c000000004E6D23D700000000000009EA
+t1315775447
+s2538
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/features2d/include/opencv2/features2d/features2d.hpp
+c000000004E6D23D7000000000001B707
+t1315775447
+s112391
+i"opencv2/core/core.hpp"
+i"opencv2/flann/flann.hpp"
+i<limits>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/all_indices.h
+c000000004E6D23D70000000000000B0D
+t1315775447
+s2829
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/kdtree_index.h"
+i"opencv2/flann/kmeans_index.h"
+i"opencv2/flann/composite_index.h"
+i"opencv2/flann/linear_index.h"
+i"opencv2/flann/autotuned_index.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/allocator.h
+c000000004E6D23D700000000000015E5
+t1315775447
+s5605
+i<stdlib.h>
+i<stdio.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/autotuned_index.h
+c000000004E6D23D7000000000000548E
+t1315775447
+s21646
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/ground_truth.h"
+i"opencv2/flann/index_testing.h"
+i"opencv2/flann/sampling.h"
+i"opencv2/flann/all_indices.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/composite_index.h
+c000000004E6D23D70000000000001310
+t1315775447
+s4880
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/dist.h
+c000000004E6D23D7000000000000291E
+t1315775447
+s10526
+i<cmath>
+i"opencv2/flann/general.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/flann.hpp
+c000000004E6D23D70000000000001DF2
+t1315775447
+s7666
+i"opencv2/flann/flann_base.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/flann_base.hpp
+c000000004E6D23D70000000000001CD6
+t1315775447
+s7382
+i<vector>
+i<string>
+i<cassert>
+i<cstdio>
+i"opencv2/flann/general.h"
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/index_testing.h"
+i"opencv2/flann/object_factory.h"
+i"opencv2/flann/saving.h"
+i"opencv2/flann/all_indices.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/general.h
+c000000004E6D23D70000000000000DFD
+t1315775447
+s3581
+i<stdexcept>
+i<cassert>
+i"opencv2/flann/object_factory.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/ground_truth.h
+c000000004E6D23D70000000000000C0F
+t1315775447
+s3087
+i"opencv2/flann/dist.h"
+i"opencv2/flann/matrix.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/heap.h
+c000000004E6D23D700000000000012F4
+t1315775447
+s4852
+i<algorithm>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/index_testing.h
+c000000004E6D23D700000000000025BB
+t1315775447
+s9659
+i<cstring>
+i<cassert>
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/logger.h"
+i"opencv2/flann/timer.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/kdtree_index.h
+c000000004E6D23D700000000000041A9
+t1315775447
+s16809
+i<algorithm>
+i<map>
+i<cassert>
+i<cstring>
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/heap.h"
+i"opencv2/flann/allocator.h"
+i"opencv2/flann/random.h"
+i"opencv2/flann/saving.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/kmeans_index.h
+c000000004E6D23D700000000000076BE
+t1315775447
+s30398
+i<algorithm>
+i<string>
+i<map>
+i<cassert>
+i<limits>
+i<cmath>
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/result_set.h"
+i"opencv2/flann/heap.h"
+i"opencv2/flann/allocator.h"
+i"opencv2/flann/random.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/linear_index.h
+c000000004E6D23D70000000000000C7F
+t1315775447
+s3199
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/logger.h
+c000000004E6D23D70000000000000A84
+t1315775447
+s2692
+i<cstdio>
+i<stdarg.h>
+i"opencv2/flann/general.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/matrix.h
+c000000004E6D23D70000000000000BAE
+t1315775447
+s2990
+i<stdio.h>
+i"opencv2/flann/general.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/nn_index.h
+c000000004E6D23D70000000000000B6A
+t1315775447
+s2922
+i<string>
+i"opencv2/flann/general.h"
+i"opencv2/flann/matrix.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/object_factory.h
+c000000004E6D23D70000000000000BA3
+t1315775447
+s2979
+i"opencv2/core/types_c.h"
+i<map>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/random.h
+c000000004E6D23D70000000000000DF2
+t1315775447
+s3570
+i<algorithm>
+i<cstdlib>
+i<cassert>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/result_set.h
+c000000004E6D23D70000000000001A7E
+t1315775447
+s6782
+i<algorithm>
+i<limits>
+i<vector>
+i"opencv2/flann/dist.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/sampling.h
+c000000004E6D23D70000000000000C04
+t1315775447
+s3076
+i"opencv2/flann/matrix.h"
+i"opencv2/flann/random.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/saving.h
+c000000004E6D23D70000000000000FC5
+t1315775447
+s4037
+i"opencv2/flann/general.h"
+i"opencv2/flann/nn_index.h"
+i<cstdio>
+i<cstring>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/flann/include/opencv2/flann/timer.h
+c000000004E6D23D70000000000000997
+t1315775447
+s2455
+i<time.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/highgui/include/opencv2/highgui/highgui.hpp
+c000000004E6D23D70000000000001A87
+t1315775447
+s6791
+i"opencv2/core/core.hpp"
+i"opencv2/highgui/highgui_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/highgui/include/opencv2/highgui/highgui_c.h
+c000000004E6D23D70000000000003D5C
+t1315775447
+s15708
+i"opencv2/core/core_c.h"
+i<windows.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
+c000000004E6D23D7000000000000A768
+t1315775447
+s42856
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/types_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/include/opencv2/imgproc/imgproc_c.h
+c000000004E6D23D70000000000009012
+t1315775447
+s36882
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/imgproc/include/opencv2/imgproc/types_c.h
+c000000004E6D23D70000000000003352
+t1315775447
+s13138
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/ml/include/opencv2/ml/ml.hpp
+c000000004E6D23D70000000000013A24
+t1315775447
+s80420
+i"opencv2/core/core.hpp"
+i<limits.h>
+i<windows.h>
+i<map>
+i<string>
+i<iostream>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
+c000000004E6D23D70000000000003CC1
+t1315775447
+s15553
+i"opencv2/core/core.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/video/include/opencv2/video/background_segm.hpp
+c000000004E6D23D70000000000003E07
+t1315775447
+s15879
+i"opencv2/core/core.hpp"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/modules/video/include/opencv2/video/tracking.hpp
+c000000004E6D23D700000000000040D9
+t1315775447
+s16601
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Core/Categories/UIWebView+SHK.h
+c000000004E6D23D70000000000000567
+t1315775447
+s1383
+i<Foundation/Foundation.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Core/Helpers/SHKRequest.h
+c000000004E6D23D7000000000000089E
+t1315775447
+s2206
+i<Foundation/Foundation.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Core/SHK.h
+c000000004E6D23D70000000000000EAB
+t1315775447
+s3755
+i<Foundation/Foundation.h>
+i"SHKConfig.h"
+i"SHKItem.h"
+i"SHKActionSheet.h"
+i"SHKRequest.h"
+i"SHKActivityIndicator.h"
+i"SHKFormFieldSettings.h"
+i"UIWebView+SHK.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Core/SHKItem.h
+c000000004E6D23D70000000000000A00
+t1315775447
+s2560
+i<Foundation/Foundation.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Core/SHKSharers.plist
+c000000004E6D23D700000000000002BF
+t1315775447
+s703
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/de.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000001020
+t1315775447
+s4128
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/en.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000000E90
+t1315775447
+s3728
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/es.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000000FBE
+t1315775447
+s4030
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/eu.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000000F2A
+t1315775447
+s3882
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/fr.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000001113
+t1315775447
+s4371
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/ja.lproj/SHKLocalizable.strings
+c000000004E6D23D7000000000000112B
+t1315775447
+s4395
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/ko.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000000FB1
+t1315775447
+s4017
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/nl.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000000F11
+t1315775447
+s3857
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000001B4A
+t1315775447
+s6986
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/zh_CN.lproj/SHKLocalizable.strings
+c000000004E6D23D70000000000000E4C
+t1315775447
+s3660
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/SHKConfig.h
+c000000004E6D23D7000000000000192D
+t1315775447
+s6445
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Sharers/Services/Facebook/FBConnect/FBConnect.bundle
+c000000004E6D2D310000000000000066
+t1315777841
+s102
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/UI/SHKActionSheet.h
+c000000004E6D23D70000000000000608
+t1315775447
+s1544
+i<Foundation/Foundation.h>
+i"SHK.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/UI/SHKActivityIndicator.h
+c000000004E6D23D70000000000000780
+t1315775447
+s1920
+i<Foundation/Foundation.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/UI/SHKFormFieldSettings.h
+c000000004E6D23D70000000000000704
+t1315775447
+s1796
+i<Foundation/Foundation.h>
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app
+t1353303699
+s1156
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app.dSYM
+t1353303698
+s102
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Default.png
+t1353303686
+s13830
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Default@2x.png
+t1353303686
+s7453
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/EdgyFree
+t1353303697
+s5590184
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/FBConnect.bundle
+t1353303687
+s102
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-114.png
+t1353303686
+s7164
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-50.png
+t1353303686
+s3144
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-512.png
+t1353303686
+s35915
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-57.png
+t1353303686
+s2972
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-72.png
+t1353303686
+s4145
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-Small.png
+t1353303686
+s1389
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Info.plist
+t1353303685
+s1147
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/PkgInfo
+t1353303685
+s8
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/ResourceRules.plist
+t1353303685
+s485
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/SHKSharers.plist
+t1353303687
+s269
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/camera_dslr_small.png
+t1353303686
+s846
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/colors_small.png
+t1353303686
+s990
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/de.lproj/Localizable.strings
+t1353303687
+s160
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/de.lproj/SHKLocalizable.strings
+t1353303687
+s4518
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/embedded.mobileprovision
+t1353303698
+s7715
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/en.lproj/Localizable.strings
+t1353303687
+s100
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/en.lproj/SHKLocalizable.strings
+t1353303687
+s1919
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/es.lproj/Localizable.strings
+t1353303687
+s160
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/es.lproj/SHKLocalizable.strings
+t1353303687
+s4605
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/eu.lproj/SHKLocalizable.strings
+t1353303687
+s3771
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/fr.lproj/Localizable.strings
+t1353303687
+s208
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/fr.lproj/SHKLocalizable.strings
+t1353303687
+s5273
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/ja.lproj/Localizable.strings
+t1353303687
+s166
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/ja.lproj/SHKLocalizable.strings
+t1353303687
+s3698
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/ko.lproj/SHKLocalizable.strings
+t1353303687
+s3585
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/legal.txt
+t1353303686
+s15326
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/lightbulb_small.png
+t1353303686
+s707
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/lightbulb_small_selected.png
+t1353303686
+s3330
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/nl.lproj/SHKLocalizable.strings
+t1353303687
+s3789
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/reload_small.png
+t1353303686
+s654
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/vi.lproj/SHKLocalizable.strings
+t1353303687
+s4576
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/zh_CN.lproj/SHKLocalizable.strings
+t1353303687
+s3279
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/libOpenCV-iPhone.a
+c00000000509D8BD30000000001C12458
+t1352502227
+s29434968
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/libShareKit.a
+c00000000509D8BED0000000000C9B6A0
+t1352502253
+s13219488
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.xcent
+t1353303698
+s430
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EGCaptureController.o
+t1353303696
+s112964
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EGEdgyAppDelegate.o
+t1353303696
+s50964
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EGEdgyView.o
+t1353303696
+s60512
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/Edgy-main.o
+t1353303695
+s4268
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EdgyFree
+t1353303697
+s2810492
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EdgyFree.LinkFileList
+c0000000050A9C6850000000000000384
+t1353303685
+s900
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/ImageOrientationAccelerometer.o
+t1353303696
+s49992
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/UIImage-OpenCVExtensions.o
+t1353303695
+s40492
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EGCaptureController.o
+t1353303696
+s114024
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EGEdgyAppDelegate.o
+t1353303696
+s51104
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EGEdgyView.o
+t1353303696
+s58980
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/Edgy-main.o
+t1353303696
+s4332
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EdgyFree
+t1353303697
+s2772136
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EdgyFree.LinkFileList
+c0000000050A9C6850000000000000384
+t1353303685
+s900
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/ImageOrientationAccelerometer.o
+t1353303696
+s50188
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/UIImage-OpenCVExtensions.o
+t1353303696
+s41576
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/StaticAnalyzer/normal/armv6/EGEdgyAppDelegate.plist
+t1353303696
+s276
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/StaticAnalyzer/normal/armv6/EGEdgyView.plist
+t1353303696
+s276
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/StaticAnalyzer/normal/armv6/Edgy-main.plist
+t1353303696
+s276
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/StaticAnalyzer/normal/armv7/EGEdgyAppDelegate.plist
+t1353303696
+s276
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/StaticAnalyzer/normal/armv7/EGEdgyView.plist
+t1353303696
+s276
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/StaticAnalyzer/normal/armv7/Edgy-main.plist
+t1353303696
+s276
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/Marcus/Library/MobileDevice/Provisioning Profiles/A0A20239-C802-4963-A4C5-300FEBA3953C.mobileprovision
+c00000000509AABDC0000000000001E23
+t1352313820
+s7715
+
+N/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bmmfbynlbxbvnydmjrxzayvjvqgr/Edgy_Prefix.pch.pth
+t1353303692
+s2754900
+
+N/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bncmlzgnbqgstdabkmgmehktyois/Edgy_Prefix.pch.gch
+t1353303694
+s37754940
+
+N/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-drocpykwvjdsnfbapfwwhhqwimyh/Edgy_Prefix.pch.gch
+t1353303690
+s7714520
+
+N/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-dxwairrbktygvxbfynemokzulacj/Edgy_Prefix.pch.gch
+t1353303694
+s37275708
+
+N/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-eccqaqgdraqgfybigcfstogukqzh/Edgy_Prefix.pch.gch
+t1353303691
+s8197848
+
+N/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-ejgycgirutwxoyaksttnjyogoekv/Edgy_Prefix.pch.pth
+t1353303692
+s2754728
+
+NResources/Edgy/EdgyFree-Info.plist
+c000000004E6D23D70000000000000574
+t1315775447
+s1396
+
+CAnalyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m"
+s374996496.632594
+e374996496.689412
+r1
+xAnalyze
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m
+lSLF07#2@69"Analyze /Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m374996496#374996496#0(0"0(0#0#61"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m4320133120#2322"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv7" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bmmfbynlbxbvnydmjrxzayvjvqgr/Edgy_Prefix.pch --analyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/StaticAnalyzer/normal/armv7/Edgy-main.plist"0#
+
+CAnalyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m"
+s374996496.665035
+e374996496.741655
+r1
+xAnalyze
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m
+lSLF07#2@82"Analyze /Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m374996496#374996496#0(0"0(0#0#74"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m4320133120#2343"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv7" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bmmfbynlbxbvnydmjrxzayvjvqgr/Edgy_Prefix.pch --analyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/StaticAnalyzer/normal/armv7/EGEdgyAppDelegate.plist"0#
+
+CAnalyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m"
+s374996496.689667
+e374996496.762089
+r1
+xAnalyze
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m
+lSLF07#2@75"Analyze /Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m374996496#374996496#0(0"0(0#0#67"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m4320133120#2329"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv7" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bmmfbynlbxbvnydmjrxzayvjvqgr/Edgy_Prefix.pch --analyze "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/StaticAnalyzer/normal/armv7/EGEdgyView.plist"0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies374996485#374996485#0(0"0(0#1#0"4320133120#0"0#
+
+CCodeSign "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app"
+s374996498.557753
+e374996499.238558
+r1
+xCodeSign
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app
+lSLF07#2@42"CodeSign build/Debug-iphoneos/EdgyFree.app374996498#374996499#0(0"0(0#0#83"/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app4320133120#946"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Marcus Lowe (73PR3GK9N7)" "--resource-rules=/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/ResourceRules.plist" --entitlements "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.xcent" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app"0#
+
+CCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EGCaptureController.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm" normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+s374996495.077140
+e374996496.595358
+r1
+xCompileC
+xbuild/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EGCaptureController.o
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@85"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm374996495#374996496#0(0"0(0#0#77"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm4320133120#2447"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Werror -Wundeclared-selector -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv6" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-dxwairrbktygvxbfynemokzulacj/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EGCaptureController.o"0#
+
+CCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EGEdgyAppDelegate.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+s374996495.075994
+e374996496.014152
+r1
+xCompileC
+xbuild/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EGEdgyAppDelegate.o
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@82"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m374996495#374996496#0(0"0(0#0#74"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m4320133120#2421"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wundeclared-selector -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv6" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-drocpykwvjdsnfbapfwwhhqwimyh/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EGEdgyAppDelegate.o"0#
+
+CCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EGEdgyView.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+s374996495.078948
+e374996496.011947
+r1
+xCompileC
+xbuild/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EGEdgyView.o
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@75"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m374996495#374996496#0(0"0(0#0#67"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m4320133120#2407"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wundeclared-selector -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv6" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-drocpykwvjdsnfbapfwwhhqwimyh/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EGEdgyView.o"0#
+
+CCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/Edgy-main.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+s374996495.074138
+e374996495.604993
+r1
+xCompileC
+xbuild/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/Edgy-main.o
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@69"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m374996495#374996495#0(0"0(0#0#61"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m4320133120#2400"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wundeclared-selector -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv6" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-drocpykwvjdsnfbapfwwhhqwimyh/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/Edgy-main.o"0#
+
+CCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/ImageOrientationAccelerometer.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm" normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+s374996495.841246
+e374996496.113381
+r1
+xCompileC
+xbuild/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/ImageOrientationAccelerometer.o
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@106"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm374996495#374996496#0(0"0(0#0#98"/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm4320133120#2478"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Werror -Wundeclared-selector -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv6" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-dxwairrbktygvxbfynemokzulacj/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/ImageOrientationAccelerometer.o"0#
+
+CCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/UIImage-OpenCVExtensions.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm" normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+s374996495.605120
+e374996495.841144
+r1
+xCompileC
+xbuild/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/UIImage-OpenCVExtensions.o
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@101"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm374996495#374996495#0(0"0(0#0#93"/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm4320133120#2468"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Werror -Wundeclared-selector -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv6" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-dxwairrbktygvxbfynemokzulacj/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/UIImage-OpenCVExtensions.o"0#
+
+CCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EGCaptureController.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm" normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+s374996496.068407
+e374996496.605406
+r1
+xCompileC
+xbuild/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EGCaptureController.o
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@85"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm374996496#374996496#0(0"0(0#0#77"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm4320133120#2447"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Werror -Wundeclared-selector -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv7" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bncmlzgnbqgstdabkmgmehktyois/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EGCaptureController.o"0#
+
+CCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EGEdgyAppDelegate.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+s374996496.014261
+e374996496.133315
+r1
+xCompileC
+xbuild/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EGEdgyAppDelegate.o
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@82"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m374996496#374996496#0(0"0(0#0#74"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m4320133120#2421"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wundeclared-selector -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv7" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-eccqaqgdraqgfybigcfstogukqzh/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyAppDelegate.m" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EGEdgyAppDelegate.o"0#
+
+CCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EGEdgyView.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+s374996496.113522
+e374996496.278561
+r1
+xCompileC
+xbuild/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EGEdgyView.o
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@75"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m374996496#374996496#0(0"0(0#0#67"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m4320133120#2407"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wundeclared-selector -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv7" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-eccqaqgdraqgfybigcfstogukqzh/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGEdgyView.m" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EGEdgyView.o"0#
+
+CCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/Edgy-main.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+s374996496.012413
+e374996496.067990
+r1
+xCompileC
+xbuild/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/Edgy-main.o
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@69"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m374996496#374996496#0(0"0(0#0#61"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m4320133120#2400"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wundeclared-selector -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv7" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-eccqaqgdraqgfybigcfstogukqzh/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy-main.m" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/Edgy-main.o"0#
+
+CCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/ImageOrientationAccelerometer.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm" normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+s374996496.278733
+e374996496.578406
+r1
+xCompileC
+xbuild/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/ImageOrientationAccelerometer.o
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@106"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm374996496#374996496#0(0"0(0#0#98"/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm4320133120#2478"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Werror -Wundeclared-selector -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv7" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bncmlzgnbqgstdabkmgmehktyois/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/ImageOrientationAccelerometer.mm" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/ImageOrientationAccelerometer.o"0#
+
+CCompileC build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/UIImage-OpenCVExtensions.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm" normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+s374996496.133457
+e374996496.405094
+r1
+xCompileC
+xbuild/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/UIImage-OpenCVExtensions.o
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@101"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm374996496#374996496#0(0"0(0#0#93"/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm4320133120#2468"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Werror -Wundeclared-selector -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv7" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bncmlzgnbqgstdabkmgmehktyois/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/UIImage-OpenCVExtensions.o"0#
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Default.png" Resources/Edgy/Default.png
+s374996485.760063
+e374996486.154946
+r1
+xCopyPNGFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Default.png
+xResources/Edgy/Default.png
+lSLF07#2@84"CopyPNGFile build/Debug-iphoneos/EdgyFree.app/Default.png Resources/Edgy/Default.png374996485#374996486#0(0"0(0#0#76"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Default.png4320133120#852"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Default.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Default.png"0#
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Default@2x.png" Resources/Edgy/Default@2x.png
+s374996485.760942
+e374996486.277776
+r1
+xCopyPNGFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Default@2x.png
+xResources/Edgy/Default@2x.png
+lSLF07#2@90"CopyPNGFile build/Debug-iphoneos/EdgyFree.app/Default@2x.png Resources/Edgy/Default@2x.png374996485#374996486#0(0"0(0#0#79"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Default@2x.png4320133120#858"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Default@2x.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Default@2x.png"0#
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-114.png" Resources/Edgy/Icon-114.png
+s374996486.170705
+e374996486.245265
+r1
+xCopyPNGFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-114.png
+xResources/Edgy/Icon-114.png
+lSLF07#2@86"CopyPNGFile build/Debug-iphoneos/EdgyFree.app/Icon-114.png Resources/Edgy/Icon-114.png374996486#374996486#0(0"0(0#0#77"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-114.png4320133120#854"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-114.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-114.png"0#
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-50.png" Resources/Edgy/Icon-50.png
+s374996486.278126
+e374996486.414450
+r1
+xCopyPNGFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-50.png
+xResources/Edgy/Icon-50.png
+lSLF07#2@84"CopyPNGFile build/Debug-iphoneos/EdgyFree.app/Icon-50.png Resources/Edgy/Icon-50.png374996486#374996486#0(0"0(0#0#76"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-50.png4320133120#852"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-50.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-50.png"0#
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-512.png" Resources/Edgy/Icon-512.png
+s374996485.747797
+e374996486.276189
+r1
+xCopyPNGFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-512.png
+xResources/Edgy/Icon-512.png
+lSLF07#2@86"CopyPNGFile build/Debug-iphoneos/EdgyFree.app/Icon-512.png Resources/Edgy/Icon-512.png374996485#374996486#0(0"0(0#0#77"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-512.png4320133120#854"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-512.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-512.png"0#
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-57.png" Resources/Edgy/Icon-57.png
+s374996486.155066
+e374996486.221603
+r1
+xCopyPNGFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-57.png
+xResources/Edgy/Icon-57.png
+lSLF07#2@84"CopyPNGFile build/Debug-iphoneos/EdgyFree.app/Icon-57.png Resources/Edgy/Icon-57.png374996486#374996486#0(0"0(0#0#76"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-57.png4320133120#852"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-57.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-57.png"0#
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-72.png" Resources/Edgy/Icon-72.png
+s374996486.279191
+e374996486.441622
+r1
+xCopyPNGFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-72.png
+xResources/Edgy/Icon-72.png
+lSLF07#2@84"CopyPNGFile build/Debug-iphoneos/EdgyFree.app/Icon-72.png Resources/Edgy/Icon-72.png374996486#374996486#0(0"0(0#0#76"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-72.png4320133120#852"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-72.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-72.png"0#
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-Small.png" Resources/Edgy/Icon-Small.png
+s374996486.319856
+e374996486.441391
+r1
+xCopyPNGFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-Small.png
+xResources/Edgy/Icon-Small.png
+lSLF07#2@90"CopyPNGFile build/Debug-iphoneos/EdgyFree.app/Icon-Small.png Resources/Edgy/Icon-Small.png374996486#374996486#0(0"0(0#0#79"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-Small.png4320133120#858"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Icon-Small.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Icon-Small.png"0#
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/camera_dslr_small.png" Resources/Edgy/camera_dslr_small.png
+s374996485.761695
+e374996486.095184
+r1
+xCopyPNGFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/camera_dslr_small.png
+xResources/Edgy/camera_dslr_small.png
+lSLF07#2@104"CopyPNGFile build/Debug-iphoneos/EdgyFree.app/camera_dslr_small.png Resources/Edgy/camera_dslr_small.png374996485#374996486#0(0"0(0#0#86"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/camera_dslr_small.png4320133120#872"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/camera_dslr_small.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/camera_dslr_small.png"0#
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/colors_small.png" Resources/Edgy/colors_small.png
+s374996486.095358
+e374996486.170571
+r1
+xCopyPNGFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/colors_small.png
+xResources/Edgy/colors_small.png
+lSLF07#2@94"CopyPNGFile build/Debug-iphoneos/EdgyFree.app/colors_small.png Resources/Edgy/colors_small.png374996486#374996486#0(0"0(0#0#81"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/colors_small.png4320133120#862"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/colors_small.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/colors_small.png"0#
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/lightbulb_small.png" Resources/Edgy/lightbulb_small.png
+s374996486.276295
+e374996486.321708
+r1
+xCopyPNGFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/lightbulb_small.png
+xResources/Edgy/lightbulb_small.png
+lSLF07#2@100"CopyPNGFile build/Debug-iphoneos/EdgyFree.app/lightbulb_small.png Resources/Edgy/lightbulb_small.png374996486#374996486#0(0"0(0#0#84"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/lightbulb_small.png4320133120#868"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/lightbulb_small.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/lightbulb_small.png"0#
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/lightbulb_small_selected.png" Resources/Edgy/lightbulb_small_selected.png
+s374996486.245372
+e374996486.314843
+r1
+xCopyPNGFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/lightbulb_small_selected.png
+xResources/Edgy/lightbulb_small_selected.png
+lSLF07#2@118"CopyPNGFile build/Debug-iphoneos/EdgyFree.app/lightbulb_small_selected.png Resources/Edgy/lightbulb_small_selected.png374996486#374996486#0(0"0(0#0#93"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/lightbulb_small_selected.png4320133120#886"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/lightbulb_small_selected.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/lightbulb_small_selected.png"0#
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/reload_small.png" Resources/Edgy/reload_small.png
+s374996486.221708
+e374996486.278001
+r1
+xCopyPNGFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/reload_small.png
+xResources/Edgy/reload_small.png
+lSLF07#2@94"CopyPNGFile build/Debug-iphoneos/EdgyFree.app/reload_small.png Resources/Edgy/reload_small.png374996486#374996486#0(0"0(0#0#81"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/reload_small.png4320133120#862"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/reload_small.png" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/reload_small.png"0#
+
+CCopyPlistFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/SHKSharers.plist" ThirdParty/ShareKit/Core/SHKSharers.plist
+s374996487.372995
+e374996487.478558
+r1
+xCopyPlistFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/SHKSharers.plist
+xThirdParty/ShareKit/Core/SHKSharers.plist
+lSLF07#2@46"Copy ThirdParty/ShareKit/Core/SHKSharers.plist374996487#374996487#0(0"0(0#0#91"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Core/SHKSharers.plist4320133120#664"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 ThirdParty/ShareKit/Core/SHKSharers.plist --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/de.lproj/Localizable.strings" Resources/Edgy/de.lproj/Localizable.strings
+s374996486.441855
+e374996487.159281
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/de.lproj/Localizable.strings
+xResources/Edgy/de.lproj/Localizable.strings
+lSLF07#2@48"Copy Resources/Edgy/de.lproj/Localizable.strings374996486#374996487#0(0"0(0#0#93"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/de.lproj/Localizable.strings4320133120#748"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary Resources/Edgy/de.lproj/Localizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/de.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/de.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/de.lproj/SHKLocalizable.strings
+s374996487.156559
+e374996487.267130
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/de.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/de.lproj/SHKLocalizable.strings
+lSLF07#2@69"Copy ThirdParty/ShareKit/Localization/de.lproj/SHKLocalizable.strings374996487#374996487#0(0"0(0#0#114"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/de.lproj/SHKLocalizable.strings4320133120#769"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/de.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/de.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/en.lproj/Localizable.strings" Resources/Edgy/en.lproj/Localizable.strings
+s374996486.332455
+e374996487.154664
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/en.lproj/Localizable.strings
+xResources/Edgy/en.lproj/Localizable.strings
+lSLF07#2@48"Copy Resources/Edgy/en.lproj/Localizable.strings374996486#374996487#0(0"0(0#0#93"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/en.lproj/Localizable.strings4320133120#748"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary Resources/Edgy/en.lproj/Localizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/en.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/en.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/en.lproj/SHKLocalizable.strings
+s374996487.157743
+e374996487.238990
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/en.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/en.lproj/SHKLocalizable.strings
+lSLF07#2@69"Copy ThirdParty/ShareKit/Localization/en.lproj/SHKLocalizable.strings374996487#374996487#0(0"0(0#0#114"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/en.lproj/SHKLocalizable.strings4320133120#769"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/en.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/en.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/es.lproj/Localizable.strings" Resources/Edgy/es.lproj/Localizable.strings
+s374996486.414599
+e374996487.156305
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/es.lproj/Localizable.strings
+xResources/Edgy/es.lproj/Localizable.strings
+lSLF07#2@48"Copy Resources/Edgy/es.lproj/Localizable.strings374996486#374996487#0(0"0(0#0#93"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/es.lproj/Localizable.strings4320133120#748"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary Resources/Edgy/es.lproj/Localizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/es.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/es.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/es.lproj/SHKLocalizable.strings
+s374996487.159378
+e374996487.269280
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/es.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/es.lproj/SHKLocalizable.strings
+lSLF07#2@69"Copy ThirdParty/ShareKit/Localization/es.lproj/SHKLocalizable.strings374996487#374996487#0(0"0(0#0#114"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/es.lproj/SHKLocalizable.strings4320133120#769"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/es.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/es.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/eu.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/eu.lproj/SHKLocalizable.strings
+s374996487.237634
+e374996487.292242
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/eu.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/eu.lproj/SHKLocalizable.strings
+lSLF07#2@69"Copy ThirdParty/ShareKit/Localization/eu.lproj/SHKLocalizable.strings374996487#374996487#0(0"0(0#0#114"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/eu.lproj/SHKLocalizable.strings4320133120#769"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/eu.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/eu.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/fr.lproj/Localizable.strings" Resources/Edgy/fr.lproj/Localizable.strings
+s374996486.443036
+e374996487.156447
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/fr.lproj/Localizable.strings
+xResources/Edgy/fr.lproj/Localizable.strings
+lSLF07#2@48"Copy Resources/Edgy/fr.lproj/Localizable.strings374996486#374996487#0(0"0(0#0#93"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/fr.lproj/Localizable.strings4320133120#748"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary Resources/Edgy/fr.lproj/Localizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/fr.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/fr.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/fr.lproj/SHKLocalizable.strings
+s374996487.239078
+e374996487.295402
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/fr.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/fr.lproj/SHKLocalizable.strings
+lSLF07#2@69"Copy ThirdParty/ShareKit/Localization/fr.lproj/SHKLocalizable.strings374996487#374996487#0(0"0(0#0#114"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/fr.lproj/SHKLocalizable.strings4320133120#769"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/fr.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/fr.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/ja.lproj/Localizable.strings" Resources/Edgy/ja.lproj/Localizable.strings
+s374996487.154923
+e374996487.237511
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/ja.lproj/Localizable.strings
+xResources/Edgy/ja.lproj/Localizable.strings
+lSLF07#2@48"Copy Resources/Edgy/ja.lproj/Localizable.strings374996487#374996487#0(0"0(0#0#93"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/ja.lproj/Localizable.strings4320133120#748"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary Resources/Edgy/ja.lproj/Localizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/ja.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/ja.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/ja.lproj/SHKLocalizable.strings
+s374996487.267763
+e374996487.325486
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/ja.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/ja.lproj/SHKLocalizable.strings
+lSLF07#2@69"Copy ThirdParty/ShareKit/Localization/ja.lproj/SHKLocalizable.strings374996487#374996487#0(0"0(0#0#114"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/ja.lproj/SHKLocalizable.strings4320133120#769"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/ja.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/ja.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/ko.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/ko.lproj/SHKLocalizable.strings
+s374996487.269364
+e374996487.363383
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/ko.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/ko.lproj/SHKLocalizable.strings
+lSLF07#2@69"Copy ThirdParty/ShareKit/Localization/ko.lproj/SHKLocalizable.strings374996487#374996487#0(0"0(0#0#114"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/ko.lproj/SHKLocalizable.strings4320133120#769"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/ko.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/ko.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/nl.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/nl.lproj/SHKLocalizable.strings
+s374996487.292360
+e374996487.382256
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/nl.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/nl.lproj/SHKLocalizable.strings
+lSLF07#2@69"Copy ThirdParty/ShareKit/Localization/nl.lproj/SHKLocalizable.strings374996487#374996487#0(0"0(0#0#114"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/nl.lproj/SHKLocalizable.strings4320133120#769"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/nl.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/nl.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/vi.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings
+s374996487.295532
+e374996487.382087
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/vi.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings
+oThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-16
+lSLF07#2@69"Copy ThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings374996487#374996487#0(166"ThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-160(0#0#114"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings4320133120#769"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/vi.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/vi.lproj"0#
+
+CCopyStringsFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/zh_CN.lproj/SHKLocalizable.strings" ThirdParty/ShareKit/Localization/zh_CN.lproj/SHKLocalizable.strings
+s374996487.333344
+e374996487.444635
+r1
+xCopyStringsFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/zh_CN.lproj/SHKLocalizable.strings
+xThirdParty/ShareKit/Localization/zh_CN.lproj/SHKLocalizable.strings
+lSLF07#2@72"Copy ThirdParty/ShareKit/Localization/zh_CN.lproj/SHKLocalizable.strings374996487#374996487#0(0"0(0#0#117"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Localization/zh_CN.lproj/SHKLocalizable.strings4320133120#775"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ThirdParty/ShareKit/Localization/zh_CN.lproj/SHKLocalizable.strings --outdir "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/zh_CN.lproj"0#
+
+CCpResource build/Debug-iphoneos/EdgyFree.app/FBConnect.bundle ThirdParty/ShareKit/Sharers/Services/Facebook/FBConnect/FBConnect.bundle
+s374996487.383109
+e374996487.448707
+r1
+xCpResource
+xbuild/Debug-iphoneos/EdgyFree.app/FBConnect.bundle
+xThirdParty/ShareKit/Sharers/Services/Facebook/FBConnect/FBConnect.bundle
+lSLF07#2@77"Copy ThirdParty/ShareKit/Sharers/Services/Facebook/FBConnect/FBConnect.bundle374996487#374996487#0(0"0(0#0#122"/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Sharers/Services/Facebook/FBConnect/FBConnect.bundle4320133120#812"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Sharers/Services/Facebook/FBConnect/FBConnect.bundle" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app"0#
+
+CCpResource build/Debug-iphoneos/EdgyFree.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s374996485.712823
+e374996485.747543
+r1
+xCpResource
+xbuild/Debug-iphoneos/EdgyFree.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist374996485#374996485#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist4320133120#777"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app"0#
+
+CCpResource build/Debug-iphoneos/EdgyFree.app/legal.txt Resources/Edgy/legal.txt
+s374996486.331106
+e374996486.341656
+r1
+xCpResource
+xbuild/Debug-iphoneos/EdgyFree.app/legal.txt
+xResources/Edgy/legal.txt
+lSLF07#2@29"Copy Resources/Edgy/legal.txt374996486#374996486#0(0"0(0#0#74"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/legal.txt4320133120#764"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/legal.txt" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app"0#
+
+CCreateUniversalBinary "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/EdgyFree" normal "armv6 armv7"
+s374996497.093553
+e374996497.271594
+r1
+xCreateUniversalBinary
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/EdgyFree
+xnormal
+xarmv6 armv7
+lSLF07#2@85"CreateUniversalBinary build/Debug-iphoneos/EdgyFree.app/EdgyFree normal "armv6 armv7"374996497#374996497#0(0"0(0#0#61"/Users/Marcus/Downloads/edgy-camera-ios version 1/armv6 armv74320133120#827"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /usr/bin/lipo -create "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EdgyFree" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EdgyFree" -output "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/EdgyFree"0#
+
+CGenerateDSYMFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app.dSYM" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/EdgyFree"
+s374996497.271697
+e374996498.329758
+r1
+xGenerateDSYMFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app.dSYM
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/EdgyFree
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/EdgyFree.app.dSYM build/Debug-iphoneos/EdgyFree.app/EdgyFree374996497#374996498#0(0"0(0#0#92"/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/EdgyFree4320133120#639"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/usr/bin/dsymutil "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/EdgyFree" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app.dSYM"0#
+
+CLd "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EdgyFree" normal armv6
+s374996496.595644
+e374996497.093391
+r1
+xLd
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EdgyFree
+xnormal
+xarmv6
+lSLF07#2@142"Link /Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EdgyFree374996496#374996497#0(0"0(0#0#0"4320133120#1467"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-g++-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -filelist "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EdgyFree.LinkFileList" -dead_strip -all_load -ObjC -miphoneos-version-min=4.0 -lOpenCV-iPhone -framework Foundation -framework CoreGraphics -framework UIKit -framework CoreMedia -framework QuartzCore -framework AVFoundation -framework CoreVideo -framework Accelerate -framework MessageUI -framework MobileCoreServices -lz -framework Security -framework SystemConfiguration -lShareKit -framework iAd -prebind -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv6/EdgyFree"0#
+
+CLd "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EdgyFree" normal armv7
+s374996496.605518
+e374996497.078414
+r1
+xLd
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EdgyFree
+xnormal
+xarmv7
+lSLF07#2@142"Link /Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EdgyFree374996496#374996497#0(0"0(0#0#0"4320133120#1467"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-g++-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -filelist "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EdgyFree.LinkFileList" -dead_strip -all_load -ObjC -miphoneos-version-min=4.0 -lOpenCV-iPhone -framework Foundation -framework CoreGraphics -framework UIKit -framework CoreMedia -framework QuartzCore -framework AVFoundation -framework CoreVideo -framework Accelerate -framework MessageUI -framework MobileCoreServices -lz -framework Security -framework SystemConfiguration -lShareKit -framework iAd -prebind -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/Objects-normal/armv7/EdgyFree"0#
+
+CProcessInfoPlistFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Info.plist" Resources/Edgy/EdgyFree-Info.plist
+s374996485.713641
+e374996485.717691
+r1
+xProcessInfoPlistFile
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Info.plist
+xResources/Edgy/EdgyFree-Info.plist
+lSLF07#2@42"Process Resources/Edgy/EdgyFree-Info.plist374996485#374996485#0(0"0(0#0#84"/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/EdgyFree-Info.plist4320133120#868"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    builtin-infoPlistUtility Resources/Edgy/EdgyFree-Info.plist -genpkginfo "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/ResourceRules.plist" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/Info.plist"0#
+
+CProcessPCH /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bmmfbynlbxbvnydmjrxzayvjvqgr/Edgy_Prefix.pch.pth Edgy_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s374996491.204131
+e374996492.695785
+r1
+xProcessPCH
+x/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bmmfbynlbxbvnydmjrxzayvjvqgr/Edgy_Prefix.pch.pth
+xEdgy_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@26"Precompile Edgy_Prefix.pch374996491#374996492#0(0"0(0#0#65"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch4320133120#2167"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv7" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch" -o /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bmmfbynlbxbvnydmjrxzayvjvqgr/Edgy_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-drocpykwvjdsnfbapfwwhhqwimyh/Edgy_Prefix.pch.gch Edgy_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+s374996487.478758
+e374996491.113277
+r1
+xProcessPCH
+x/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-drocpykwvjdsnfbapfwwhhqwimyh/Edgy_Prefix.pch.gch
+xEdgy_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@26"Precompile Edgy_Prefix.pch374996487#374996491#0(0"0(0#0#65"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch4320133120#2263"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wundeclared-selector -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv6" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch" -o /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-drocpykwvjdsnfbapfwwhhqwimyh/Edgy_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-eccqaqgdraqgfybigcfstogukqzh/Edgy_Prefix.pch.gch Edgy_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s374996487.481430
+e374996491.203997
+r1
+xProcessPCH
+x/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-eccqaqgdraqgfybigcfstogukqzh/Edgy_Prefix.pch.gch
+xEdgy_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@26"Precompile Edgy_Prefix.pch374996487#374996491#0(0"0(0#0#65"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch4320133120#2263"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wundeclared-selector -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv7" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch" -o /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-eccqaqgdraqgfybigcfstogukqzh/Edgy_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-ejgycgirutwxoyaksttnjyogoekv/Edgy_Prefix.pch.pth Edgy_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s374996491.113465
+e374996492.695115
+r1
+xProcessPCH
+x/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-ejgycgirutwxoyaksttnjyogoekv/Edgy_Prefix.pch.pth
+xEdgy_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@26"Precompile Edgy_Prefix.pch374996491#374996492#0(0"0(0#0#65"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch4320133120#2167"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/usr/bin/clang -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv6" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch" -o /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-ejgycgirutwxoyaksttnjyogoekv/Edgy_Prefix.pch.pth0#
+
+CProcessPCH++ /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bncmlzgnbqgstdabkmgmehktyois/Edgy_Prefix.pch.gch Edgy_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+s374996487.482782
+e374996495.073957
+r1
+xProcessPCH++
+x/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bncmlzgnbqgstdabkmgmehktyois/Edgy_Prefix.pch.gch
+xEdgy_Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@26"Precompile Edgy_Prefix.pch374996487#374996495#0(0"0(0#0#65"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch4320133120#2284"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Werror -Wundeclared-selector -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv7" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch" -o /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-bncmlzgnbqgstdabkmgmehktyois/Edgy_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-dxwairrbktygvxbfynemokzulacj/Edgy_Prefix.pch.gch Edgy_Prefix.pch normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+s374996487.480216
+e374996494.763724
+r1
+xProcessPCH++
+x/var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-dxwairrbktygvxbfynemokzulacj/Edgy_Prefix.pch.gch
+xEdgy_Prefix.pch
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@26"Precompile Edgy_Prefix.pch374996487#374996494#0(0"0(0#0#65"/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch4320133120#2284"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++-header -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Werror -Wundeclared-selector -DFREE_VERSION -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources/armv6" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy_Prefix.pch" -o /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-dxwairrbktygvxbfynemokzulacj/Edgy_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/Marcus/Library/MobileDevice/Provisioning Profiles/A0A20239-C802-4963-A4C5-300FEBA3953C.mobileprovision" "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/embedded.mobileprovision"
+s374996498.329934
+e374996498.521983
+r1
+xProcessProductPackaging
+x/Users/Marcus/Library/MobileDevice/Provisioning Profiles/A0A20239-C802-4963-A4C5-300FEBA3953C.mobileprovision
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/embedded.mobileprovision
+lSLF07#2@194"ProcessProductPackaging "/Users/Marcus/Library/MobileDevice/Provisioning Profiles/A0A20239-C802-4963-A4C5-300FEBA3953C.mobileprovision" build/Debug-iphoneos/EdgyFree.app/embedded.mobileprovision374996498#374996498#0(0"0(0#0#108"/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/embedded.mobileprovision4320133120#686"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    <com.apple.tools.product-pkg-utility> "/Users/Marcus/Library/MobileDevice/Provisioning Profiles/A0A20239-C802-4963-A4C5-300FEBA3953C.mobileprovision" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.xcent"
+s374996498.530559
+e374996498.557681
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.xcent
+lSLF07#2@185"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.xcent374996498#374996498#0(0"0(0#0#122"/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.xcent4320133120#703"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/EdgyFree.build/EdgyFree.xcent"0#
+
+CTouch "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app"
+s374996498.522119
+e374996498.530367
+r1
+xTouch
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app
+lSLF07#2@89"Touch /Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app374996498#374996498#0(0"0(0#0#0"4320133120#526"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    /usr/bin/touch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app"0#
+
+CValidate "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app"
+s374996499.238658
+e374996500.168025
+r1
+xValidate
+x/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app
+lSLF07#2@42"Validate build/Debug-iphoneos/EdgyFree.app374996499#374996500#0(0"0(0#0#83"/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app4320133120#635"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/Marcus/local/node/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Python.framework.Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/Marcus/.rvm/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/EdgyFree.app"0#
+
