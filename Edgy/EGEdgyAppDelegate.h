@@ -10,12 +10,11 @@
 
 @class EGCaptureController;
 
-@interface EGEdgyAppDelegate : NSObject <UIApplicationDelegate> {
-    UIWindow *window;
-    EGCaptureController *captureController;
-}
+@interface EGEdgyAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property(retain, nonatomic) UIWindow *window;
-@property(retain, nonatomic) EGCaptureController *captureController;
+@property (retain, nonatomic) UIWindow *window;
+
+//@property(retain, nonatomic) UIWindow *window;
+//@property(retain, nonatomic) EGCaptureController *captureController;
 
 @end

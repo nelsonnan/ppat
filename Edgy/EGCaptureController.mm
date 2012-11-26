@@ -300,29 +300,48 @@
     }
     
     image = [UIImage imageWithCGImage:[image CGImage] scale:1.0 orientation:imageOrientation];
-    IplImage *pixels = [image createIplImageWithNumberOfChannels:4];
+    IplImage *pixels = [image createIplImageWithNumberOfChannels:1];
 #if TARGET_OS_EMBEDDED
     if ([currentDevice position] == AVCaptureDevicePositionFront) {
         cvFlip(pixels, NULL, (imageOrientation == UIImageOrientationUp || imageOrientation == UIImageOrientationDown) ? 0 : 1);        // flip vertically
     }
 #endif
 	CvSize pixelsSize = cvGetSize(pixels);
-	IplImage *template_image = [[UIImage imageNamed:@"lightbulb_small.png"] createIplImageWithNumberOfChannels:4];
 	
-	CvSize templateSize = cvGetSize(template_image);
-	CvSize resultSize = cvSize(abs(pixelsSize.width - templateSize.width) + 1, abs(pixelsSize.height - templateSize.height) + 1);
-	IplImage *imgResult = cvCreateImage(resultSize, IPL_DEPTH_32F, 1);
-	//NSLog(template_image.type());
-	cvMatchTemplate(pixels, template_image, imgResult, CV_TM_CCORR_NORMED);
-	double min_val;
-	double max_val;
-	cvMinMaxLoc(imgResult, &min_val, &max_val);
-	NSLog(@"min: %d", min_val);
-	NSLog(@"max: %d", max_val);
-	NSLog(@"width: %d", resultSize.width);
-	NSLog(@"height: %d", resultSize.height);
+	// Create an image object from the Quartz image
+
 	
-    image = [[UIImage alloc] initWithIplImage:pixels];
+	NSArray *templates = [NSArray arrayWithObjects: @"00.png", @"01.png", @"02.png", @"03.png", @"04.png", @"05.png", @"06.png", @"07.png", @"08.png", @"09.png", @"10.png", @"11.png", @"11.png", @"12.png", @"13.png", @"14.png", @"15.png", @"16.png", @"17.png", @"18.png", @"19.png", nil];
+	
+	double best_val = DBL_MAX;
+	NSLog(@"width of picture taken: %d", pixelsSize.width);
+	NSLog(@"height of picture taken: %d", pixelsSize.height);
+	UIImage *best_image = [UIImage alloc];
+	for (NSUInteger i = 0; i < [templates count]; i++) {
+		NSString *filename = [templates objectAtIndex:i];
+		UIImage *ui_template_image = [UIImage imageNamed:filename];
+		IplImage *template_image = [ui_template_image createIplImageWithNumberOfChannels:1];
+		CvSize templateSize = cvGetSize(template_image);
+		
+		CvSize resultSize = cvSize(abs(pixelsSize.width - templateSize.width) + 1, abs(pixelsSize.height - templateSize.height) + 1);
+		IplImage *imgResult = cvCreateImage(resultSize, IPL_DEPTH_32F, 1);
+		//NSLog(template_image.type());
+		cvMatchTemplate(pixels, template_image, imgResult, CV_TM_CCORR_NORMED);
+		double min_val;
+		double max_val;
+		cvMinMaxLoc(imgResult, &min_val, &max_val);
+		NSLog(@"min: %f", min_val);
+		NSLog(@"max: %f", max_val);
+		NSLog(@"width: %d", resultSize.width);
+		NSLog(@"height: %d", resultSize.height);
+		if (min_val <= best_val) {
+			NSLog(@"better: %@", filename);
+			best_val = min_val;
+			best_image = ui_template_image;
+		}
+	}
+	
+    image = best_image; //[[UIImage alloc] initWithIplImage:pixels];
     cvReleaseImage(&pixels);
 	
     // Create the item to share

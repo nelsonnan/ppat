@@ -251,9 +251,9 @@ i<CoreMedia/CoreMedia.h>
 i<iAd/iAd.h>
 
 N/Users/Marcus/Downloads/edgy-camera-ios version 1/Edgy/EGCaptureController.mm
-c0000000050A9C65A0000000000004431
-t1353303642
-s17457
+c0000000050AAAB5400000000000046C0
+t1353362260
+s18112
 i"EGCaptureController.h"
 i<AVFoundation/AVFoundation.h>
 i<QuartzCore/QuartzCore.h>
@@ -332,6 +332,106 @@ c000000004E6D23D700000000000021D8
 t1315775447
 s8664
 i"UIImage-OpenCVExtensions.h"
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162120.jpg.png
+c0000000050AA93830000000000018EEC
+t1353356163
+s102124
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162134.jpg.png
+c0000000050AA9384000000000001B439
+t1353356164
+s111673
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162139.jpg.png
+c0000000050AA93840000000000019E20
+t1353356164
+s106016
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162143.jpg.png
+c0000000050AA9384000000000001AB54
+t1353356164
+s109396
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162206.jpg.png
+c0000000050AA9384000000000001749A
+t1353356164
+s95386
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162209.jpg.png
+c0000000050AA93840000000000018E63
+t1353356164
+s101987
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162211.jpg.png
+c0000000050AA93840000000000018726
+t1353356164
+s100134
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162213.jpg.png
+c0000000050AA93840000000000018C9A
+t1353356164
+s101530
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162215.jpg.png
+c0000000050AA93850000000000018712
+t1353356165
+s100114
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162217.jpg.png
+c0000000050AA93850000000000017128
+t1353356165
+s94504
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162219.jpg.png
+c0000000050AA93850000000000017C03
+t1353356165
+s97283
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162221.jpg.png
+c0000000050AA93850000000000017C68
+t1353356165
+s97384
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162231.jpg.png
+c0000000050AA9385000000000001AB0B
+t1353356165
+s109323
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162234.jpg.png
+c0000000050AA938500000000000198FB
+t1353356165
+s104699
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162236.jpg.png
+c0000000050AA93860000000000018D0C
+t1353356166
+s101644
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162251.jpg.png
+c0000000050AA9386000000000001B4E0
+t1353356166
+s111840
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162253.jpg.png
+c0000000050AA938600000000000273A4
+t1353356166
+s160676
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162257.jpg.png
+c0000000050AA9386000000000001CFD2
+t1353356166
+s118738
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162300.jpg.png
+c0000000050AA9386000000000001BEC9
+t1353356166
+s114377
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/20121003_162302.jpg.png
+c0000000050AA9386000000000001C142
+t1353356166
+s115010
 
 N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/Default.png
 c000000004E6D23D70000000000004F8D
@@ -428,6 +528,106 @@ c000000004E6D23D7000000000000019B
 t1315775447
 s411
 
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162120.jpg.png
+c0000000050AA94250000000000018EEC
+t1353356325
+s102124
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162134.jpg.png
+c0000000050AA9425000000000001B439
+t1353356325
+s111673
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162139.jpg.png
+c0000000050AA94250000000000019E20
+t1353356325
+s106016
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162143.jpg.png
+c0000000050AA9425000000000001AB54
+t1353356325
+s109396
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162206.jpg.png
+c0000000050AA9425000000000001749A
+t1353356325
+s95386
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162209.jpg.png
+c0000000050AA94250000000000018E63
+t1353356325
+s101987
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162211.jpg.png
+c0000000050AA94250000000000018726
+t1353356325
+s100134
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162213.jpg.png
+c0000000050AA94250000000000018C9A
+t1353356325
+s101530
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162215.jpg.png
+c0000000050AA94250000000000018712
+t1353356325
+s100114
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162217.jpg.png
+c0000000050AA94250000000000017128
+t1353356325
+s94504
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162219.jpg.png
+c0000000050AA94250000000000017C03
+t1353356325
+s97283
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162221.jpg.png
+c0000000050AA94250000000000017C68
+t1353356325
+s97384
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162231.jpg.png
+c0000000050AA9425000000000001AB0B
+t1353356325
+s109323
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162234.jpg.png
+c0000000050AA942500000000000198FB
+t1353356325
+s104699
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162236.jpg.png
+c0000000050AA94250000000000018D0C
+t1353356325
+s101644
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162251.jpg.png
+c0000000050AA9425000000000001B4E0
+t1353356325
+s111840
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162253.jpg.png
+c0000000050AA942500000000000273A4
+t1353356325
+s160676
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162257.jpg.png
+c0000000050AA9425000000000001CFD2
+t1353356325
+s118738
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162300.jpg.png
+c0000000050AA9425000000000001BEC9
+t1353356325
+s114377
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/Edgy/templates/20121003_162302.jpg.png
+c0000000050AA9425000000000001C142
+t1353356325
+s115010
+
 N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/template.jpg
 c00000000507F12FF000000000000C0AF
 t1350505215
@@ -437,6 +637,106 @@ N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/template.png
 c00000000509DD94700000000000019B3
 t1352522055
 s6579
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162120.jpg.png
+c0000000050AA93830000000000018EEC
+t1353356163
+s102124
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162134.jpg.png
+c0000000050AA9384000000000001B439
+t1353356164
+s111673
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162139.jpg.png
+c0000000050AA93840000000000019E20
+t1353356164
+s106016
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162143.jpg.png
+c0000000050AA9384000000000001AB54
+t1353356164
+s109396
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162206.jpg.png
+c0000000050AA9384000000000001749A
+t1353356164
+s95386
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162209.jpg.png
+c0000000050AA93840000000000018E63
+t1353356164
+s101987
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162211.jpg.png
+c0000000050AA93840000000000018726
+t1353356164
+s100134
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162213.jpg.png
+c0000000050AA93840000000000018C9A
+t1353356164
+s101530
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162215.jpg.png
+c0000000050AA93850000000000018712
+t1353356165
+s100114
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162217.jpg.png
+c0000000050AA93850000000000017128
+t1353356165
+s94504
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162219.jpg.png
+c0000000050AA93850000000000017C03
+t1353356165
+s97283
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162221.jpg.png
+c0000000050AA93850000000000017C68
+t1353356165
+s97384
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162231.jpg.png
+c0000000050AA9385000000000001AB0B
+t1353356165
+s109323
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162234.jpg.png
+c0000000050AA938500000000000198FB
+t1353356165
+s104699
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162236.jpg.png
+c0000000050AA93860000000000018D0C
+t1353356166
+s101644
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162251.jpg.png
+c0000000050AA9386000000000001B4E0
+t1353356166
+s111840
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162253.jpg.png
+c0000000050AA938600000000000273A4
+t1353356166
+s160676
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162257.jpg.png
+c0000000050AA9386000000000001CFD2
+t1353356166
+s118738
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162300.jpg.png
+c0000000050AA9386000000000001BEC9
+t1353356166
+s114377
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/Resources/templates_png/20121003_162302.jpg.png
+c0000000050AA9386000000000001C142
+t1353356166
+s115010
 
 N/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/OpenCV/include/opencv2/opencv.hpp
 c000000004E6D23D70000000000000AC8
@@ -939,6 +1239,170 @@ N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app
 t1353303890
 s102
 
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/00.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/01.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/01g.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/02.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/03.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/04.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/05.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/06.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/07.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/08.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/09.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/10.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/11.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/12.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/13.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/14.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/15.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/16.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/17.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/18.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/19.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162120.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162134.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162139.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162143.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162206.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162209.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162211.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162213.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162215.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162217.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162219.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162221.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162231.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162234.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162236.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162251.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162253.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162257.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162300.jpg.png
+t2
+s0
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162302.jpg.png
+t2
+s0
+
 N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/Default.png
 t1352502254
 s13830
@@ -1199,6 +1663,311 @@ N/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/D
 t2
 s0
 
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162120.jpg.png
+c0000000050AA94250000000000018EEC
+t1353356325
+s102124
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162134.jpg.png
+c0000000050AA9425000000000001B439
+t1353356325
+s111673
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162139.jpg.png
+c0000000050AA94250000000000019E20
+t1353356325
+s106016
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162143.jpg.png
+c0000000050AA9425000000000001AB54
+t1353356325
+s109396
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162206.jpg.png
+c0000000050AA9425000000000001749A
+t1353356325
+s95386
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162209.jpg.png
+c0000000050AA94250000000000018E63
+t1353356325
+s101987
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162211.jpg.png
+c0000000050AA94250000000000018726
+t1353356325
+s100134
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162213.jpg.png
+c0000000050AA94250000000000018C9A
+t1353356325
+s101530
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162215.jpg.png
+c0000000050AA94250000000000018712
+t1353356325
+s100114
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162217.jpg.png
+c0000000050AA94250000000000017128
+t1353356325
+s94504
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162219.jpg.png
+c0000000050AA94250000000000017C03
+t1353356325
+s97283
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162221.jpg.png
+c0000000050AA94250000000000017C68
+t1353356325
+s97384
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162231.jpg.png
+c0000000050AA9425000000000001AB0B
+t1353356325
+s109323
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162234.jpg.png
+c0000000050AA942500000000000198FB
+t1353356325
+s104699
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162236.jpg.png
+c0000000050AA94250000000000018D0C
+t1353356325
+s101644
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162251.jpg.png
+c0000000050AA9425000000000001B4E0
+t1353356325
+s111840
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162253.jpg.png
+c0000000050AA942500000000000273A4
+t1353356325
+s160676
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162257.jpg.png
+c0000000050AA9425000000000001CFD2
+t1353356325
+s118738
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162300.jpg.png
+c0000000050AA9425000000000001BEC9
+t1353356325
+s114377
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates/20121003_162302.jpg.png
+c0000000050AA9425000000000001C142
+t1353356325
+s115010
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/00.png
+c0000000050AA93830000000000018EEC
+t1353356163
+s102124
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/01.png
+c0000000050AA9384000000000001B439
+t1353356164
+s111673
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/01g.png
+c0000000050AA9384000000000001B439
+t1353356164
+s111673
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/02.png
+c0000000050AA93840000000000019E20
+t1353356164
+s106016
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/03.png
+c0000000050AA9384000000000001AB54
+t1353356164
+s109396
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/04.png
+c0000000050AA9384000000000001749A
+t1353356164
+s95386
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/05.png
+c0000000050AA93840000000000018E63
+t1353356164
+s101987
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/06.png
+c0000000050AA93840000000000018726
+t1353356164
+s100134
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/07.png
+c0000000050AA93840000000000018C9A
+t1353356164
+s101530
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/08.png
+c0000000050AA93850000000000018712
+t1353356165
+s100114
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/09.png
+c0000000050AA93850000000000017128
+t1353356165
+s94504
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/10.png
+c0000000050AA93850000000000017C03
+t1353356165
+s97283
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/11.png
+c0000000050AA93850000000000017C68
+t1353356165
+s97384
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/12.png
+c0000000050AA9385000000000001AB0B
+t1353356165
+s109323
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/13.png
+c0000000050AA938500000000000198FB
+t1353356165
+s104699
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/14.png
+c0000000050AA93860000000000018D0C
+t1353356166
+s101644
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/15.png
+c0000000050AA9386000000000001B4E0
+t1353356166
+s111840
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/16.png
+c0000000050AA938600000000000273A4
+t1353356166
+s160676
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/17.png
+c0000000050AA9386000000000001CFD2
+t1353356166
+s118738
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/18.png
+c0000000050AA9386000000000001BEC9
+t1353356166
+s114377
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/19.png
+c0000000050AA9386000000000001C142
+t1353356166
+s115010
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162120.jpg.png
+c0000000050AA93830000000000018EEC
+t1353356163
+s102124
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162134.jpg.png
+c0000000050AA9384000000000001B439
+t1353356164
+s111673
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162139.jpg.png
+c0000000050AA93840000000000019E20
+t1353356164
+s106016
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162143.jpg.png
+c0000000050AA9384000000000001AB54
+t1353356164
+s109396
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162206.jpg.png
+c0000000050AA9384000000000001749A
+t1353356164
+s95386
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162209.jpg.png
+c0000000050AA93840000000000018E63
+t1353356164
+s101987
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162211.jpg.png
+c0000000050AA93840000000000018726
+t1353356164
+s100134
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162213.jpg.png
+c0000000050AA93840000000000018C9A
+t1353356164
+s101530
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162215.jpg.png
+c0000000050AA93850000000000018712
+t1353356165
+s100114
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162217.jpg.png
+c0000000050AA93850000000000017128
+t1353356165
+s94504
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162219.jpg.png
+c0000000050AA93850000000000017C03
+t1353356165
+s97283
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162221.jpg.png
+c0000000050AA93850000000000017C68
+t1353356165
+s97384
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162231.jpg.png
+c0000000050AA9385000000000001AB0B
+t1353356165
+s109323
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162234.jpg.png
+c0000000050AA938500000000000198FB
+t1353356165
+s104699
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162236.jpg.png
+c0000000050AA93860000000000018D0C
+t1353356166
+s101644
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162251.jpg.png
+c0000000050AA9386000000000001B4E0
+t1353356166
+s111840
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162253.jpg.png
+c0000000050AA938600000000000273A4
+t1353356166
+s160676
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162257.jpg.png
+c0000000050AA9386000000000001CFD2
+t1353356166
+s118738
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162300.jpg.png
+c0000000050AA9386000000000001BEC9
+t1353356166
+s114377
+
+N/Users/Marcus/Downloads/edgy-camera-ios version 1/templates_png/20121003_162302.jpg.png
+c0000000050AA9386000000000001C142
+t1353356166
+s115010
+
 N/Users/Marcus/Library/MobileDevice/Provisioning Profiles/A0A20239-C802-4963-A4C5-300FEBA3953C.mobileprovision
 c00000000509AABDC0000000000001E23
 t1352313820
@@ -1425,6 +2194,369 @@ xarmv7
 xobjective-c++
 xcom.apple.compilers.llvmgcc42
 lSLF07#2@101"Compile /Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm374195069#374195069#0(0"0(0#0#93"/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm4320133120#2198"    cd "/Users/Marcus/Downloads/edgy-camera-ios version 1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Werror -Wundeclared-selector -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/Edgy.build/Edgy.hmap" -Wall -Wextra -Wno-unused-parameter -Wno-unused-value "-F/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos" -IThirdParty/OpenCV/include -IThirdParty/OpenCV/modules/core/include -IThirdParty/OpenCV/modules/flann/include -IThirdParty/OpenCV/modules/imgproc/include -IThirdParty/OpenCV/modules/video/include -IThirdParty/OpenCV/modules/features2d/include -IThirdParty/OpenCV/modules/objdetect/include -IThirdParty/OpenCV/modules/calib3d/include -IThirdParty/OpenCV/modules/highgui/include -IThirdParty/OpenCV/modules/ml/include -IThirdParty/OpenCV/modules/contrib/include -IThirdParty/iulib -IThirdParty/iulib-includes -IThirdParty/ocropus/ocr-utils "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/include" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/Edgy.build/DerivedSources/armv7" "-I/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/Edgy.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-dppdlqmiprdqzkenzylgknuzofjz/Edgy_Prefix.pch -c "/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing/UIImage-OpenCVExtensions.mm" -o "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/ImageProcessing.build/Debug-iphoneos/Edgy.build/Objects-normal/armv7/UIImage-OpenCVExtensions.o"0#
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/00.png" templates_png/00.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/01.png" templates_png/01.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/01g.png" templates_png/01g.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/02.png" templates_png/02.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/03.png" templates_png/03.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/04.png" templates_png/04.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/05.png" templates_png/05.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/06.png" templates_png/06.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/07.png" templates_png/07.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/08.png" templates_png/08.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/09.png" templates_png/09.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/10.png" templates_png/10.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/11.png" templates_png/11.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/12.png" templates_png/12.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/13.png" templates_png/13.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/14.png" templates_png/14.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/15.png" templates_png/15.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/16.png" templates_png/16.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/17.png" templates_png/17.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/18.png" templates_png/18.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/19.png" templates_png/19.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162120.jpg.png" Resources/20121003_162120.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162120.jpg.png" Resources/Edgy/templates/20121003_162120.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162120.jpg.png" Resources/templates_png/20121003_162120.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162120.jpg.png" templates/20121003_162120.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162120.jpg.png" templates_png/20121003_162120.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162134.jpg.png" Resources/20121003_162134.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162134.jpg.png" Resources/Edgy/templates/20121003_162134.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162134.jpg.png" Resources/templates_png/20121003_162134.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162134.jpg.png" templates/20121003_162134.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162134.jpg.png" templates_png/20121003_162134.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162139.jpg.png" Resources/20121003_162139.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162139.jpg.png" Resources/Edgy/templates/20121003_162139.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162139.jpg.png" Resources/templates_png/20121003_162139.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162139.jpg.png" templates/20121003_162139.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162139.jpg.png" templates_png/20121003_162139.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162143.jpg.png" Resources/20121003_162143.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162143.jpg.png" Resources/Edgy/templates/20121003_162143.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162143.jpg.png" Resources/templates_png/20121003_162143.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162143.jpg.png" templates/20121003_162143.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162143.jpg.png" templates_png/20121003_162143.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162206.jpg.png" Resources/20121003_162206.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162206.jpg.png" Resources/Edgy/templates/20121003_162206.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162206.jpg.png" Resources/templates_png/20121003_162206.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162206.jpg.png" templates/20121003_162206.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162206.jpg.png" templates_png/20121003_162206.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162209.jpg.png" Resources/20121003_162209.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162209.jpg.png" Resources/Edgy/templates/20121003_162209.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162209.jpg.png" Resources/templates_png/20121003_162209.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162209.jpg.png" templates/20121003_162209.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162209.jpg.png" templates_png/20121003_162209.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162211.jpg.png" Resources/20121003_162211.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162211.jpg.png" Resources/Edgy/templates/20121003_162211.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162211.jpg.png" Resources/templates_png/20121003_162211.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162211.jpg.png" templates/20121003_162211.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162211.jpg.png" templates_png/20121003_162211.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162213.jpg.png" Resources/20121003_162213.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162213.jpg.png" Resources/Edgy/templates/20121003_162213.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162213.jpg.png" Resources/templates_png/20121003_162213.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162213.jpg.png" templates/20121003_162213.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162213.jpg.png" templates_png/20121003_162213.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162215.jpg.png" Resources/20121003_162215.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162215.jpg.png" Resources/Edgy/templates/20121003_162215.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162215.jpg.png" Resources/templates_png/20121003_162215.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162215.jpg.png" templates/20121003_162215.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162215.jpg.png" templates_png/20121003_162215.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162217.jpg.png" Resources/20121003_162217.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162217.jpg.png" Resources/Edgy/templates/20121003_162217.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162217.jpg.png" Resources/templates_png/20121003_162217.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162217.jpg.png" templates/20121003_162217.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162217.jpg.png" templates_png/20121003_162217.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162219.jpg.png" Resources/20121003_162219.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162219.jpg.png" Resources/Edgy/templates/20121003_162219.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162219.jpg.png" Resources/templates_png/20121003_162219.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162219.jpg.png" templates/20121003_162219.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162219.jpg.png" templates_png/20121003_162219.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162221.jpg.png" Resources/20121003_162221.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162221.jpg.png" Resources/Edgy/templates/20121003_162221.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162221.jpg.png" Resources/templates_png/20121003_162221.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162221.jpg.png" templates/20121003_162221.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162221.jpg.png" templates_png/20121003_162221.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162231.jpg.png" Resources/20121003_162231.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162231.jpg.png" Resources/Edgy/templates/20121003_162231.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162231.jpg.png" Resources/templates_png/20121003_162231.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162231.jpg.png" templates/20121003_162231.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162231.jpg.png" templates_png/20121003_162231.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162234.jpg.png" Resources/20121003_162234.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162234.jpg.png" Resources/Edgy/templates/20121003_162234.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162234.jpg.png" Resources/templates_png/20121003_162234.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162234.jpg.png" templates/20121003_162234.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162234.jpg.png" templates_png/20121003_162234.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162236.jpg.png" Resources/20121003_162236.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162236.jpg.png" Resources/Edgy/templates/20121003_162236.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162236.jpg.png" Resources/templates_png/20121003_162236.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162236.jpg.png" templates/20121003_162236.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162236.jpg.png" templates_png/20121003_162236.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162251.jpg.png" Resources/20121003_162251.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162251.jpg.png" Resources/Edgy/templates/20121003_162251.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162251.jpg.png" Resources/templates_png/20121003_162251.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162251.jpg.png" templates/20121003_162251.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162251.jpg.png" templates_png/20121003_162251.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162253.jpg.png" Resources/20121003_162253.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162253.jpg.png" Resources/Edgy/templates/20121003_162253.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162253.jpg.png" Resources/templates_png/20121003_162253.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162253.jpg.png" templates/20121003_162253.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162253.jpg.png" templates_png/20121003_162253.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162257.jpg.png" Resources/20121003_162257.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162257.jpg.png" Resources/Edgy/templates/20121003_162257.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162257.jpg.png" Resources/templates_png/20121003_162257.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162257.jpg.png" templates/20121003_162257.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162257.jpg.png" templates_png/20121003_162257.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162300.jpg.png" Resources/20121003_162300.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162300.jpg.png" Resources/Edgy/templates/20121003_162300.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162300.jpg.png" Resources/templates_png/20121003_162300.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162300.jpg.png" templates/20121003_162300.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162300.jpg.png" templates_png/20121003_162300.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162302.jpg.png" Resources/20121003_162302.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162302.jpg.png" Resources/Edgy/templates/20121003_162302.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162302.jpg.png" Resources/templates_png/20121003_162302.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162302.jpg.png" templates/20121003_162302.jpg.png
+r0
+
+CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/20121003_162302.jpg.png" templates_png/20121003_162302.jpg.png
+r0
 
 CCopyPNGFile "/Users/Marcus/Downloads/edgy-camera-ios version 1/build/Debug-iphoneos/Edgy.app/Default.png" Resources/Edgy/Default.png
 s374195054.106970

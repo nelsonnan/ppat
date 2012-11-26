@@ -1,7 +1,7 @@
 TShareKit
 v7
 r0
-t375040610.757831
+t375055063.025564
 cCheck dependencies
 cProcessPCH /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-dxwgsielgmjvbwbksrpwwbaruipk/Edgy_Prefix.pch.gch Edgy_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
 cProcessPCH /var/folders/t_/s2czlyvn1_s_n4_xn3kktpmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Edgy_Prefix-beyzfbilexxyevharpqsevkqnhso/Edgy_Prefix.pch.gch Edgy_Prefix.pch normal armv6 c com.apple.compilers.llvmgcc42
@@ -2555,7 +2555,7 @@ s1249508
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies375040609#375040610#0(0"0(0#1#0"4320133120#0"0#
+lSLF07#2@18"Check dependencies375055062#375055063#0(0"0(0#1#0"4320133120#0"0#
 
 CCompileC build/ImageProcessing.build/Debug-iphoneos/ShareKit.build/Objects-normal/armv6/Base64Transcoder.o "/Users/Marcus/Downloads/edgy-camera-ios version 1/ThirdParty/ShareKit/Core/Helpers/OAuth/Crytpo/Base64Transcoder.c" normal armv6 c com.apple.compilers.llvmgcc42
 s374195030.393893

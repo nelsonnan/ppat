@@ -269,19 +269,22 @@
 								<string>2161366312CD7BFD006687D3</string>
 								<string>2162D1BA12DB10CD009200DD</string>
 								<string>1C37FBAC04509CD000000102</string>
+								<string>2C82E6F8165AD14D00BA8764</string>
+								<string>2C82E6FA165AD14D00BA8764</string>
+								<string>2C82E6FB165AD14D00BA8764</string>
 								<string>1C37FAAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
-									<integer>1</integer>
+									<integer>6</integer>
+									<integer>2</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 24}, {378, 763}}</string>
+							<string>{{0, 0}, {378, 763}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -330,7 +333,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>2C82E656165AC2EB00BA8764</string>
+										<string>2C82E866165B2E5C00BA8764</string>
 										<key>history</key>
 										<array>
 											<string>2CF01F50164E165A000FDBF4</string>
@@ -341,9 +344,32 @@
 											<string>2C82E5511659F8B400BA8764</string>
 											<string>2C82E5521659F8B400BA8764</string>
 											<string>2C82E63B165A049D00BA8764</string>
-											<string>2C82E63C165A049D00BA8764</string>
-											<string>2C82E63D165A049D00BA8764</string>
-											<string>2C82E63E165A049D00BA8764</string>
+											<string>2C82E694165ACC7000BA8764</string>
+											<string>2C82E695165ACC7000BA8764</string>
+											<string>2C82E703165AD17D00BA8764</string>
+											<string>2C82E79D165AD44300BA8764</string>
+											<string>2C82E79E165AD44300BA8764</string>
+											<string>2C82E82A165ADC4C00BA8764</string>
+											<string>2C82E82B165ADC4C00BA8764</string>
+											<string>2C82E82C165ADC4C00BA8764</string>
+											<string>2C82E82D165ADC4C00BA8764</string>
+											<string>2C82E82E165ADC4C00BA8764</string>
+											<string>2C82E82F165ADC4C00BA8764</string>
+											<string>2C82E830165ADC4C00BA8764</string>
+											<string>2C82E831165ADC4C00BA8764</string>
+											<string>2C82E832165ADC4C00BA8764</string>
+											<string>2C82E833165ADC4C00BA8764</string>
+											<string>2C82E834165ADC4C00BA8764</string>
+											<string>2C82E835165ADC4C00BA8764</string>
+											<string>2C82E836165ADC4C00BA8764</string>
+											<string>2C82E837165ADC4C00BA8764</string>
+											<string>2C82E838165ADC4C00BA8764</string>
+											<string>2C82E839165ADC4C00BA8764</string>
+											<string>2C82E83A165ADC4C00BA8764</string>
+											<string>2C82E83B165ADC4C00BA8764</string>
+											<string>2C82E83C165ADC4C00BA8764</string>
+											<string>2C82E85E165AE1B100BA8764</string>
+											<string>2C82E85F165AE1B100BA8764</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -545,9 +571,9 @@
 		<string>2C82E55D1659F93800BA8764</string>
 		<string>2C82E5051659F23800BA8764</string>
 		<string>2C82E5061659F23800BA8764</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>2CF01E3A164DC1D5000FDBF4</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/Marcus/Downloads/edgy-camera-ios version 1/ImageProcessing.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -899,7 +925,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {650, 209}}</string>
 								<key>RubberWindowFrame</key>
-								<string>472 93 650 250 0 0 1440 878 </string>
+								<string>475 117 650 250 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -928,11 +954,11 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>472 93 650 250 0 0 1440 878 </string>
+			<string>475 117 650 250 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
