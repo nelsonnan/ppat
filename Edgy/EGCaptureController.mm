@@ -112,11 +112,8 @@
     [self setView:view];
     [view release];
     
-    [[view torchButton] addTarget:self action:@selector(torchToggled:) forControlEvents:UIControlEventTouchUpInside];
     [[view captureButton] addTarget:self action:@selector(captureImage:) forControlEvents:UIControlEventTouchUpInside];
-    [[view cameraToggle] addTarget:self action:@selector(cameraToggled:) forControlEvents:UIControlEventTouchUpInside];
-    [[view colorToggle] addTarget:self action:@selector(colorToggled:) forControlEvents:UIControlEventTouchUpInside];
-    [[view cannyThresholdSlider] addTarget:self action:@selector(thresholdChanged:) forControlEvents:UIControlEventValueChanged];
+    
 #if FREE_VERSION
     [[view bannerView] setDelegate:self];
 #endif
@@ -185,9 +182,7 @@
     [session beginConfiguration];
     
     // Choose the proper device and hide the device button if there is 0 or 1 devices
-    NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
-    [[view cameraToggle] setHidden:[devices count] <= 1];
-    
+    NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];    
     deviceIndex %= [devices count];
     if (!currentDevice || ![[devices objectAtIndex:deviceIndex] isEqual:currentDevice]) {
         [currentDevice release];
@@ -211,11 +206,9 @@
     
     [currentDevice lockForConfiguration:nil];
     BOOL hasTorch = [currentDevice hasTorch];
-    [[view torchButton] setHidden:!hasTorch];
     if (hasTorch) {
         [currentDevice setTorchMode:AVCaptureTorchModeOff];     // work around OS bugs
         [currentDevice setTorchMode:torchOn ? AVCaptureTorchModeOn : AVCaptureTorchModeOff];
-        [[view torchButton] setSelected:torchOn];
     }
     [currentDevice unlockForConfiguration];
     
@@ -231,8 +224,6 @@
     [session commitConfiguration];
 #endif
     
-    // Ensure the slider value matches the settings
-    [[view cannyThresholdSlider] setValue:cannyThreshold];
     
     // Update the image orientation to include the mirroring value as appropriate
     [self orientationDidChange];
@@ -309,7 +300,6 @@
 	CvSize pixelsSize = cvGetSize(pixels);
 	
 	// Create an image object from the Quartz image
-
 	
 	NSArray *templates = [NSArray arrayWithObjects: @"00.png", @"01.png", @"02.png", @"03.png", @"04.png", @"05.png", @"06.png", @"07.png", @"08.png", @"09.png", @"10.png", @"11.png", @"11.png", @"12.png", @"13.png", @"14.png", @"15.png", @"16.png", @"17.png", @"18.png", @"19.png", nil];
 	
@@ -330,10 +320,6 @@
 		double min_val;
 		double max_val;
 		cvMinMaxLoc(imgResult, &min_val, &max_val);
-		NSLog(@"min: %f", min_val);
-		NSLog(@"max: %f", max_val);
-		NSLog(@"width: %d", resultSize.width);
-		NSLog(@"height: %d", resultSize.height);
 		if (min_val <= best_val) {
 			NSLog(@"better: %@", filename);
 			best_val = min_val;
