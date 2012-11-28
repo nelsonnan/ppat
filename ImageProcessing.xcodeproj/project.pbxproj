@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191631A71666A97A009C9249 /* Drink.m in Sources */ = {isa = PBXBuildFile; fileRef = 191631A61666A97A009C9249 /* Drink.m */; };
 		210BB4AA12DA187D0017E026 /* CannyEdgeBinarizationQcPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 210BB49D12DA187D0017E026 /* CannyEdgeBinarizationQcPlugin.mm */; };
 		210BB4AB12DA187D0017E026 /* CvCannyQcPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 210BB49F12DA187D0017E026 /* CvCannyQcPlugin.mm */; };
 		210BB4AC12DA187D0017E026 /* CvChannelSplitterQcPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 210BB4A112DA187D0017E026 /* CvChannelSplitterQcPlugin.mm */; };
@@ -548,6 +549,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		191631A51666A97A009C9249 /* Drink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drink.h; sourceTree = "<group>"; };
+		191631A61666A97A009C9249 /* Drink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drink.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		210BB46912DA16500017E026 /* Edgy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edgy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1035,6 +1038,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		191631A41666A958009C9249 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				191631A51666A97A009C9249 /* Drink.h */,
+				191631A61666A97A009C9249 /* Drink.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -1052,6 +1064,7 @@
 		210BB48D12DA178F0017E026 /* Edgy */ = {
 			isa = PBXGroup;
 			children = (
+				191631A41666A958009C9249 /* Models */,
 				210BB4DA12DA1B640017E026 /* EGEdgyAppDelegate.h */,
 				2C8601FF16640008006B528C /* ccCoffeePageViewController.h */,
 				2C86020016640008006B528C /* ccCoffeePageViewController.m */,
@@ -2350,6 +2363,7 @@
 				210BB6DA12DA63510017E026 /* UIImage-OpenCVExtensions.mm in Sources */,
 				21123B0712E6B5E600D8D050 /* ImageOrientationAccelerometer.mm in Sources */,
 				2C86020916640008006B528C /* ccCoffeePageViewController.m in Sources */,
+				191631A71666A97A009C9249 /* Drink.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2959,7 +2973,7 @@
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				RUN_CLANG_STATIC_ANALYZER = YES;
@@ -2981,7 +2995,7 @@
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
