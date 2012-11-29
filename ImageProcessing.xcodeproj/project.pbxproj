@@ -551,6 +551,8 @@
 /* Begin PBXFileReference section */
 		191631A51666A97A009C9249 /* Drink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drink.h; sourceTree = "<group>"; };
 		191631A61666A97A009C9249 /* Drink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drink.m; sourceTree = "<group>"; };
+		1944F90E1666C3B8009E3230 /* Type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
+		1944F9101666C3DE009E3230 /* DrinkSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrinkSize.h; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		210BB46912DA16500017E026 /* Edgy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edgy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1041,8 +1043,10 @@
 		191631A41666A958009C9249 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				191631A51666A97A009C9249 /* Drink.h */,
 				191631A61666A97A009C9249 /* Drink.m */,
+				191631A51666A97A009C9249 /* Drink.h */,
+				1944F9101666C3DE009E3230 /* DrinkSize.h */,
+				1944F90E1666C3B8009E3230 /* Type.h */,
 			);
 			name = Models;
 			sourceTree = "<group>";
