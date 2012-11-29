@@ -315,7 +315,7 @@
 		
 		CvSize resultSize = cvSize(abs(pixelsSize.width - templateSize.width) + 1, abs(pixelsSize.height - templateSize.height) + 1);
 		IplImage *imgResult = cvCreateImage(resultSize, IPL_DEPTH_32F, 1);
-		//NSLog(template_image.type());
+
 		cvMatchTemplate(pixels, template_image, imgResult, CV_TM_CCORR_NORMED);
 		double min_val;
 		double max_val;
@@ -332,11 +332,6 @@
 	
     [image release];
     
-    NSMutableString *inst = [NSMutableString stringWithString:@""];
-    NSMutableString *title = [NSMutableString stringWithString:@"Coffee Instructions"];
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[NSString stringWithString:title] message:[NSString stringWithString:inst] delegate:self cancelButtonTitle:@"Done!" otherButtonTitles: nil];
-    [alert show];
-
     [view removeFromSuperview];
 }
 

@@ -500,6 +500,8 @@
 		2CF706C71666C47B00FC89E7 /* 18.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF706A01666C47B00FC89E7 /* 18.png */; };
 		2CF706C81666C47B00FC89E7 /* 19.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF706A11666C47B00FC89E7 /* 19.png */; };
 		2CF706C91666C47B00FC89E7 /* 19.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF706A11666C47B00FC89E7 /* 19.png */; };
+		2CF706D11667110D00FC89E7 /* Drink.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF706D01667110D00FC89E7 /* Drink.m */; };
+		2CF706D21667110D00FC89E7 /* Drink.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF706D01667110D00FC89E7 /* Drink.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -927,6 +929,10 @@
 		2CF7069F1666C47B00FC89E7 /* 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 17.png; sourceTree = "<group>"; };
 		2CF706A01666C47B00FC89E7 /* 18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 18.png; sourceTree = "<group>"; };
 		2CF706A11666C47B00FC89E7 /* 19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 19.png; sourceTree = "<group>"; };
+		2CF706CF166710D600FC89E7 /* Drink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drink.h; sourceTree = "<group>"; };
+		2CF706D01667110D00FC89E7 /* Drink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drink.m; sourceTree = "<group>"; };
+		2CF706D31667112E00FC89E7 /* Drinksize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drinksize.h; sourceTree = "<group>"; };
+		2CF706D41667114600FC89E7 /* Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1060,6 +1066,10 @@
 				210BB4DD12DA1B640017E026 /* EGCaptureController.mm */,
 				210BB65712DA1C800017E026 /* EGEdgyView.h */,
 				210BB65812DA1C800017E026 /* EGEdgyView.m */,
+				2CF706CF166710D600FC89E7 /* Drink.h */,
+				2CF706D01667110D00FC89E7 /* Drink.m */,
+				2CF706D31667112E00FC89E7 /* Drinksize.h */,
+				2CF706D41667114600FC89E7 /* Type.h */,
 			);
 			path = Edgy;
 			sourceTree = "<group>";
@@ -2349,6 +2359,7 @@
 				210BB6DA12DA63510017E026 /* UIImage-OpenCVExtensions.mm in Sources */,
 				21123B0712E6B5E600D8D050 /* ImageOrientationAccelerometer.mm in Sources */,
 				2C86020916640008006B528C /* ccCoffeePageViewController.m in Sources */,
+				2CF706D11667110D00FC89E7 /* Drink.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2525,6 +2536,7 @@
 				21C1C61B1377B590006E5619 /* UIImage-OpenCVExtensions.mm in Sources */,
 				21C1C61C1377B590006E5619 /* ImageOrientationAccelerometer.mm in Sources */,
 				2C86020A16640008006B528C /* ccCoffeePageViewController.m in Sources */,
+				2CF706D21667110D00FC89E7 /* Drink.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
