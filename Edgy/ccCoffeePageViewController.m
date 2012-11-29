@@ -8,6 +8,7 @@
 
 #import "ccCoffeePageViewController.h"
 #import "EGCaptureController.h"
+#import "Drink.h"
 
 @interface ccCoffeePageViewController ()
 
@@ -59,9 +60,8 @@
     [[[UIApplication sharedApplication] keyWindow] addSubview:view];
     [view setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight];
 
-
+/**
     NSMutableString *inst = [NSMutableString stringWithString:@""];
-    NSMutableString *title = [NSMutableString stringWithString:@"Coffee Instructions"];
     if ([self.icedSelector isOn]){
         [inst appendString:@"C1 B2"];
     } else {
@@ -86,8 +86,30 @@
             [inst appendString:@" C5"];
             break;
     }
-    
+ 
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[NSString stringWithString:title] message:[NSString stringWithString:inst] delegate:self cancelButtonTitle:@"Done!" otherButtonTitles: nil];
+ 
+ */
+    
+    NSMutableString *title = [NSMutableString stringWithString:@"Coffee Instructions"];
+    
+    Type t = COFFEE_AND_TEA;
+    if ([icedSelector isOn]) {
+        t = ICE;
+    }
+    
+    DrinkSize d = FOUR;
+    switch ([sizePicker selectedRowInComponent:0]){
+    }
+    
+    BOOL *strong = NO;
+    if ([strongSelector isOn]){
+        *strong = YES;
+    }
+    
+    Drink *drink = [[Drink alloc] initWithDrink:t AndSize:d AndStrong:*strong];
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[NSString stringWithString:title] message:[drink instruction] delegate:self cancelButtonTitle:@"Done!" otherButtonTitles: nil];
     [alert show];
 }
 

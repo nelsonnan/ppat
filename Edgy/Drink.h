@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Type.h"
+#import "DrinkSize.h"
 
 @interface Drink : NSObject
 
+@property Type screenType;
+@property DrinkSize drinkSize;
+@property BOOL strong;
+
+
+- (id)initWithDrink:(Type)screen AndSize:(DrinkSize)size AndStrong:(BOOL)strength;
+- (NSString*)instruction;
 @end
