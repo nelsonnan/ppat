@@ -63,7 +63,7 @@
         double osVersion = [[[UIDevice currentDevice] systemVersion] doubleValue];
         if (osVersion == 0.0 || osVersion >= 10.2) {
             // Try to use bi-planar YpCbCr first so that we can quickly extract Y'
-            NSDictionary *settings = [NSDictionary dictionaryWithObject:[NSNumber numberWithInt:kCVPixelFormatType_420YpCbCr8BiPlanarFullRange] 
+            NSDictionary *settings = [NSDictionary dictionaryWithObject:[NSNumber numberWithInt:kCVPixelFormatType_420YpCbCr8BiPlanarFullRange]
                                                                  forKey:(id)kCVPixelBufferPixelFormatTypeKey];
 			
             @try {
@@ -78,7 +78,7 @@
         if (fallBackToBGRA32Sampling) {
             NSLog(@"Falling back to BGRA32 sampling");
             // Fall back to BGRA32
-            NSDictionary *settings = [NSDictionary dictionaryWithObject:[NSNumber numberWithInt:kCVPixelFormatType_32BGRA] 
+            NSDictionary *settings = [NSDictionary dictionaryWithObject:[NSNumber numberWithInt:kCVPixelFormatType_32BGRA]
                                                                  forKey:(id)kCVPixelBufferPixelFormatTypeKey];
             [captureVideoDataOuput setVideoSettings:settings];
         }
@@ -93,7 +93,7 @@
 
 - (void)dealloc
 {
-
+    
     [super dealloc];
 }
 
@@ -112,18 +112,15 @@
     [self setView:view];
     [view release];
     
-    [[view torchButton] addTarget:self action:@selector(torchToggled:) forControlEvents:UIControlEventTouchUpInside];
     [[view captureButton] addTarget:self action:@selector(captureImage:) forControlEvents:UIControlEventTouchUpInside];
-    [[view cameraToggle] addTarget:self action:@selector(cameraToggled:) forControlEvents:UIControlEventTouchUpInside];
-    [[view colorToggle] addTarget:self action:@selector(colorToggled:) forControlEvents:UIControlEventTouchUpInside];
-    [[view cannyThresholdSlider] addTarget:self action:@selector(thresholdChanged:) forControlEvents:UIControlEventValueChanged];
+    
 #if FREE_VERSION
     [[view bannerView] setDelegate:self];
 #endif
 }
 
 - (void)viewWillAppear:(BOOL)animated
-{    
+{
     // Monitor for orientation updates
     [[ImageOrientationAccelerometer sharedInstance] beginGeneratingDeviceOrientationNotifications];
     NSNotificationCenter *defaultCenter = [NSNotificationCenter defaultCenter];
@@ -147,7 +144,7 @@
     
     [[ImageOrientationAccelerometer sharedInstance] endGeneratingDeviceOrientationNotifications];
     NSNotificationCenter *defaultCenter = [NSNotificationCenter defaultCenter];
-    [defaultCenter removeObserver:self name:DeviceOrientationDidChangeNotification object:nil];    
+    [defaultCenter removeObserver:self name:DeviceOrientationDidChangeNotification object:nil];
     [defaultCenter removeObserver:self name:UIApplicationDidEnterBackgroundNotification object:nil];
     [defaultCenter removeObserver:self name:UIApplicationDidBecomeActiveNotification object:nil];
     [defaultCenter removeObserver:self name:AVCaptureDeviceWasConnectedNotification object:nil];
@@ -186,8 +183,6 @@
     
     // Choose the proper device and hide the device button if there is 0 or 1 devices
     NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
-    [[view cameraToggle] setHidden:[devices count] <= 1];
-    
     deviceIndex %= [devices count];
     if (!currentDevice || ![[devices objectAtIndex:deviceIndex] isEqual:currentDevice]) {
         [currentDevice release];
@@ -211,11 +206,9 @@
     
     [currentDevice lockForConfiguration:nil];
     BOOL hasTorch = [currentDevice hasTorch];
-    [[view torchButton] setHidden:!hasTorch];
     if (hasTorch) {
         [currentDevice setTorchMode:AVCaptureTorchModeOff];     // work around OS bugs
         [currentDevice setTorchMode:torchOn ? AVCaptureTorchModeOn : AVCaptureTorchModeOff];
-        [[view torchButton] setSelected:torchOn];
     }
     [currentDevice unlockForConfiguration];
     
@@ -224,15 +217,13 @@
     CGAffineTransform transform = CGAffineTransformMakeRotation(front ? -M_PI_2 : M_PI_2);
     if (front) {
         transform = CGAffineTransformScale(transform, -1.0, 1.0);
-    }    
+    }
     [[view imageView] setTransform:transform];
     [view setNeedsLayout];
     
     [session commitConfiguration];
 #endif
     
-    // Ensure the slider value matches the settings
-    [[view cannyThresholdSlider] setValue:cannyThreshold];
     
     // Update the image orientation to include the mirroring value as appropriate
     [self orientationDidChange];
@@ -291,7 +282,7 @@
     
     // Prevent redundant button pressing
     pauseForCapture = YES;
-    [view setUserInteractionEnabled:NO];    
+    [view setUserInteractionEnabled:NO];
     
     // Get the current image and add rotation metadata, rotating the raw pixels if necessary
     UIImage *image = [[view imageView] image];
@@ -309,7 +300,6 @@
 	CvSize pixelsSize = cvGetSize(pixels);
 	
 	// Create an image object from the Quartz image
-
 	
 	NSArray *templates = [NSArray arrayWithObjects: @"00.png", @"01.png", @"02.png", @"03.png", @"04.png", @"05.png", @"06.png", @"07.png", @"08.png", @"09.png", @"10.png", @"11.png", @"11.png", @"12.png", @"13.png", @"14.png", @"15.png", @"16.png", @"17.png", @"18.png", @"19.png", nil];
 	
@@ -330,10 +320,6 @@
 		double min_val;
 		double max_val;
 		cvMinMaxLoc(imgResult, &min_val, &max_val);
-		NSLog(@"min: %f", min_val);
-		NSLog(@"max: %f", max_val);
-		NSLog(@"width: %d", resultSize.width);
-		NSLog(@"height: %d", resultSize.height);
 		if (min_val <= best_val) {
 			NSLog(@"better: %@", filename);
 			best_val = min_val;
@@ -344,28 +330,14 @@
     image = best_image; //[[UIImage alloc] initWithIplImage:pixels];
     cvReleaseImage(&pixels);
 	
-    // Create the item to share
-    NSString *shareFormatString = 
-#if FREE_VERSION
-    NSLocalizedString(@"Sent from EdgyFree for %@", nil)
-#else
-    NSLocalizedString(@"Sent from Edgy for %@", nil)
-#endif
-    ;
-	NSString *title = [[NSString alloc] initWithFormat:shareFormatString, [[UIDevice currentDevice] model]];
-	SHKItem *item = [SHKItem image:image title:title];
-    [title release];
-    
-	// Get the ShareKit action sheet and display it. Use our subclass so we can know when it gets dismissed.
-	EGSHKActionSheet *actionSheet = (EGSHKActionSheet *)[EGSHKActionSheet actionSheetForItem:item];
-    [actionSheet setTitle:nil];
-    [actionSheet setEGDismissHandler:^{
-        pauseForCapture = NO;
-        [view setUserInteractionEnabled:YES];
-    }];
-    [actionSheet performSelector:@selector(showInView:) withObject:view afterDelay:0.35];
-    
     [image release];
+    
+    NSMutableString *inst = [NSMutableString stringWithString:@""];
+    NSMutableString *title = [NSMutableString stringWithString:@"Coffee Instructions"];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[NSString stringWithString:title] message:[NSString stringWithString:inst] delegate:self cancelButtonTitle:@"Done!" otherButtonTitles: nil];
+    [alert show];
+
+    [view removeFromSuperview];
 }
 
 - (void)thresholdChanged:(id)sender
@@ -394,31 +366,31 @@
     
 	
 	
-    	
-        
+    
+    
     // Send the image data to the main thread for display. Block so we aren't drawing while processing.
     dispatch_sync(dispatch_get_main_queue(), ^{
         if (!pauseForCapture) {
 			// Get a CMSampleBuffer's Core Video image buffer for the media data
-			CVImageBufferRef imageBuffer = CMSampleBufferGetImageBuffer(sampleBuffer); 
+			CVImageBufferRef imageBuffer = CMSampleBufferGetImageBuffer(sampleBuffer);
 			// Lock the base address of the pixel buffer
-			CVPixelBufferLockBaseAddress(imageBuffer, 0); 
+			CVPixelBufferLockBaseAddress(imageBuffer, 0);
 			
 			// Get the number of bytes per row for the pixel buffer
-			void *baseAddress = CVPixelBufferGetBaseAddress(imageBuffer); 
+			void *baseAddress = CVPixelBufferGetBaseAddress(imageBuffer);
 			
 			// Get the number of bytes per row for the pixel buffer
-			size_t bytesPerRow = CVPixelBufferGetBytesPerRow(imageBuffer); 
+			size_t bytesPerRow = CVPixelBufferGetBytesPerRow(imageBuffer);
 			// Get the pixel buffer width and height
-			size_t width = CVPixelBufferGetWidth(imageBuffer); 
-			size_t height = CVPixelBufferGetHeight(imageBuffer); 
+			size_t width = CVPixelBufferGetWidth(imageBuffer);
+			size_t height = CVPixelBufferGetHeight(imageBuffer);
 			
 			// Create a device-dependent RGB color space
-			CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB(); 
+			CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
 			
 			// Create a bitmap graphics context with the sample buffer data
-			CGContextRef context = CGBitmapContextCreate(baseAddress, width, height, 8, 
-														 bytesPerRow, colorSpace, kCGBitmapByteOrder32Little | kCGImageAlphaPremultipliedFirst); 
+			CGContextRef context = CGBitmapContextCreate(baseAddress, width, height, 8,
+														 bytesPerRow, colorSpace, kCGBitmapByteOrder32Little | kCGImageAlphaPremultipliedFirst);
 			// Create a Quartz image from the pixel data in the bitmap graphics context
 			CGImageRef quartzImage = CGBitmapContextCreateImage(context);
 			
@@ -426,14 +398,14 @@
 			CVPixelBufferUnlockBaseAddress(imageBuffer,0);
 			
 			// Free up the context and color space
-			//CGContextRelease(context); 
+			//CGContextRelease(context);
 			//CGColorSpaceRelease(colorSpace);
             UIImageView *imageView = [(EGEdgyView *)[self view] imageView];
 			// Create an image object from the Quartz image
 			UIImage *uiImage = [UIImage imageWithCGImage:quartzImage];
 			// Release the Quartz image
 			//CGImageRelease(quartzImage);
-
+            
             [imageView setImage:uiImage];
             //[uiImage release];
         }
@@ -508,4 +480,3 @@
 }
 
 @end
-
