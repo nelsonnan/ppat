@@ -23,7 +23,7 @@ static const CGFloat buttonAlpha = 0.8;
 
 @implementation EGEdgyView
 
-@synthesize imageView, captureButton, bannerView;
+@synthesize imageView, captureButton;
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -42,12 +42,6 @@ static const CGFloat buttonAlpha = 0.8;
         
         [self setControlAlpha:1.0];
         
-#if FREE_VERSION
-        bannerView = [[ADBannerView alloc] init];
-        [bannerView setRequiredContentSizeIdentifiers:[NSSet setWithObject:ADBannerContentSizeIdentifierPortrait]];
-        [bannerView setHidden:YES];
-        [self addSubview:bannerView];
-#endif
     }
     return self;
 }
@@ -65,7 +59,6 @@ static const CGFloat buttonAlpha = 0.8;
     
     [imageView setFrame:bounds];
     
-    CGFloat yOffset = (bannerView && ![bannerView isHidden]) ? [bannerView frame].size.height : 0.0;
     
     CGRect buttonFrame;
     buttonFrame.size = CGSizeMake(40.0, 40.0);
@@ -73,19 +66,11 @@ static const CGFloat buttonAlpha = 0.8;
     buttonFrame.origin = CGPointMake(8.0, 8.0);
     
     
-    buttonFrame.origin = CGPointMake(8.0, bounds.size.height - buttonFrame.size.height - 8.0 - yOffset);
+    buttonFrame.origin = CGPointMake(8.0, bounds.size.height - buttonFrame.size.height - 8.0);
     [captureButton setFrame:buttonFrame];
     
     buttonFrame.origin = CGPointMake(bounds.size.width - buttonFrame.size.width - 8.0, 8.0);
     
-    
-    
-#if FREE_VERSION
-    CGRect bannerFrame;
-    bannerFrame.size = [ADBannerView sizeFromBannerContentSizeIdentifier:[bannerView currentContentSizeIdentifier]];
-    bannerFrame.origin = CGPointMake(0.0, bounds.size.height - bannerFrame.size.height);
-    [bannerView setFrame:bannerFrame];
-#endif
 }
 
 - (void)setControlAlpha:(CGFloat)alpha

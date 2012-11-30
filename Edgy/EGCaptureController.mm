@@ -27,9 +27,6 @@
 - (void)updateConfiguration;
 - (void)orientationDidChange;
 
-- (void)thresholdChanged:(id)sender;
-- (void)cameraToggled:(id)sender;
-- (void)colorToggled:(id)sender;
 - (void)torchToggled:(id)sender;
 - (void)captureImage:(id)sender;
 
@@ -56,32 +53,12 @@
         
         captureVideoDataOuput = [[AVCaptureVideoDataOutput alloc] init];
         [captureVideoDataOuput setSampleBufferDelegate:(id<AVCaptureVideoDataOutputSampleBufferDelegate>)self queue:sampleProcessingQueue];
-        [captureVideoDataOuput setMinFrameDuration:CMTimeMake(1, 10)];  // 10 fps max
-        
-        // Try to use YpCbCr as a first option for performance
-        fallBackToBGRA32Sampling = NO;
-        double osVersion = [[[UIDevice currentDevice] systemVersion] doubleValue];
-        if (osVersion == 0.0 || osVersion >= 10.2) {
-            // Try to use bi-planar YpCbCr first so that we can quickly extract Y'
-            NSDictionary *settings = [NSDictionary dictionaryWithObject:[NSNumber numberWithInt:kCVPixelFormatType_420YpCbCr8BiPlanarFullRange]
-                                                                 forKey:(id)kCVPixelBufferPixelFormatTypeKey];
-			
-            @try {
-                [captureVideoDataOuput setVideoSettings:settings];
-            } @catch (...) {
-                fallBackToBGRA32Sampling = YES;
-            }
-        } else {
-            fallBackToBGRA32Sampling = YES;
-        }
-        
-        if (fallBackToBGRA32Sampling) {
-            NSLog(@"Falling back to BGRA32 sampling");
-            // Fall back to BGRA32
-            NSDictionary *settings = [NSDictionary dictionaryWithObject:[NSNumber numberWithInt:kCVPixelFormatType_32BGRA]
-                                                                 forKey:(id)kCVPixelBufferPixelFormatTypeKey];
-            [captureVideoDataOuput setVideoSettings:settings];
-        }
+
+        // Fall back to BGRA32
+        NSDictionary *settings = [NSDictionary dictionaryWithObject:[NSNumber numberWithInt:kCVPixelFormatType_32BGRA]
+                                                             forKey:(id)kCVPixelBufferPixelFormatTypeKey];
+        [captureVideoDataOuput setVideoSettings:settings];
+
         
         [session addOutput:captureVideoDataOuput];
 #endif
@@ -99,10 +76,7 @@
 
 - (void)setDefaultSettings
 {
-    // Default to the front camera and a moderate threshold
-    colorEdges = YES;
-    deviceIndex = 2;
-    cannyThreshold = 120;
+
 }
 
 - (void)loadView
@@ -183,10 +157,9 @@
     
     // Choose the proper device and hide the device button if there is 0 or 1 devices
     NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
-    deviceIndex %= [devices count];
-    if (!currentDevice || ![[devices objectAtIndex:deviceIndex] isEqual:currentDevice]) {
+    if (!currentDevice || ![[devices objectAtIndex:0] isEqual:currentDevice]) {
         [currentDevice release];
-        currentDevice = [[devices objectAtIndex:deviceIndex] retain];
+        currentDevice = [[devices objectAtIndex:0] retain];
         
         // Create the input and add it to the session
         if (input) {
@@ -335,21 +308,6 @@
     [view removeFromSuperview];
 }
 
-- (void)thresholdChanged:(id)sender
-{
-    cannyThreshold = [(UISlider *)sender value];
-}
-
-- (void)cameraToggled:(id)sender
-{
-    deviceIndex++;
-    [self updateConfiguration];
-}
-
-- (void)colorToggled:(id)sender
-{
-    colorEdges = !colorEdges;
-}
 
 #if TARGET_OS_EMBEDDED
 // Called on the capture dispatch queue
@@ -358,10 +316,6 @@
     if (pauseForCapture) {
         return;
     }
-    
-	
-	
-    
     
     // Send the image data to the main thread for display. Block so we aren't drawing while processing.
     dispatch_sync(dispatch_get_main_queue(), ^{
@@ -406,50 +360,6 @@
         }
     });
     
-    
-    
-#if PRINT_PERFORMANCE
-    static CFAbsoluteTime lastUpdateTime = 0.0;
-    CFAbsoluteTime currentTime = CACurrentMediaTime();
-    if (lastUpdateTime) {
-        NSLog(@"Processing time: %.3f (fps %.1f) size(%u,%u)",
-              currentTime - lastUpdateTime,
-              1.0 / (currentTime - lastUpdateTime),
-              size.width,
-              size.height);
-    }
-    lastUpdateTime = currentTime;
-#endif
-}
-#endif
-
-#if FREE_VERSION
-- (void)bannerViewDidLoadAd:(ADBannerView *)banner
-{
-    [banner setHidden:NO];
-    [banner setAlpha:0.0];
-    [[self view] setNeedsLayout];
-    
-    [UIView beginAnimations:nil context:NULL];
-    [banner setAlpha:1.0];
-    [UIView commitAnimations];
-}
-
-- (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error
-{
-    [banner setHidden:YES];
-    [[self view] setNeedsLayout];
-}
-
-- (BOOL)bannerViewActionShouldBegin:(ADBannerView *)banner willLeaveApplication:(BOOL)willLeave
-{
-    pauseForCapture = YES;
-    return YES;
-}
-
-- (void)bannerViewActionDidFinish:(ADBannerView *)banner
-{
-    pauseForCapture = NO;
 }
 #endif
 

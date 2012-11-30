@@ -14,14 +14,12 @@
 @interface EGEdgyView : UIView {
     UIImageView *imageView;
     UIButton *captureButton;
-    ADBannerView *bannerView;
     
     NSTimer *fadeTimer;
 }
 
 @property(nonatomic, readonly) UIImageView *imageView;
 @property(nonatomic, readonly) UIButton *captureButton;
-@property(nonatomic, readonly) ADBannerView *bannerView;
 
 - (void)setButtonImageTransform:(CGAffineTransform)transform animated:(BOOL)animated;
 

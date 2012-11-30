@@ -24,13 +24,9 @@
     dispatch_queue_t sampleProcessingQueue;
     UIImageOrientation imageOrientation;
     
-    NSUInteger deviceIndex;
     BOOL torchOn;
-    BOOL colorEdges;
-    NSUInteger cannyThreshold;
     
     BOOL pauseForCapture;
-    BOOL fallBackToBGRA32Sampling;
 }
 
 @end

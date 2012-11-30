@@ -60,38 +60,7 @@
     [[[UIApplication sharedApplication] keyWindow] addSubview:view];
     [view setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight];
     
-    /**
-     NSMutableString *inst = [NSMutableString stringWithString:@""];
-     if ([self.icedSelector isOn]){
-     [inst appendString:@"C1 B2"];
-     } else {
-     [inst appendString:@"A1 B2"];
-     }
-     if ([self.strongSelector isOn]){
-     [inst appendString:@" C2"];
-     }
-     switch ([sizePicker selectedRowInComponent:0]){
-     case 0:
-     [inst appendString:@" A5 A5 A5"];
-     break;
-     case 1:
-     [inst appendString:@" A5 A5"];
-     break;
-     case 2:
-     [inst appendString:@" A5"];
-     break ;
-     case 3:
-     break;
-     case 4:
-     [inst appendString:@" C5"];
-     break;
-     }
-     
-     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[NSString stringWithString:title] message:[NSString stringWithString:inst] delegate:self cancelButtonTitle:@"Done!" otherButtonTitles: nil];
-     
-     */
-    
-    // Construct the expected starting state drink
+        // Construct the expected starting state drink
     Type starting_type = COFFEE_AND_TEA;
     DrinkSize starting_drink_size = EIGHT;
     BOOL starting_strength = NO;
