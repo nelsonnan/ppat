@@ -14,8 +14,6 @@
 @interface EGEdgyView : UIView {
     UIImageView *imageView;
     UIButton *captureButton;
-    
-    NSTimer *fadeTimer;
 }
 
 @property(nonatomic, readonly) UIImageView *imageView;

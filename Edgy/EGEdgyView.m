@@ -14,10 +14,6 @@ static const CGFloat buttonAlpha = 0.8;
 
 - (void)setControlAlpha:(CGFloat)alpha;
 
-- (void)clearFadeTimer;
-- (void)fadeTimerFired;
-- (void)restartFadeTimer;
-
 @end
 
 
@@ -88,51 +84,6 @@ static const CGFloat buttonAlpha = 0.8;
     if (animated) {
         [UIView commitAnimations];
     }
-}
-
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    [self clearFadeTimer];
-    
-    [UIView beginAnimations:nil context:NULL];
-    [UIView setAnimationDuration:0.3];
-    [self setControlAlpha:1.0];
-    [UIView commitAnimations];
-    
-}
-
-- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    [self restartFadeTimer];
-}
-
-- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    [self restartFadeTimer];
-}
-
-- (void)clearFadeTimer
-{
-    [fadeTimer invalidate];
-    [fadeTimer autorelease];
-    fadeTimer = nil;
-}
-
-- (void)restartFadeTimer
-{
-    [self clearFadeTimer];
-    fadeTimer = [[NSTimer scheduledTimerWithTimeInterval:10.0 target:self selector:@selector(fadeTimerFired) userInfo:nil repeats:NO] retain];
-}
-
-- (void)fadeTimerFired
-{
-    [fadeTimer autorelease];
-    fadeTimer = nil;
-    
-    [UIView beginAnimations:nil context:NULL];
-    [UIView setAnimationDuration:0.3];
-    [self setControlAlpha:0.0];
-    [UIView commitAnimations];
 }
 
 @end
