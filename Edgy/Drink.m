@@ -19,7 +19,7 @@
  Constructor
  @return new Drink
  **/
-- (id)initWithDrink:(Type)screen AndSize:(DrinkSize)size AndStrong:(BOOL)strength AndDrinkType:(DrinkType)drink
+- (id)initWithDrinkType:(Type)screen AndSize:(DrinkSize)size AndStrong:(BOOL)strength AndDrinkType:(DrinkType)drink
 {
     self = [super init];
     if (self){
@@ -27,6 +27,18 @@
         drinkSize = size;
         strong = strength;
         drinkType = drink;
+    };
+    return self;
+}
+
+- (id)initWithDrink:(Type)screen AndSize:(DrinkSize)size AndStrong:(BOOL)strength
+{
+    self = [super init];
+    if (self){
+        screenType = screen;
+        drinkSize = size;
+        strong = strength;
+        drinkType = COFFEE;
     };
     return self;
 }
@@ -146,7 +158,7 @@
 /**
  * @ return NSString the colloquial representation for the drink object to be displayed to the user
  */
-- (NSString*) colloquialInstructions
+- (NSString*) colloquialRepresentation
 {
     NSMutableString *inst = [NSMutableString stringWithString:@""];
     [inst appendString:[self colloquialSize]];

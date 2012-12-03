@@ -189,14 +189,21 @@
                                     <outlet property="delegate" destination="72t-ct-ZdQ" id="gzK-AF-lV4"/>
                                 </connections>
                             </scrollView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Instructions" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gi-zg-EFS">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="6gi-zg-EFS" firstAttribute="centerX" secondItem="46W-cT-Inu" secondAttribute="centerX" type="default" id="5P6-kE-Izm"/>
+                            <constraint firstItem="6gi-zg-EFS" firstAttribute="top" secondItem="72t-ct-ZdQ" secondAttribute="top" constant="18" id="8IK-R3-ibt"/>
                             <constraint firstItem="46W-cT-Inu" firstAttribute="trailing" secondItem="72t-ct-ZdQ" secondAttribute="trailing" type="default" id="M19-uZ-5DY"/>
                             <constraint firstItem="foS-IE-1Z7" firstAttribute="centerX" secondItem="46W-cT-Inu" secondAttribute="centerX" type="default" id="RSf-r1-kGQ"/>
                             <constraint firstAttribute="bottom" secondItem="foS-IE-1Z7" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="Sv3-kn-XVk"/>
-                            <constraint firstAttribute="bottom" secondItem="46W-cT-Inu" secondAttribute="bottom" constant="60" id="hiN-d6-GVJ"/>
-                            <constraint firstItem="46W-cT-Inu" firstAttribute="top" secondItem="72t-ct-ZdQ" secondAttribute="top" constant="-6" id="mzk-WZ-gbm"/>
+                            <constraint firstItem="foS-IE-1Z7" firstAttribute="top" secondItem="46W-cT-Inu" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="b5b-HR-Ly5"/>
+                            <constraint firstItem="46W-cT-Inu" firstAttribute="top" secondItem="6gi-zg-EFS" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="vng-4o-Ro8"/>
                             <constraint firstItem="46W-cT-Inu" firstAttribute="leading" secondItem="72t-ct-ZdQ" secondAttribute="leading" type="default" id="zAu-7z-VOH"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -256,7 +263,6 @@
         <class className="ccCoffeePageViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ccCoffeePageViewController.h"/>
             <relationships>
-                <relationship kind="action" name="changeIced:"/>
                 <relationship kind="action" name="changeStrength:"/>
                 <relationship kind="outlet" name="coffeeLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="icedSelector" candidateClass="UISwitch"/>
