@@ -285,7 +285,7 @@
     @"coffeeNot12.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TWELVE AndStrong:NO],
     @"coffeeNot10.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TEN AndStrong:NO],
     @"coffeeNot8.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:NO],
-    @"coffeeNot6.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIX AndStrong:NO],nil ];
+    @"coffeeNot6.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIX AndStrong:NO], nil, nil];
 	
 	double best_val = DBL_MAX;
     Drink *current_drink;
@@ -295,6 +295,7 @@
     IplImage *imgResult;
     NSArray *drinkKeys = [templates allKeys];
 	for (NSUInteger i = 0; i < [templates count] - 1; i++) {
+        NSLog(@"%d", i);
 		template_image = [[UIImage imageNamed:[drinkKeys objectAtIndex:i]] createIplImageWithNumberOfChannels:1];
 		CvSize templateSize = cvGetSize(template_image);
 		
