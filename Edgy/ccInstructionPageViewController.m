@@ -54,7 +54,8 @@ static Drink *currentDrink;
         NSLog(@"RESET CURRENT DRINK");
         currentDrink = [[Drink alloc]initWithDrink:COFFEE_AND_TEA AndSize:FOUR AndStrong:NO];
     }
-    [self populateInstructions];
+    //[self populateInstructions];
+    [self populateInstructionsFromArray];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(receiveNotification:) name:@"NewCurrentDrink" object:nil];
     NSLog(@"register notification listener");
 
