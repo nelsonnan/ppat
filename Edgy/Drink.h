@@ -17,11 +17,12 @@
 @property DrinkSize drinkSize;
 @property DrinkType drinkType;
 @property BOOL strong;
-@property (assign) NSString* semanticName;
 
-
-- (id)initWithDrink:(Type)screen AndSize:(DrinkSize)size AndStrong:(BOOL)strength AndDrinkType:(DrinkType)drink;
+- (id)initWithDrink:(Type)screen AndSize:(DrinkSize)size AndStrong:(BOOL)strength;
+- (id)initWithDrinkType:(Type)screen AndSize:(DrinkSize)size AndStrong:(BOOL)strength AndDrinkType:(DrinkType)drink;
 - (NSString*)instructions :(Drink*)current;
 - (NSArray*)semanticInstructions:(Drink*) current;
-- (NSString*)semanticRepresentation;
+- (NSString*) colloquialType;
+- (NSString*) colloquialSize;
+- (NSString*) colloquialRepresentation;
 @end
