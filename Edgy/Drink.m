@@ -76,7 +76,7 @@
     return [inst stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
 }
 /**
- * @ return NSString the colloquial representation of the size
+ * @ return NSString the colloquial representation of the size. Does not end in a space.
  */
 - (NSString*) colloquialSize
 {
@@ -111,13 +111,32 @@
 }
 
 /**
- * @ return NSString the colloquial representation of the type
+ * @ return NSString the colloquial representation of the type. Does not end in a space.
  */
 - (NSString*) colloquialType
 {
      NSMutableString *inst = [NSMutableString stringWithString:@""];
     if (strong) {
-        [inst appendString:@"Strong"];
+        [inst appendString:@"Strong "];
+    }
+    if (screenType == ICE) {
+        [inst appendString:@"Iced "];
+    }
+    switch (drinkType) {
+        case COFFEE:
+            [inst appendString:@"Coffee"];
+            break;
+        case TEA:
+            [inst appendString:@"Tea"];
+            break;
+        case DRINK_CAFE:
+            [inst appendString:@"Cafe"];
+            break;
+        case HOT_COCOA:
+            [inst appendString:@"Cocoa"];
+            break;
+        case OTHER:
+            break;
     }
 
     return inst;
