@@ -19,4 +19,5 @@
 
 - (id)initWithDrink:(Type)screen AndSize:(DrinkSize)size AndStrong:(BOOL)strength;
 - (NSString*)instructions :(Drink*)current;
+- (NSArray*)semanticInstructions:(Drink*) current;
 @end
