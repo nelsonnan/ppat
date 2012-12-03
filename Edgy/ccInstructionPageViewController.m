@@ -51,7 +51,7 @@ static Drink *currentDrink;
     	// Do any additional setup after loading the view.
     if (currentDrink == nil) {
         NSLog(@"RESET CURRENT DRINK");
-        currentDrink = [[Drink alloc]initWithDrink:COFFEE_AND_TEA AndSize:FOUR AndStrong:NO];
+        currentDrink = [[Drink alloc]initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:NO];
     }
     [self populateInstructions];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(receiveNotification:) name:@"NewCurrentDrink" object:nil];

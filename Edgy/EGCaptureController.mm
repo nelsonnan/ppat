@@ -255,37 +255,37 @@
 	CvSize pixelsSize = cvGetSize(pixels);
 	
 	// Create an image object from the Quartz image
-	NSDictionary *templates = [[NSDictionary alloc] initWithObjectsAndKeys:
-    @"icedStrong6.png", [[Drink alloc] initWithDrink:ICE AndSize:SIX AndStrong:YES],
-    @"icedStrong8.png", [[Drink alloc] initWithDrink:ICE AndSize:EIGHT AndStrong:YES],
-    @"icedStrong10.png", [[Drink alloc] initWithDrink:ICE AndSize:TEN AndStrong:YES],
-    @"froth4.png", [[Drink alloc] initWithDrink:CAFE AndSize:FOUR AndStrong:NO],
-    @"icedNot10.png", [[Drink alloc] initWithDrink:ICE AndSize:TEN AndStrong:NO],
-    @"icedNot8.png", [[Drink alloc] initWithDrink:ICE AndSize:EIGHT AndStrong:NO],
-    @"icedNot6.png", [[Drink alloc] initWithDrink:ICE AndSize:SIX AndStrong:NO],
-    @"tea6.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIX AndStrong:NO],
-    @"cocoa10.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TEN AndStrong:NO],
-    @"cocoa8.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:NO],
-    @"cocoa6.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIX AndStrong:NO],
-    @"tea12.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TWELVE AndStrong:NO],
-    @"tea10.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TEN AndStrong:NO],
-    @"tea8.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:NO],
-    @"coffeeStrong18.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHTEEN AndStrong:YES],
-    @"coffeeStrong4.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:FOUR AndStrong:YES],
-    @"coffeeStrong6.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIX AndStrong:YES],
-    @"coffeeStrong8.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:YES],
-    @"coffeeStrong10.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TEN AndStrong:YES],
-    @"coffeeStrong12.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TWELVE AndStrong:YES],
-    @"coffeeStrong14.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:FOURTEEN AndStrong:YES],
-    @"coffeeStrong16.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIXTEEN AndStrong:YES],
-    @"coffeeNot4.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:FOUR AndStrong:NO],
-    @"coffeeNot18.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHTEEN AndStrong:NO],
-    @"coffeeNot16.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIXTEEN AndStrong:NO],
-    @"coffeeNot14.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:FOURTEEN AndStrong:NO],
-    @"coffeeNot12.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TWELVE AndStrong:NO],
-    @"coffeeNot10.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TEN AndStrong:NO],
-    @"coffeeNot8.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:NO],
-    @"coffeeNot6.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIX AndStrong:NO], nil, nil];
+	NSMutableDictionary *templates = [NSMutableDictionary dictionary];
+    [templates setObject: [[Drink alloc] initWithDrink:ICE AndSize:SIX AndStrong:YES] forKey:@"icedStrong6.png" ];
+    [templates setObject: [[Drink alloc] initWithDrink:ICE AndSize:EIGHT AndStrong:YES] forKey:@"icedStrong8.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:ICE AndSize:TEN AndStrong:YES] forKey:@"icedStrong10.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:CAFE AndSize:FOUR AndStrong:NO] forKey:@"froth4.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:ICE AndSize:TEN AndStrong:NO] forKey:@"icedNot10.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:ICE AndSize:EIGHT AndStrong:NO] forKey:@"icedNot8.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:ICE AndSize:SIX AndStrong:NO] forKey:@"icedNot6.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIX AndStrong:NO] forKey:@"tea6.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TEN AndStrong:NO] forKey:@"cocoa10.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:NO] forKey:@"cocoa8.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIX AndStrong:NO] forKey:@"cocoa6.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TWELVE AndStrong:NO] forKey: @"tea12.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TEN AndStrong:NO] forKey:@"tea10.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:NO] forKey:@"tea8.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHTEEN AndStrong:YES] forKey:@"coffeeStrong18.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:FOUR AndStrong:YES] forKey:@"coffeeStrong4.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIX AndStrong:YES] forKey:@"coffeeStrong6.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:YES] forKey:@"coffeeStrong8.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TEN AndStrong:YES] forKey:@"coffeeStrong10.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TWELVE AndStrong:YES] forKey:@"coffeeStrong12.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:FOURTEEN AndStrong:YES] forKey:@"coffeeStrong14.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIXTEEN AndStrong:YES] forKey:@"coffeeStrong16.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:FOUR AndStrong:NO] forKey:@"coffeeNot4.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHTEEN AndStrong:NO] forKey:@"coffeeNot18.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIXTEEN AndStrong:NO] forKey:@"coffeeNot16.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:FOURTEEN AndStrong:NO] forKey:@"coffeeNot14.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TWELVE AndStrong:NO] forKey:@"coffeeNot12.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TEN AndStrong:NO] forKey:@"coffeeNot10.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:NO] forKey:@"coffeeNot8.png"];
+    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIX AndStrong:NO] forKey:@"coffeeNot6.png"];
 	
 	double best_val = DBL_MAX;
     Drink *current_drink;
@@ -295,7 +295,6 @@
     IplImage *imgResult;
     NSArray *drinkKeys = [templates allKeys];
 	for (NSUInteger i = 0; i < [templates count] - 1; i++) {
-        NSLog(@"%d", i);
 		template_image = [[UIImage imageNamed:[drinkKeys objectAtIndex:i]] createIplImageWithNumberOfChannels:1];
 		CvSize templateSize = cvGetSize(template_image);
 		
