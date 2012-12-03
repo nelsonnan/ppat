@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		195CD8AF166D6D9800F8C6E9 /* ccTeaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 195CD8AE166D6D9800F8C6E9 /* ccTeaViewController.m */; };
 		210BB4AA12DA187D0017E026 /* CannyEdgeBinarizationQcPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 210BB49D12DA187D0017E026 /* CannyEdgeBinarizationQcPlugin.mm */; };
 		210BB4AB12DA187D0017E026 /* CvCannyQcPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 210BB49F12DA187D0017E026 /* CvCannyQcPlugin.mm */; };
 		210BB4AC12DA187D0017E026 /* CvChannelSplitterQcPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 210BB4A112DA187D0017E026 /* CvChannelSplitterQcPlugin.mm */; };
@@ -615,6 +616,8 @@
 
 /* Begin PBXFileReference section */
 		195CD8AC166D6AA400F8C6E9 /* DrinkType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrinkType.h; sourceTree = "<group>"; };
+		195CD8AD166D6D9800F8C6E9 /* ccTeaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccTeaViewController.h; sourceTree = "<group>"; };
+		195CD8AE166D6D9800F8C6E9 /* ccTeaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccTeaViewController.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		210BB46912DA16500017E026 /* Edgy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edgy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1162,6 +1165,8 @@
 				2C8601FF16640008006B528C /* ccCoffeePageViewController.h */,
 				2C86020016640008006B528C /* ccCoffeePageViewController.m */,
 				210BB4DC12DA1B640017E026 /* EGCaptureController.h */,
+				195CD8AD166D6D9800F8C6E9 /* ccTeaViewController.h */,
+				195CD8AE166D6D9800F8C6E9 /* ccTeaViewController.m */,
 				210BB4DD12DA1B640017E026 /* EGCaptureController.mm */,
 				210BB65712DA1C800017E026 /* EGEdgyView.h */,
 				210BB65812DA1C800017E026 /* EGEdgyView.m */,
@@ -2556,6 +2561,7 @@
 				2CF706D11667110D00FC89E7 /* Drink.m in Sources */,
 				2CF772A9166925E7001C978D /* ccInstructionPageViewController.m in Sources */,
 				2C9152641669420900ED7530 /* ccCellView.m in Sources */,
+				195CD8AF166D6D9800F8C6E9 /* ccTeaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

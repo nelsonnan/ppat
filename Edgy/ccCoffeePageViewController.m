@@ -47,6 +47,8 @@
 
 - (void) dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
+    [icedSelector release];
+    [sizePicker release];
     [super dealloc];
 }
 
