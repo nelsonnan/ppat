@@ -33,11 +33,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6AP-kp-nLD"/>
-                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0Fh-iu-mEv">
-                                <connections>
-                                    <action selector="changeIced:" destination="em4-JT-nVu" eventType="valueChanged" id="vEa-C9-jmE"/>
-                                </connections>
-                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0Fh-iu-mEv"/>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nx2-38-N5h">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="216" id="IgG-qi-eJY"/>
@@ -299,5 +295,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="FtF-zi-EuU"/>
+        <segue reference="Gam-ve-Y8M"/>
     </inferredMetricsTieBreakers>
 </document>
