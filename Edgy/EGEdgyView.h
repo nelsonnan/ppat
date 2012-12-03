@@ -13,11 +13,9 @@
 
 @interface EGEdgyView : UIView {
     UIImageView *imageView;
-    UIButton *captureButton;
 }
 
 @property(nonatomic, readonly) UIImageView *imageView;
-@property(nonatomic, readonly) UIButton *captureButton;
 
 - (void)setButtonImageTransform:(CGAffineTransform)transform animated:(BOOL)animated;
 

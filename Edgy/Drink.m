@@ -55,7 +55,7 @@
     if(drinkSize != current.drinkSize) {
         NSMutableString *which = [NSMutableString stringWithString:@""];
         
-        if (drinkSize <0){
+        if (current.drinkSize > drinkSize){
             // go left
             [which appendString:@"A5 "];
         } else {
@@ -63,12 +63,12 @@
             [which appendString:@"C5 "];
         }
         
-        for (int i = 0; i < drinkSize; i++) {
+        for (int i = 0; i < fabs(current.drinkSize - drinkSize); i++) {
             [inst appendString:which];
         }
     }
-
-    return inst;
+    // Trim the last white space and return
+    return [inst stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
 }
 
 @end

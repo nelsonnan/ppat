@@ -29,4 +29,6 @@
     BOOL pauseForCapture;
 }
 
+@property (assign, nonatomic) NSTimer *timer;
+
 @end

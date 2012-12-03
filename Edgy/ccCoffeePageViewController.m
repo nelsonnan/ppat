@@ -7,7 +7,7 @@
 //
 
 #import "ccCoffeePageViewController.h"
-#import "EGCaptureController.h"
+#import "ccInstructionPageViewController.h"
 #import "Drink.h"
 
 @interface ccCoffeePageViewController ()
@@ -26,7 +26,6 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
     }
     return self;
 }
@@ -42,8 +41,13 @@
     [size addObject:@"10 oz"];
     [size addObject:@"12 oz"];
     [size addObject:@"14 oz"];
-    
-    // TODO: add more eventually..
+    [size addObject:@"16 oz"];
+    [size addObject:@"18 oz"];
+}
+
+- (void) dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    [super dealloc];
 }
 
 - (void)didReceiveMemoryWarning
@@ -54,57 +58,55 @@
 
 // make button select
 - (IBAction)changeStrength:(id)sender {
-    
-    EGCaptureController *captureController = [[EGCaptureController alloc] initWithNibName:nil bundle:nil];
-    UIView *view = [captureController view];
-    [[[UIApplication sharedApplication] keyWindow] addSubview:view];
-    [view setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight];
-    
-        // Construct the expected starting state drink
-    Type starting_type = COFFEE_AND_TEA;
-    DrinkSize starting_drink_size = EIGHT;
-    BOOL starting_strength = NO;
-    Drink *starting_drink = [[Drink alloc] initWithDrink:starting_type AndSize:starting_drink_size AndStrong:starting_strength];
-    
-    NSMutableString *title = [NSMutableString stringWithString:@"Coffee Instructions"];
-    
-    Type t = COFFEE_AND_TEA;
-    if ([icedSelector isOn]) {
-        t = ICE;
+
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"showInstructions"]) {
+        ccInstructionPageViewController *destViewController = segue.destinationViewController;
+        
+        Type t = COFFEE_AND_TEA;
+        if ([icedSelector isOn]) {
+            t = ICE;
+        }
+        
+        DrinkSize d = FOUR;
+        // TODO: Should probably build the size picker and do this check using one object to ensure these stay in sync
+        switch ([sizePicker selectedRowInComponent:0]){
+            case 0:
+                d = FOUR;
+                break;
+            case 1:
+                d = SIX;
+                break;
+            case 2:
+                d = EIGHT;
+                break;
+            case 3:
+                d = TEN;
+                break;
+            case 4:
+                d = TWELVE;
+                break;
+            case 5:
+                d = FOURTEEN;
+                break;
+            case 6:
+                d = SIXTEEN;
+                break;
+            case 7:
+                d = EIGHTEEN;
+                break;
+        }
+        
+        BOOL strong = NO;
+        if ([strongSelector isOn]){
+            strong = YES;
+        }
+        
+        Drink *drink = [[Drink alloc] initWithDrink:t AndSize:d AndStrong:strong];
+        destViewController.targetDrink = drink;
     }
-    
-    DrinkSize d = FOUR;
-    // TODO: Should probably build the size picker and do this check using one object to ensure these stay in sync
-    switch ([sizePicker selectedRowInComponent:0]){
-        case 0:
-            d = FOUR;
-            break;
-        case 1:
-            d = SIX;
-            break;
-        case 2:
-            d = EIGHT;
-            break;
-        case 3:
-            d = TEN;
-            break;
-        case 4:
-            d = TWELVE;
-            break;
-        case 5:
-            d = FOURTEEN;
-            break;
-    }
-    
-    BOOL strong = NO;
-    if ([strongSelector isOn]){
-        strong = YES;
-    }
-    
-    Drink *drink = [[Drink alloc] initWithDrink:t AndSize:d AndStrong:strong];
-    
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[NSString stringWithString:title] message:[drink instructions:starting_drink] delegate:self cancelButtonTitle:@"Done!" otherButtonTitles: nil];
-    [alert show];
 }
 
 

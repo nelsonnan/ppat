@@ -12,6 +12,7 @@
 #import "SHK.h"
 #import "opencv2/opencv.hpp"
 #import "EGEdgyView.h"
+#import "Drink.h"
 #import "UIImage-OpenCVExtensions.h"
 #import "Binarization.hpp"        // for static inlines
 #import "ImageOrientationAccelerometer.h"
@@ -19,11 +20,8 @@
 
 @interface EGCaptureController ()
 
-- (void)setDefaultSettings;
-
 - (void)startRunning;
 - (void)stopRunning;
-- (void)stopRunningAndResetSettings;
 - (void)updateConfiguration;
 - (void)orientationDidChange;
 
@@ -40,8 +38,9 @@
 
 @end
 
-
 @implementation EGCaptureController
+
+@synthesize timer;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -63,20 +62,10 @@
         [session addOutput:captureVideoDataOuput];
 #endif
         [self setWantsFullScreenLayout:YES];
-        [self setDefaultSettings];
+        [self performSelector:@selector(captureImage:) withObject:self afterDelay:3.0 ];
+        
     }
     return self;
-}
-
-- (void)dealloc
-{
-    
-    [super dealloc];
-}
-
-- (void)setDefaultSettings
-{
-
 }
 
 - (void)loadView
@@ -85,12 +74,6 @@
     EGEdgyView *view = [[EGEdgyView alloc] initWithFrame:CGRectZero];
     [self setView:view];
     [view release];
-    
-    [[view captureButton] addTarget:self action:@selector(captureImage:) forControlEvents:UIControlEventTouchUpInside];
-    
-#if FREE_VERSION
-    [[view bannerView] setDelegate:self];
-#endif
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -101,7 +84,7 @@
     [defaultCenter addObserver:self selector:@selector(orientationDidChange) name:DeviceOrientationDidChangeNotification object:nil];
     
     // Listen for app relaunch
-    [defaultCenter addObserver:self selector:@selector(stopRunningAndResetSettings) name:UIApplicationDidEnterBackgroundNotification object:nil];
+    [defaultCenter addObserver:self selector:@selector(stopRunning) name:UIApplicationDidEnterBackgroundNotification object:nil];
     [defaultCenter addObserver:self selector:@selector(startRunning) name:UIApplicationDidBecomeActiveNotification object:nil];
     
     // Listen for device updates
@@ -139,12 +122,6 @@
 #if TARGET_OS_EMBEDDED
     [session stopRunning];
 #endif
-}
-
-- (void)stopRunningAndResetSettings
-{
-    [self setDefaultSettings];
-    [self stopRunning];
 }
 
 - (void)updateConfiguration
@@ -243,6 +220,11 @@
     }
 }
 
+- (void)dealloc
+{
+    [super dealloc];
+}
+
 - (void)torchToggled:(id)sender
 {
     torchOn = !torchOn;
@@ -273,38 +255,73 @@
 	CvSize pixelsSize = cvGetSize(pixels);
 	
 	// Create an image object from the Quartz image
-	
-	NSArray *templates = [NSArray arrayWithObjects: @"00.png", @"01.png", @"02.png", @"03.png", @"04.png", @"05.png", @"06.png", @"07.png", @"08.png", @"09.png", @"10.png", @"11.png", @"11.png", @"12.png", @"13.png", @"14.png", @"15.png", @"16.png", @"17.png", @"18.png", @"19.png", nil];
+	NSDictionary *templates = [[NSDictionary alloc] initWithObjectsAndKeys:
+    @"icedStrong6.png", [[Drink alloc] initWithDrink:ICE AndSize:SIX AndStrong:YES],
+    @"icedStrong8.png", [[Drink alloc] initWithDrink:ICE AndSize:EIGHT AndStrong:YES],
+    @"icedStrong10.png", [[Drink alloc] initWithDrink:ICE AndSize:TEN AndStrong:YES],
+    @"froth4.png", [[Drink alloc] initWithDrink:CAFE AndSize:FOUR AndStrong:NO],
+    @"icedNot10.png", [[Drink alloc] initWithDrink:ICE AndSize:TEN AndStrong:NO],
+    @"icedNot8.png", [[Drink alloc] initWithDrink:ICE AndSize:EIGHT AndStrong:NO],
+    @"icedNot6.png", [[Drink alloc] initWithDrink:ICE AndSize:SIX AndStrong:NO],
+    @"tea6.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIX AndStrong:NO],
+    @"cocoa10.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TEN AndStrong:NO],
+    @"cocoa8.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:NO],
+    @"cocoa6.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIX AndStrong:NO],
+    @"tea12.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TWELVE AndStrong:NO],
+    @"tea10.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TEN AndStrong:NO],
+    @"tea8.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:NO],
+    @"coffeeStrong18.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHTEEN AndStrong:YES],
+    @"coffeeStrong4.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:FOUR AndStrong:YES],
+    @"coffeeStrong6.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIX AndStrong:YES],
+    @"coffeeStrong8.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:YES],
+    @"coffeeStrong10.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TEN AndStrong:YES],
+    @"coffeeStrong12.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TWELVE AndStrong:YES],
+    @"coffeeStrong14.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:FOURTEEN AndStrong:YES],
+    @"coffeeStrong16.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIXTEEN AndStrong:YES],
+    @"coffeeNot4.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:FOUR AndStrong:NO],
+    @"coffeeNot18.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHTEEN AndStrong:NO],
+    @"coffeeNot16.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIXTEEN AndStrong:NO],
+    @"coffeeNot14.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:FOURTEEN AndStrong:NO],
+    @"coffeeNot12.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TWELVE AndStrong:NO],
+    @"coffeeNot10.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TEN AndStrong:NO],
+    @"coffeeNot8.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:NO],
+    @"coffeeNot6.png", [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIX AndStrong:NO],nil ];
 	
 	double best_val = DBL_MAX;
+    Drink *current_drink;
 	NSLog(@"width of picture taken: %d", pixelsSize.width);
 	NSLog(@"height of picture taken: %d", pixelsSize.height);
-	UIImage *best_image = [UIImage alloc];
-	for (NSUInteger i = 0; i < [templates count]; i++) {
-		NSString *filename = [templates objectAtIndex:i];
-		UIImage *ui_template_image = [UIImage imageNamed:filename];
-		IplImage *template_image = [ui_template_image createIplImageWithNumberOfChannels:1];
+    IplImage *template_image;
+    IplImage *imgResult;
+    NSArray *drinkKeys = [templates allKeys];
+	for (NSUInteger i = 0; i < [templates count] - 1; i++) {
+		template_image = [[UIImage imageNamed:[drinkKeys objectAtIndex:i]] createIplImageWithNumberOfChannels:1];
 		CvSize templateSize = cvGetSize(template_image);
 		
 		CvSize resultSize = cvSize(abs(pixelsSize.width - templateSize.width) + 1, abs(pixelsSize.height - templateSize.height) + 1);
-		IplImage *imgResult = cvCreateImage(resultSize, IPL_DEPTH_32F, 1);
+		imgResult = cvCreateImage(resultSize, IPL_DEPTH_32F, 1);
 
 		cvMatchTemplate(pixels, template_image, imgResult, CV_TM_CCORR_NORMED);
 		double min_val;
 		double max_val;
 		cvMinMaxLoc(imgResult, &min_val, &max_val);
 		if (min_val <= best_val) {
-			NSLog(@"better: %@", filename);
+			NSLog(@"better: %@", [drinkKeys objectAtIndex:i]);
+            current_drink = [templates objectForKey:[drinkKeys objectAtIndex:i]];
 			best_val = min_val;
-			best_image = ui_template_image;
 		}
 	}
-	
-    image = best_image; //[[UIImage alloc] initWithIplImage:pixels];
-    cvReleaseImage(&pixels);
-	
-    [image release];
     
+    
+    // Send the current drink to the other view
+    NSDictionary *dict = [NSDictionary dictionaryWithObject: current_drink forKey:@"current_drink"];
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"NewCurrentDrink" object:self userInfo:dict];
+    NSLog(@"Notifcation Sent");
+
+    cvReleaseImage(&pixels);
+    // Uncomment the line below to save the photo to phone's album. Using these images, transfer them over to the templates_png folder to use as template matchers.
+    // NOTE: At time of this writing images were being saved as jpg's. Used command line tool "convert" from Imagick to make PNGs.
+    // UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
     [view removeFromSuperview];
 }
 
@@ -347,16 +364,15 @@
 			CVPixelBufferUnlockBaseAddress(imageBuffer,0);
 			
 			// Free up the context and color space
-			//CGContextRelease(context);
-			//CGColorSpaceRelease(colorSpace);
+			CGContextRelease(context);
+			CGColorSpaceRelease(colorSpace);
             UIImageView *imageView = [(EGEdgyView *)[self view] imageView];
 			// Create an image object from the Quartz image
 			UIImage *uiImage = [UIImage imageWithCGImage:quartzImage];
 			// Release the Quartz image
-			//CGImageRelease(quartzImage);
+			CGImageRelease(quartzImage);
             
             [imageView setImage:uiImage];
-            //[uiImage release];
         }
     });
     

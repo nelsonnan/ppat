@@ -54,6 +54,7 @@
                                 </state>
                                 <connections>
                                     <action selector="changeStrength:" destination="em4-JT-nVu" eventType="touchUpInside" id="ZkJ-jH-IXG"/>
+                                    <segue destination="MY6-jO-qUJ" kind="push" identifier="showInstructions" id="Gam-ve-Y8M"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Strong?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ub-TO-eHh">
@@ -69,7 +70,6 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="M8v-ZN-Klc" firstAttribute="leading" secondItem="eom-MG-7gx" secondAttribute="leading" constant="63" id="0qj-mH-LAt"/>
                             <constraint firstItem="Nx2-38-N5h" firstAttribute="leading" secondItem="eom-MG-7gx" secondAttribute="leading" type="default" id="2fQ-AQ-Iq2"/>
                             <constraint firstItem="0Fh-iu-mEv" firstAttribute="leading" secondItem="6AP-kp-nLD" secondAttribute="leading" type="default" id="Mne-cr-8Wc"/>
                             <constraint firstItem="M8v-ZN-Klc" firstAttribute="top" secondItem="eom-MG-7gx" secondAttribute="top" constant="119" id="QvP-uj-dGB"/>
@@ -79,6 +79,7 @@
                             <constraint firstItem="6AP-kp-nLD" firstAttribute="bottom" secondItem="2ub-TO-eHh" secondAttribute="bottom" type="default" id="gL3-so-j3f"/>
                             <constraint firstItem="Nx2-38-N5h" firstAttribute="trailing" secondItem="eom-MG-7gx" secondAttribute="trailing" type="default" id="gOi-0j-vfF"/>
                             <constraint firstItem="6AP-kp-nLD" firstAttribute="top" secondItem="eom-MG-7gx" secondAttribute="top" constant="30" id="jGS-vF-EFZ"/>
+                            <constraint firstItem="M8v-ZN-Klc" firstAttribute="centerX" secondItem="Nx2-38-N5h" secondAttribute="centerX" type="default" id="paO-CU-NPN"/>
                             <constraint firstItem="0Fh-iu-mEv" firstAttribute="centerY" secondItem="fQj-v2-fmf" secondAttribute="centerY" type="default" id="pny-JK-Cgh"/>
                             <constraint firstItem="fQj-v2-fmf" firstAttribute="leading" secondItem="2ub-TO-eHh" secondAttribute="leading" type="default" id="rk5-Nd-Vlj"/>
                             <constraint firstAttribute="trailing" secondItem="6AP-kp-nLD" secondAttribute="trailing" constant="36" id="vXf-Mw-3RN"/>
@@ -94,7 +95,53 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ok1-vM-bvp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1661" y="-765"/>
+            <point key="canvasLocation" x="1765" y="-804"/>
+        </scene>
+        <!--Cc Instruction Page View Controller - Instructions-->
+        <scene sceneID="uXo-3M-Xbf">
+            <objects>
+                <viewController id="MY6-jO-qUJ" customClass="ccInstructionPageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="72t-ct-ZdQ">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foS-IE-1Z7">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Confirm Selection">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="confirm:" destination="MY6-jO-qUJ" eventType="touchUpInside" id="mKi-1B-eKe"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="46W-cT-Inu">
+                                <connections>
+                                    <outlet property="delegate" destination="72t-ct-ZdQ" id="gzK-AF-lV4"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="46W-cT-Inu" firstAttribute="trailing" secondItem="72t-ct-ZdQ" secondAttribute="trailing" type="default" id="M19-uZ-5DY"/>
+                            <constraint firstItem="46W-cT-Inu" firstAttribute="top" secondItem="72t-ct-ZdQ" secondAttribute="top" constant="39" id="P9q-bJ-Ee7"/>
+                            <constraint firstAttribute="bottom" secondItem="46W-cT-Inu" secondAttribute="bottom" constant="278" id="Pcm-2t-HkA"/>
+                            <constraint firstAttribute="bottom" secondItem="foS-IE-1Z7" secondAttribute="bottom" constant="93" id="gje-xd-jfS"/>
+                            <constraint firstItem="foS-IE-1Z7" firstAttribute="centerX" secondItem="46W-cT-Inu" secondAttribute="centerX" type="default" id="hCM-rN-yg0"/>
+                            <constraint firstItem="46W-cT-Inu" firstAttribute="leading" secondItem="72t-ct-ZdQ" secondAttribute="leading" type="default" id="zAu-7z-VOH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Instructions" id="aZ8-hf-ScD"/>
+                    <connections>
+                        <outlet property="scrollView" destination="46W-cT-Inu" id="exo-Q5-WtI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ihW-10-YTn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2231" y="-757"/>
         </scene>
         <!--Navigation Controller - Coffee-->
         <scene sceneID="iBd-pR-N38">
@@ -128,6 +175,14 @@
                 <relationship kind="outlet" name="icedSelector" candidateClass="UISwitch"/>
                 <relationship kind="outlet" name="sizePicker" candidateClass="UIPickerView"/>
                 <relationship kind="outlet" name="strongSelector" candidateClass="UISwitch"/>
+            </relationships>
+        </class>
+        <class className="ccInstructionPageViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ccInstructionPageViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="confirm:"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
             </relationships>
         </class>
     </classes>

@@ -19,7 +19,7 @@ static const CGFloat buttonAlpha = 0.8;
 
 @implementation EGEdgyView
 
-@synthesize imageView, captureButton;
+@synthesize imageView;
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -31,11 +31,6 @@ static const CGFloat buttonAlpha = 0.8;
         [[imageView layer] setMagnificationFilter:@"nearest"];
         [self addSubview:imageView];
         
-        captureButton = [[UIButton buttonWithType:UIButtonTypeRoundedRect] retain];
-        [captureButton setImage:[UIImage imageNamed:@"camera_dslr_small.png"] forState:UIControlStateNormal];
-        [captureButton sizeToFit];
-        [self addSubview:captureButton];
-        
         [self setControlAlpha:1.0];
         
     }
@@ -45,7 +40,6 @@ static const CGFloat buttonAlpha = 0.8;
 - (void)dealloc
 {
     [imageView release];
-    [captureButton release];
     [super dealloc];
 }
 
@@ -55,23 +49,11 @@ static const CGFloat buttonAlpha = 0.8;
     
     [imageView setFrame:bounds];
     
-    
-    CGRect buttonFrame;
-    buttonFrame.size = CGSizeMake(40.0, 40.0);
-    
-    buttonFrame.origin = CGPointMake(8.0, 8.0);
-    
-    
-    buttonFrame.origin = CGPointMake(8.0, bounds.size.height - buttonFrame.size.height - 8.0);
-    [captureButton setFrame:buttonFrame];
-    
-    buttonFrame.origin = CGPointMake(bounds.size.width - buttonFrame.size.width - 8.0, 8.0);
-    
 }
 
 - (void)setControlAlpha:(CGFloat)alpha
 {
-    [captureButton setAlpha:alpha];
+    
 }
 
 - (void)setButtonImageTransform:(CGAffineTransform)transform animated:(BOOL)animated
@@ -79,7 +61,6 @@ static const CGFloat buttonAlpha = 0.8;
     if (animated) {
         [UIView beginAnimations:nil context:NULL];
     }
-    [captureButton setTransform:transform];
     
     if (animated) {
         [UIView commitAnimations];
