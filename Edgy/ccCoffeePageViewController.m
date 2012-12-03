@@ -104,7 +104,7 @@
             strong = YES;
         }
         
-        Drink *drink = [[Drink alloc] initWithDrink:t AndSize:d AndStrong:strong];
+        Drink *drink = [[Drink alloc] initWithDrink:t AndSize:d AndStrong:strong AndDrinkType:COFFEE];
         destViewController.targetDrink = drink;
     }
 }
