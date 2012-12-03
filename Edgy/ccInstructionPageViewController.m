@@ -41,7 +41,8 @@ static Drink *currentDrink;
         NSLog (@"Successfully received the test notification!");
         NSLog(@"Drink: %@", [[notification userInfo] objectForKey:@"current_drink"]);
         currentDrink = [[notification userInfo] objectForKey:@"current_drink"];
-        [self populateInstructions];
+        //[self populateInstructions];
+        [self populateInstructionsFromArray];
     }
 }
 
@@ -69,6 +70,39 @@ static Drink *currentDrink;
     [self clearInstructions];
     NSString *instructionsString = [targetDrink instructions:currentDrink];
     self.dataArray = [instructionsString componentsSeparatedByString:@" "];
+    NSLog(@"instructions: %@", self.dataArray);
+    NSLog(@"%@", scrollView);
+    NSEnumerator *dataEnumerate = [dataArray objectEnumerator];
+    NSString *data;
+    int x=0;
+    BOOL addedInstructions = NO;
+    while ((data = [dataEnumerate nextObject])) {
+        if (data.length > 0) {
+            NSLog(@"%@", data);
+            UILabel *scoreLabel = [ [UILabel alloc ] initWithFrame:CGRectMake(x,0,40,40) ];
+            scoreLabel.textAlignment =  NSTextAlignmentCenter;
+            scoreLabel.backgroundColor = [UIColor blackColor];
+            scoreLabel.textColor = [UIColor whiteColor];
+            [scrollView addSubview:scoreLabel];
+            scoreLabel.text = [NSString stringWithFormat: @"%@", data];
+            x+= 40;
+            addedInstructions = YES;
+        }
+    }
+    if (!addedInstructions) {
+        UILabel *scoreLabel = [ [UILabel alloc ] initWithFrame:CGRectMake(x,0,150,40) ];
+        scoreLabel.textAlignment =  NSTextAlignmentCenter;
+        scoreLabel.backgroundColor = [UIColor blackColor];
+        scoreLabel.textColor = [UIColor whiteColor];
+        [scrollView addSubview:scoreLabel];
+        scoreLabel.text = @"No instructions";
+    }
+    
+}
+
+- (void) populateInstructionsFromArray {
+    [self clearInstructions];
+    self.dataArray = [targetDrink semanticInstructions:currentDrink];
     NSLog(@"instructions: %@", self.dataArray);
     NSLog(@"%@", scrollView);
     NSEnumerator *dataEnumerate = [dataArray objectEnumerator];
