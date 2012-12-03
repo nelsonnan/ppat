@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
@@ -9,6 +9,7 @@
             <objects>
                 <tabBarController id="4" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="5">
                         <rect key="frame" x="0.0" y="431" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -27,7 +28,7 @@
             <objects>
                 <viewController title="CoffeePageViewController" id="em4-JT-nVu" customClass="ccCoffeePageViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eom-MG-7gx">
-                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <rect key="frame" x="0.0" y="64" width="480" height="207"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6AP-kp-nLD"/>
@@ -35,6 +36,7 @@
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nx2-38-N5h">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="216" id="IgG-qi-eJY"/>
+                                    <constraint firstAttribute="width" constant="187" id="JUC-iO-HY3"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="delegate" destination="em4-JT-nVu" id="OhQ-ta-XWj"/>
@@ -42,7 +44,7 @@
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M8v-ZN-Klc">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="203" id="prT-rk-xET"/>
+                                    <constraint firstAttribute="width" constant="203" id="ceZ-o8-FTS"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Make!">
@@ -63,6 +65,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Iced?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQj-v2-fmf">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="4AD-UN-qiP"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -70,21 +75,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Nx2-38-N5h" firstAttribute="leading" secondItem="eom-MG-7gx" secondAttribute="leading" type="default" id="2fQ-AQ-Iq2"/>
-                            <constraint firstItem="0Fh-iu-mEv" firstAttribute="leading" secondItem="6AP-kp-nLD" secondAttribute="leading" type="default" id="Mne-cr-8Wc"/>
-                            <constraint firstItem="M8v-ZN-Klc" firstAttribute="top" secondItem="eom-MG-7gx" secondAttribute="top" constant="119" id="QvP-uj-dGB"/>
-                            <constraint firstItem="fQj-v2-fmf" firstAttribute="trailing" secondItem="2ub-TO-eHh" secondAttribute="trailing" type="default" id="Viv-I6-Vjg"/>
-                            <constraint firstItem="Nx2-38-N5h" firstAttribute="bottom" secondItem="eom-MG-7gx" secondAttribute="bottom" type="default" id="e1i-pl-a3e"/>
-                            <constraint firstItem="0Fh-iu-mEv" firstAttribute="top" secondItem="eom-MG-7gx" secondAttribute="top" constant="72" id="fcd-54-b8k"/>
-                            <constraint firstItem="6AP-kp-nLD" firstAttribute="bottom" secondItem="2ub-TO-eHh" secondAttribute="bottom" type="default" id="gL3-so-j3f"/>
-                            <constraint firstItem="Nx2-38-N5h" firstAttribute="trailing" secondItem="eom-MG-7gx" secondAttribute="trailing" type="default" id="gOi-0j-vfF"/>
-                            <constraint firstItem="6AP-kp-nLD" firstAttribute="top" secondItem="eom-MG-7gx" secondAttribute="top" constant="30" id="jGS-vF-EFZ"/>
-                            <constraint firstItem="M8v-ZN-Klc" firstAttribute="centerX" secondItem="Nx2-38-N5h" secondAttribute="centerX" type="default" id="paO-CU-NPN"/>
-                            <constraint firstItem="0Fh-iu-mEv" firstAttribute="centerY" secondItem="fQj-v2-fmf" secondAttribute="centerY" type="default" id="pny-JK-Cgh"/>
-                            <constraint firstItem="fQj-v2-fmf" firstAttribute="leading" secondItem="2ub-TO-eHh" secondAttribute="leading" type="default" id="rk5-Nd-Vlj"/>
-                            <constraint firstAttribute="trailing" secondItem="6AP-kp-nLD" secondAttribute="trailing" constant="36" id="vXf-Mw-3RN"/>
-                            <constraint firstItem="fQj-v2-fmf" firstAttribute="leading" secondItem="eom-MG-7gx" secondAttribute="leading" constant="124" id="vyr-GQ-Fr6"/>
+                            <constraint firstItem="Nx2-38-N5h" firstAttribute="trailing" secondItem="eom-MG-7gx" secondAttribute="trailing" type="default" id="FKF-gD-BIJ"/>
+                            <constraint firstItem="2ub-TO-eHh" firstAttribute="leading" secondItem="eom-MG-7gx" secondAttribute="leading" constant="48" id="Jiy-8Z-Yyc"/>
+                            <constraint firstItem="Nx2-38-N5h" firstAttribute="top" secondItem="eom-MG-7gx" secondAttribute="top" constant="-4" id="Qc9-OB-wbh"/>
+                            <constraint firstItem="2ub-TO-eHh" firstAttribute="top" secondItem="eom-MG-7gx" secondAttribute="top" constant="14" id="SnF-2d-JEe"/>
+                            <constraint firstItem="M8v-ZN-Klc" firstAttribute="leading" secondItem="eom-MG-7gx" secondAttribute="leading" constant="69" id="Xy9-ie-e7k"/>
+                            <constraint firstItem="fQj-v2-fmf" firstAttribute="top" secondItem="eom-MG-7gx" secondAttribute="top" constant="64" id="efx-1b-VCq"/>
+                            <constraint firstItem="6AP-kp-nLD" firstAttribute="leading" secondItem="eom-MG-7gx" secondAttribute="leading" constant="139" id="hao-8r-fIk"/>
+                            <constraint firstItem="0Fh-iu-mEv" firstAttribute="leading" secondItem="6AP-kp-nLD" secondAttribute="leading" type="default" id="lPZ-pc-mh6"/>
+                            <constraint firstItem="6AP-kp-nLD" firstAttribute="top" secondItem="2ub-TO-eHh" secondAttribute="top" type="default" id="oYx-4r-oWw"/>
+                            <constraint firstItem="fQj-v2-fmf" firstAttribute="leading" secondItem="eom-MG-7gx" secondAttribute="leading" constant="42" id="wZ5-6Q-KXR"/>
+                            <constraint firstAttribute="bottom" secondItem="M8v-ZN-Klc" secondAttribute="bottom" constant="41" id="wax-YZ-7mP"/>
+                            <constraint firstItem="0Fh-iu-mEv" firstAttribute="top" secondItem="fQj-v2-fmf" secondAttribute="top" type="default" id="zPL-HA-g8U"/>
                         </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" title="Coffee" id="9kl-QK-pPZ"/>
                     <connections>
@@ -102,7 +106,7 @@
             <objects>
                 <viewController id="MY6-jO-qUJ" customClass="ccInstructionPageViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="72t-ct-ZdQ">
-                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <rect key="frame" x="0.0" y="64" width="480" height="207"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foS-IE-1Z7">
@@ -127,12 +131,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="46W-cT-Inu" firstAttribute="trailing" secondItem="72t-ct-ZdQ" secondAttribute="trailing" type="default" id="M19-uZ-5DY"/>
-                            <constraint firstItem="46W-cT-Inu" firstAttribute="top" secondItem="72t-ct-ZdQ" secondAttribute="top" constant="39" id="P9q-bJ-Ee7"/>
-                            <constraint firstAttribute="bottom" secondItem="46W-cT-Inu" secondAttribute="bottom" constant="278" id="Pcm-2t-HkA"/>
-                            <constraint firstAttribute="bottom" secondItem="foS-IE-1Z7" secondAttribute="bottom" constant="93" id="gje-xd-jfS"/>
-                            <constraint firstItem="foS-IE-1Z7" firstAttribute="centerX" secondItem="46W-cT-Inu" secondAttribute="centerX" type="default" id="hCM-rN-yg0"/>
+                            <constraint firstItem="foS-IE-1Z7" firstAttribute="centerX" secondItem="46W-cT-Inu" secondAttribute="centerX" type="default" id="RSf-r1-kGQ"/>
+                            <constraint firstAttribute="bottom" secondItem="foS-IE-1Z7" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="Sv3-kn-XVk"/>
+                            <constraint firstAttribute="bottom" secondItem="46W-cT-Inu" secondAttribute="bottom" constant="60" id="hiN-d6-GVJ"/>
+                            <constraint firstItem="46W-cT-Inu" firstAttribute="top" secondItem="72t-ct-ZdQ" secondAttribute="top" constant="-6" id="mzk-WZ-gbm"/>
                             <constraint firstItem="46W-cT-Inu" firstAttribute="leading" secondItem="72t-ct-ZdQ" secondAttribute="leading" type="default" id="zAu-7z-VOH"/>
                         </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" title="Instructions" id="aZ8-hf-ScD"/>
                     <connections>
@@ -141,7 +146,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ihW-10-YTn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2231" y="-757"/>
+            <point key="canvasLocation" x="2340" y="-739"/>
         </scene>
         <!--Navigation Controller - Coffee-->
         <scene sceneID="iBd-pR-N38">
