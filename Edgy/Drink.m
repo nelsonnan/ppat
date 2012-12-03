@@ -114,7 +114,7 @@
 {
      NSMutableString *inst = [NSMutableString stringWithString:@""];
     if (strong) {
-        [inst appendString:"Strong"];
+        [inst appendString:@"Strong"];
     }
 
     return inst;
