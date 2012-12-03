@@ -614,6 +614,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		195CD8AC166D6AA400F8C6E9 /* DrinkType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrinkType.h; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		210BB46912DA16500017E026 /* Edgy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edgy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1168,6 +1169,7 @@
 				2CF706D01667110D00FC89E7 /* Drink.m */,
 				2CF706D31667112E00FC89E7 /* Drinksize.h */,
 				2CF706D41667114600FC89E7 /* Type.h */,
+				195CD8AC166D6AA400F8C6E9 /* DrinkType.h */,
 				2CF772A7166925E7001C978D /* ccInstructionPageViewController.h */,
 				2CF772A8166925E7001C978D /* ccInstructionPageViewController.m */,
 				2C9152621669420900ED7530 /* ccCellView.h */,

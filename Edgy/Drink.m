@@ -12,18 +12,21 @@
 @synthesize screenType;
 @synthesize drinkSize;
 @synthesize strong;
+@synthesize semanticName;
+@synthesize drinkType;
 
 /**
  Constructor
  @return new Drink
  **/
-- (id)initWithDrink:(Type)screen AndSize:(DrinkSize)size AndStrong:(BOOL)strength
+- (id)initWithDrink:(Type)screen AndSize:(DrinkSize)size AndStrong:(BOOL)strength AndDrinkType:(DrinkType)drink
 {
     self = [super init];
     if (self){
         screenType = screen;
         drinkSize = size;
         strong = strength;
+        drinkType = drink;
     };
     return self;
 }
@@ -183,6 +186,24 @@
         }
     }
     return inst;
+}
+
+/**
+ * @return semantic name of current drink
+ **/
+-(NSString*) semanticRepresentation{
+    if (semanticName != nil){
+        return semanticName;
+    }
+    NSMutableString *name = [NSMutableString stringWithString:@""];
+    switch (screenType) {
+        case COFFEE_AND_TEA:
+            break;
+        default:
+            break;
+    }
+    semanticName = name;
+    return name;
 }
 
 @end
