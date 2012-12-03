@@ -124,7 +124,4 @@
     return [size objectAtIndex:row];
 }
 
-/*- (void)pickerView:(UIPickerView *)sizePicker didSelectRow:(NSinteger)row inComponent:(NSInteger)component{
- NSLog(@"Selected choice: %@ at index %i", [size objectAtIndex:row], row);
- }*/
 @end

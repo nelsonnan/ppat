@@ -72,6 +72,66 @@
     // Trim the last white space and return
     return [inst stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
 }
+/**
+ * @ return NSString the colloquial representation of the size
+ */
+- (NSString*) colloquialSize
+{
+    NSMutableString *inst = [NSMutableString stringWithString:@""];
+    switch(drinkSize) {
+        case FOUR:
+            [inst appendString:@"4oz"];
+            break;
+        case SIX:
+            [inst appendString:@"6oz"];
+            break;
+        case EIGHT:
+            [inst appendString:@"8oz"];
+            break;
+        case TEN:
+            [inst appendString:@"10oz"];
+            break;
+        case TWELVE:
+            [inst appendString:@"12oz"];
+            break;
+        case FOURTEEN:
+            [inst appendString:@"14oz"];
+            break;
+        case SIXTEEN:
+            [inst appendString:@"16oz"];
+            break;
+        case EIGHTEEN:
+            [inst appendString:@"18oz"];
+            break;
+    }
+    return inst;
+}
+
+/**
+ * @ return NSString the colloquial representation of the type
+ */
+- (NSString*) colloquialType
+{
+     NSMutableString *inst = [NSMutableString stringWithString:@""];
+    if (strong) {
+        [inst appendString:"Strong"];
+    }
+
+    return inst;
+}
+
+
+/**
+ * @ return NSString the colloquial representation for the drink object to be displayed to the user
+ */
+- (NSString*) colloquialInstructions
+{
+    NSMutableString *inst = [NSMutableString stringWithString:@""];
+    [inst appendString:[self colloquialSize]];
+    [inst appendString:@" "];
+    [inst appendString:[self colloquialType]];
+    return inst;
+}
 
 /**
  * @return NSArray instruction set for input given difference drink, uses semantic representation

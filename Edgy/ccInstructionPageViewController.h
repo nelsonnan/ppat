@@ -15,6 +15,7 @@
 - (IBAction)confirm:(id)sender;
 - (void) receiveNotification:(NSNotification *) notification;
 - (void) populateInstructions;
+- (void) populateInstructionsFromArray;
 - (void) clearInstructions;
 @property (assign, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (assign, nonatomic) NSArray *dataArray;

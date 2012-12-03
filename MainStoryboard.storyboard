@@ -32,7 +32,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6AP-kp-nLD"/>
-                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0Fh-iu-mEv"/>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0Fh-iu-mEv">
+                                <connections>
+                                    <action selector="changeIced:" destination="em4-JT-nVu" eventType="valueChanged" id="vEa-C9-jmE"/>
+                                </connections>
+                            </switch>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nx2-38-N5h">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="216" id="IgG-qi-eJY"/>
@@ -175,6 +179,7 @@
         <class className="ccCoffeePageViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ccCoffeePageViewController.h"/>
             <relationships>
+                <relationship kind="action" name="changeIced:"/>
                 <relationship kind="action" name="changeStrength:"/>
                 <relationship kind="outlet" name="coffeeLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="icedSelector" candidateClass="UISwitch"/>
