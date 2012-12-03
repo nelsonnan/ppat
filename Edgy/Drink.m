@@ -12,7 +12,6 @@
 @synthesize screenType;
 @synthesize drinkSize;
 @synthesize strong;
-@synthesize semanticName;
 @synthesize drinkType;
 
 /**
@@ -217,24 +216,6 @@
         }
     }
     return inst;
-}
-
-/**
- * @return semantic name of current drink
- **/
--(NSString*) semanticRepresentation{
-    if (semanticName != nil){
-        return semanticName;
-    }
-    NSMutableString *name = [NSMutableString stringWithString:@""];
-    switch (screenType) {
-        case COFFEE_AND_TEA:
-            break;
-        default:
-            break;
-    }
-    semanticName = name;
-    return name;
 }
 
 @end

@@ -22,7 +22,6 @@
 - (id)initWithDrinkType:(Type)screen AndSize:(DrinkSize)size AndStrong:(BOOL)strength AndDrinkType:(DrinkType)drink;
 - (NSString*)instructions :(Drink*)current;
 - (NSArray*)semanticInstructions:(Drink*) current;
-- (NSString*)semanticRepresentation;
 - (NSString*) colloquialType;
 - (NSString*) colloquialSize;
 - (NSString*) colloquialRepresentation;
