@@ -7,6 +7,8 @@
 //
 
 #import "ccTeaViewController.h"
+#import "ccInstructionPageViewController.h"
+#import "Drink.h"
 
 @interface ccTeaViewController ()
 
@@ -46,6 +48,52 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"showInstructions"]) {
+        ccInstructionPageViewController *destViewController = segue.destinationViewController;
+        
+        Type t = COFFEE_AND_TEA;
+        if ([icedSelector isOn]) {
+            t = ICE;
+        }
+        
+        DrinkSize d = FOUR;
+        // TODO: Should probably build the size picker and do this check using one object to ensure these stay in sync
+        switch ([sizePicker selectedRowInComponent:0]){
+            case 0:
+                d = FOUR;
+                break;
+            case 1:
+                d = SIX;
+                break;
+            case 2:
+                d = EIGHT;
+                break;
+            case 3:
+                d = TEN;
+                break;
+            case 4:
+                d = TWELVE;
+                break;
+            case 5:
+                d = FOURTEEN;
+                break;
+            case 6:
+                d = SIXTEEN;
+                break;
+            case 7:
+                d = EIGHTEEN;
+                break;
+        }
+        
+        BOOL strong = NO;
+        
+        Drink *drink = [[Drink alloc] initWithDrinkType:t AndSize:d AndStrong:strong AndDrinkType:COFFEE];
+        destViewController.targetDrink = drink;
+    }
+}
+
 
 - (void)dealloc {
     [icedSelector release];

@@ -55,7 +55,10 @@ static Drink *currentDrink;
         currentDrink = [[Drink alloc]initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:NO];
     }
     //[self populateInstructions];
-    [self populateInstructionsFromArray];
+    if (targetDrink != nil) {
+        self.title = [targetDrink colloquialRepresentation];
+        [self populateInstructionsFromArray];
+    }
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(receiveNotification:) name:@"NewCurrentDrink" object:nil];
     NSLog(@"register notification listener");
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
@@ -113,6 +113,9 @@
                                     <constraint firstAttribute="width" constant="187" id="0WH-Xm-Ibh"/>
                                     <constraint firstAttribute="height" constant="216" id="RFd-uM-EZU"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="Ttc-Px-kVt" id="bWl-zm-Ket"/>
+                                </connections>
                             </pickerView>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cyG-W3-p0o"/>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uZy-LF-tHx">
@@ -129,7 +132,7 @@
                                 </state>
                                 <connections>
                                     <action selector="makeButton:" destination="Ttc-Px-kVt" eventType="touchUpInside" id="QV1-6x-fra"/>
-                                    <segue destination="MY6-jO-qUJ" kind="push" id="FtF-zi-EuU"/>
+                                    <segue destination="MY6-jO-qUJ" kind="push" identifier="showInstructions" id="FtF-zi-EuU"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Iced?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXn-6f-ix0">
@@ -295,6 +298,5 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="FtF-zi-EuU"/>
-        <segue reference="Gam-ve-Y8M"/>
     </inferredMetricsTieBreakers>
 </document>
