@@ -195,7 +195,7 @@
     
     if(strong != current.strong){
         [inst addObject:@"Select strong"];
-        [inst addObject:@"C5"];
+        [inst addObject:@"C2"];
     }
     
     if (drinkSize != current.drinkSize){

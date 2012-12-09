@@ -17,6 +17,7 @@
 @implementation ccCoffeePageViewController
 
 @synthesize size;
+@synthesize size_iced;
 @synthesize sizePicker;
 @synthesize strongSelector;
 @synthesize icedSelector;
@@ -43,6 +44,11 @@
     [size addObject:@"14 oz"];
     [size addObject:@"16 oz"];
     [size addObject:@"18 oz"];
+    
+    size_iced = [[NSMutableArray alloc] init];
+    [size_iced addObject:@"6 oz"];
+    [size_iced addObject:@"8 oz"];
+    [size_iced addObject:@"10 oz"];
 }
 
 - (void) dealloc {
@@ -61,6 +67,9 @@
 // make button select
 - (IBAction)changeStrength:(id)sender {
 
+}
+- (IBAction)toggleIced:(id)sender {
+    [sizePicker reloadAllComponents];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
@@ -107,6 +116,7 @@
         }
         
         Drink *drink = [[Drink alloc] initWithDrinkType:t AndSize:d AndStrong:strong AndDrinkType:COFFEE];
+
         destViewController.targetDrink = drink;
     }
 }
@@ -119,10 +129,16 @@
 }
 
 - (NSInteger)pickerView:(UIPickerView *)sizePicker numberOfRowsInComponent:(NSInteger)component {
+    if ([icedSelector isOn]) {
+        return [size_iced count];
+    }
     return [size count];
 }
 
 - (NSString *)pickerView:(UIPickerView *)sizePicker titleForRow:(NSInteger)row forComponent:(NSInteger)component {
+    if ([icedSelector isOn]) {
+        return [size_iced objectAtIndex:row];
+    }
     return [size objectAtIndex:row];
 }
 

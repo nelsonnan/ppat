@@ -19,6 +19,8 @@
 - (void) clearInstructions;
 @property (assign, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (assign, nonatomic) NSArray *dataArray;
+@property (assign, nonatomic) Drink *currentDrink;
 @property (assign, nonatomic) Drink *targetDrink;
+@property (assign, nonatomic) NSDate *lastUpdateTime; // Resets the app to assume the default drink.
 
 @end

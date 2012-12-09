@@ -15,11 +15,14 @@
     __weak IBOutlet UIPickerView *sizePicker;
     __weak IBOutlet UISwitch *icedSelector;
     NSMutableArray *size;
+    NSMutableArray *size_iced;
 }
 - (IBAction)changeStrength:(id)sender;
+- (IBAction)toggleIced:(id)sender;
 @property (assign, nonatomic) IBOutlet UISwitch *icedSelector;
 @property (assign, nonatomic) IBOutlet UILabel *coffeeLabel;
 @property (assign, nonatomic) IBOutlet UIPickerView *sizePicker;
 @property (assign, nonatomic) IBOutlet UISwitch *strongSelector;
 @property (assign, nonatomic) NSMutableArray *size;
+@property (assign, nonatomic) NSMutableArray *size_iced;
 @end

@@ -33,7 +33,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6AP-kp-nLD"/>
-                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0Fh-iu-mEv"/>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0Fh-iu-mEv">
+                                <connections>
+                                    <action selector="toggleIced:" destination="em4-JT-nVu" eventType="valueChanged" id="WXF-Y8-Udg"/>
+                                </connections>
+                            </switch>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nx2-38-N5h">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="216" id="IgG-qi-eJY"/>
@@ -261,6 +265,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ccCoffeePageViewController.h"/>
             <relationships>
                 <relationship kind="action" name="changeStrength:"/>
+                <relationship kind="action" name="toggleIced:"/>
                 <relationship kind="outlet" name="coffeeLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="icedSelector" candidateClass="UISwitch"/>
                 <relationship kind="outlet" name="sizePicker" candidateClass="UIPickerView"/>
@@ -290,6 +295,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="FtF-zi-EuU"/>
+        <segue reference="Gam-ve-Y8M"/>
     </inferredMetricsTieBreakers>
 </document>

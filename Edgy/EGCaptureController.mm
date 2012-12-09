@@ -27,6 +27,7 @@
 
 - (void)torchToggled:(id)sender;
 - (void)captureImage:(id)sender;
+- (NSString*) findBestFile:(NSDictionary*)templates :(IplImage*)capturedImage :(CvRect)region;
 
 @end
 
@@ -62,7 +63,7 @@
         [session addOutput:captureVideoDataOuput];
 #endif
         [self setWantsFullScreenLayout:YES];
-        [self performSelector:@selector(captureImage:) withObject:self afterDelay:3.0 ];
+        [self performSelector:@selector(captureImage:) withObject:self afterDelay:5.0 ];
         
     }
     return self;
@@ -220,11 +221,6 @@
     }
 }
 
-- (void)dealloc
-{
-    [super dealloc];
-}
-
 - (void)torchToggled:(id)sender
 {
     torchOn = !torchOn;
@@ -246,84 +242,104 @@
     }
     
     image = [UIImage imageWithCGImage:[image CGImage] scale:1.0 orientation:imageOrientation];
-    IplImage *pixels = [image createIplImageWithNumberOfChannels:1];
+    IplImage *pixels = [image createIplImageWithNumberOfChannels:3];
 #if TARGET_OS_EMBEDDED
     if ([currentDevice position] == AVCaptureDevicePositionFront) {
         cvFlip(pixels, NULL, (imageOrientation == UIImageOrientationUp || imageOrientation == UIImageOrientationDown) ? 0 : 1);        // flip vertically
     }
 #endif
-	CvSize pixelsSize = cvGetSize(pixels);
-	
-	// Create an image object from the Quartz image
-	NSMutableDictionary *templates = [NSMutableDictionary dictionary];
-    [templates setObject: [[Drink alloc] initWithDrink:ICE AndSize:SIX AndStrong:YES] forKey:@"icedStrong6.png" ];
-    [templates setObject: [[Drink alloc] initWithDrink:ICE AndSize:EIGHT AndStrong:YES] forKey:@"icedStrong8.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:ICE AndSize:TEN AndStrong:YES] forKey:@"icedStrong10.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:CAFE AndSize:FOUR AndStrong:NO] forKey:@"froth4.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:ICE AndSize:TEN AndStrong:NO] forKey:@"icedNot10.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:ICE AndSize:EIGHT AndStrong:NO] forKey:@"icedNot8.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:ICE AndSize:SIX AndStrong:NO] forKey:@"icedNot6.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIX AndStrong:NO] forKey:@"tea6.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TEN AndStrong:NO] forKey:@"cocoa10.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:NO] forKey:@"cocoa8.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIX AndStrong:NO] forKey:@"cocoa6.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TWELVE AndStrong:NO] forKey: @"tea12.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TEN AndStrong:NO] forKey:@"tea10.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:NO] forKey:@"tea8.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHTEEN AndStrong:YES] forKey:@"coffeeStrong18.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:FOUR AndStrong:YES] forKey:@"coffeeStrong4.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIX AndStrong:YES] forKey:@"coffeeStrong6.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:YES] forKey:@"coffeeStrong8.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TEN AndStrong:YES] forKey:@"coffeeStrong10.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TWELVE AndStrong:YES] forKey:@"coffeeStrong12.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:FOURTEEN AndStrong:YES] forKey:@"coffeeStrong14.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIXTEEN AndStrong:YES] forKey:@"coffeeStrong16.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:FOUR AndStrong:NO] forKey:@"coffeeNot4.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHTEEN AndStrong:NO] forKey:@"coffeeNot18.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIXTEEN AndStrong:NO] forKey:@"coffeeNot16.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:FOURTEEN AndStrong:NO] forKey:@"coffeeNot14.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TWELVE AndStrong:NO] forKey:@"coffeeNot12.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:TEN AndStrong:NO] forKey:@"coffeeNot10.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:EIGHT AndStrong:NO] forKey:@"coffeeNot8.png"];
-    [templates setObject: [[Drink alloc] initWithDrink:COFFEE_AND_TEA AndSize:SIX AndStrong:NO] forKey:@"coffeeNot6.png"];
-	
-	double best_val = DBL_MAX;
-    Drink *current_drink;
-	NSLog(@"width of picture taken: %d", pixelsSize.width);
-	NSLog(@"height of picture taken: %d", pixelsSize.height);
-    IplImage *template_image;
+    
+    NSMutableDictionary *size_templates = [NSMutableDictionary dictionary];
+    [size_templates setObject: [NSNumber numberWithInt: FOUR] forKey:@"4oz.jpg.png" ];
+    [size_templates setObject: [NSNumber numberWithInt: SIX] forKey:@"6oz.jpg.png" ];
+    [size_templates setObject: [NSNumber numberWithInt: EIGHT] forKey:@"8oz.jpg.png" ];
+    [size_templates setObject: [NSNumber numberWithInt: TEN] forKey:@"10oz.jpg.png" ];
+    [size_templates setObject: [NSNumber numberWithInt: TWELVE] forKey:@"12oz.jpg.png" ];
+    [size_templates setObject: [NSNumber numberWithInt: FOURTEEN] forKey:@"14oz.jpg.png" ];
+    [size_templates setObject: [NSNumber numberWithInt: SIXTEEN] forKey:@"16oz.jpg.png" ];
+    [size_templates setObject: [NSNumber numberWithInt: EIGHTEEN] forKey:@"18oz.jpg.png" ];
+    [size_templates setObject: [NSNumber numberWithInt: SIX] forKey:@"6ozIced.jpg.png" ];
+    [size_templates setObject: [NSNumber numberWithInt: EIGHT] forKey:@"8ozIced.jpg.png" ];
+    [size_templates setObject: [NSNumber numberWithInt: TEN] forKey:@"10ozIced.jpg.png" ];
+    
+    DrinkSize best_size = (DrinkSize)[[size_templates objectForKey:[self findBestFile:size_templates :pixels :cvRect(0,275,pixels->width, pixels->height - 275)]] intValue];
+    
+    NSMutableDictionary *type_templates = [NSMutableDictionary dictionary];
+    [type_templates setObject: [NSNumber numberWithInt:COFFEE_AND_TEA] forKey:@"coffeeAndTea.jpg.png"];
+    [type_templates setObject: [NSNumber numberWithInt:CAFE] forKey:@"cafe.jpg.png"];
+    [type_templates setObject: [NSNumber numberWithInt:ICE] forKey:@"brewOverIce.jpg.png"];
+    
+    Type best_type = (Type)[[type_templates objectForKey:[self findBestFile:type_templates :pixels :cvRect(0,0,pixels->width, 120)]] intValue];
+    
+    NSMutableDictionary *drink_type_templates = [NSMutableDictionary dictionary];
+    [drink_type_templates setObject: [NSNumber numberWithInt:COFFEE] forKey:@"coffee.jpg.png"];
+    [drink_type_templates setObject: [NSNumber numberWithInt:COFFEE] forKey:@"coffeeStrong.jpg.png"];
+    [drink_type_templates setObject: [NSNumber numberWithInt:TEA] forKey:@"tea.jpg.png"];
+    [drink_type_templates setObject: [NSNumber numberWithInt:HOT_COCOA] forKey:@"cocoa.jpg.png"];
+    [drink_type_templates setObject: [NSNumber numberWithInt:COFFEE] forKey:@"icedCoffee.jpg.png"];
+    [drink_type_templates setObject: [NSNumber numberWithInt:COFFEE] forKey:@"icedCoffeeStrong.jpg.png"];
+    [drink_type_templates setObject: [NSNumber numberWithInt:TEA] forKey:@"icedTea.jpg.png"];
+    [drink_type_templates setObject: [NSNumber numberWithInt:DRINK_CAFE] forKey:@"icedCafe.jpg.png"];
+    
+    NSString *best_drink_type_filename = [self findBestFile:drink_type_templates :pixels :cvRect(0,100,pixels->width,175)];
+    
+    // TODO(mglowe): perform additional checks to confirm that specific pictures were only matched with appropriate screens (make sure all drinks are real).
+
+    DrinkType best_drink_type = (DrinkType)[[drink_type_templates objectForKey:best_drink_type_filename] intValue];
+    BOOL isStrong = [best_drink_type_filename isEqualToString:@"coffeeStrong.jpg.png"] || [best_drink_type_filename isEqualToString:@"icedCoffeeStrong.jpg.png"];
+    
+    Drink *current_drink = [[Drink alloc] initWithDrinkType:(Type)best_type AndSize:(DrinkSize)best_size AndStrong:isStrong AndDrinkType:best_drink_type];
+    // Send the current drink to the other view
+    NSDictionary *dict = [NSDictionary dictionaryWithObject: current_drink forKey:@"current_drink"];
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"NewCurrentDrink" object:self userInfo:dict];
+    
+    cvReleaseImage(&pixels);
+    // Uncomment the line below to save the photo to phone's album. Using these images, transfer them over to the templates_png folder to use as template matchers.
+    // NOTE: At time of this writing images were being saved as jpg's. Used command line tool "convert" from Imagick to make PNGs.
+    //UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
+    [view removeFromSuperview];
+}
+
+- (NSString*) findBestFile:(NSDictionary*)templates :(IplImage*)capturedImage :(CvRect)region
+{
+
+	IplImage *template_image;
     IplImage *imgResult;
-    NSArray *drinkKeys = [templates allKeys];
-	for (NSUInteger i = 0; i < [templates count] - 1; i++) {
-		template_image = [[UIImage imageNamed:[drinkKeys objectAtIndex:i]] createIplImageWithNumberOfChannels:1];
+
+    
+	double best_val = DBL_MAX;
+    int best;
+    
+    NSArray *keys = [templates allKeys];
+    NSString *bestFileName = @"";
+    
+    cvSetImageROI(capturedImage, region);
+    
+	for (NSUInteger i = 0; i < [templates count]; i++) {
+		template_image = [[UIImage imageNamed:[keys objectAtIndex:i]] createIplImageWithNumberOfChannels:3];
 		CvSize templateSize = cvGetSize(template_image);
 		
-		CvSize resultSize = cvSize(abs(pixelsSize.width - templateSize.width) + 1, abs(pixelsSize.height - templateSize.height) + 1);
+		CvSize resultSize = cvSize(abs(region.width - templateSize.width) + 1, abs(region.height - templateSize.height) + 1);
 		imgResult = cvCreateImage(resultSize, IPL_DEPTH_32F, 1);
 
-		cvMatchTemplate(pixels, template_image, imgResult, CV_TM_CCORR_NORMED);
+		cvMatchTemplate(capturedImage, template_image, imgResult, CV_TM_SQDIFF);
 		double min_val;
 		double max_val;
 		cvMinMaxLoc(imgResult, &min_val, &max_val);
 		if (min_val <= best_val) {
-			NSLog(@"better: %@", [drinkKeys objectAtIndex:i]);
-            current_drink = [templates objectForKey:[drinkKeys objectAtIndex:i]];
+            bestFileName = [keys objectAtIndex:i];
+			best = [[templates valueForKey:bestFileName] intValue];
 			best_val = min_val;
 		}
 	}
+    NSLog(@"BEST FILE: %@",bestFileName);
     
+    cvReleaseImage(&template_image);
+    cvReleaseImage(&imgResult);
     
-    // Send the current drink to the other view
-    NSDictionary *dict = [NSDictionary dictionaryWithObject: current_drink forKey:@"current_drink"];
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"NewCurrentDrink" object:self userInfo:dict];
-    NSLog(@"Notifcation Sent");
-
-    cvReleaseImage(&pixels);
-    // Uncomment the line below to save the photo to phone's album. Using these images, transfer them over to the templates_png folder to use as template matchers.
-    // NOTE: At time of this writing images were being saved as jpg's. Used command line tool "convert" from Imagick to make PNGs.
-    // UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
-    [view removeFromSuperview];
+    return bestFileName;
 }
+
 
 
 #if TARGET_OS_EMBEDDED
@@ -333,6 +349,7 @@
     if (pauseForCapture) {
         return;
     }
+    
     
     // Send the image data to the main thread for display. Block so we aren't drawing while processing.
     dispatch_sync(dispatch_get_main_queue(), ^{
