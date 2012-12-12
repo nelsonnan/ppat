@@ -271,7 +271,7 @@
 
     // Templates for screens which don't deal with drink making.
     // TODO: Make these not mess up other template matching
-    
+    /*
     [type_templates setObject:[NSNumber numberWithInt:LIFT_TO_BREW] forKey:@"otherLiftToBrew.jpg.png"];
     [type_templates setObject:[NSNumber numberWithInt:PLEASE_ADD_WATER] forKey:@"otherPleaseAddWater.jpg.png"];
     [type_templates setObject:[NSNumber numberWithInt:SET_CLOCK_TO] forKey:@"otherSetClockTo.jpg.png"];
@@ -282,7 +282,7 @@
     [type_templates setObject:[NSNumber numberWithInt:TURN_OFF_AT] forKey:@"otherTurnOffAt.jpg.png"];
     [type_templates setObject:[NSNumber numberWithInt:TURN_ON_AT] forKey:@"otherTurnOnAt.jpg.png"];
     [type_templates setObject:[NSNumber numberWithInt:PREHEATING] forKey:@"otherPreheating.png"];
-     
+    */
     
     Type best_type = (Type)[[type_templates objectForKey:[self findBestFile:type_templates :pixels :cvRect(0,0,pixels->width, 140)]] intValue];
     
