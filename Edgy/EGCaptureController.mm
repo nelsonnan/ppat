@@ -312,7 +312,7 @@
     cvReleaseImage(&pixels);
     // Uncomment the line below to save the photo to phone's album. Using these images, transfer them over to the templates_png folder to use as template matchers.
     // NOTE: At time of this writing images were being saved as jpg's. Used command line tool "convert" from Imagick to make PNGs.
-    UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
+    // UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
     [view removeFromSuperview];
 }
 

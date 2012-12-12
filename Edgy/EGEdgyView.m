@@ -48,12 +48,10 @@ static const CGFloat buttonAlpha = 0.8;
     CGRect bounds = [self bounds];
     
     [imageView setFrame:bounds];
-    
 }
 
 - (void)setControlAlpha:(CGFloat)alpha
 {
-    
 }
 
 - (void)setButtonImageTransform:(CGAffineTransform)transform animated:(BOOL)animated
