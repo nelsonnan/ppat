@@ -45,27 +45,84 @@
 /**
  * @return NSString instruction for input given a difference drink
  **/
-- (NSString*) instructions:(Drink *)current
+- (NSArray*) instructions:(Drink *)current
 {
-    NSMutableString *inst = [NSMutableString stringWithString:@""];
+    NSMutableArray *inst = [NSMutableArray array];
     if (screenType != current.screenType) {
         current.drinkSize = EIGHT;
         current.strong = NO;
-        switch(screenType) {
+        current.drinkType = COFFEE;
+        switch (screenType) {
             case COFFEE_AND_TEA:
-                [inst appendString:@"A1 "];
+                [inst addObject:@"A1"];
                 break;
             case CAFE:
-                [inst appendString:@"B1 "];
+                [inst addObject:@"Change tab Cafe"];
+                [inst addObject:@"B1"];
                 break;
             case ICE:
-                [inst appendString:@"C1 "];
+                [inst addObject:@"Change tab Ice"];
+                [inst addObject:@"C1"];
+                break;
+            case LIFT_TO_BREW:
+                [inst addObject:@"Lift the K-cup holder, insert a K-cup, close the lid. Then, press the confirm button again."];
+                return inst;
+            case PLEASE_ADD_WATER:
+                [inst addObject:@"Add water to the container. Then, press the confirm button again."];
+                return inst;
+            case SET_CLOCK_TO:
+                [inst addObject:@"Go back to the main screen."];
+                [inst addObject:@"A5"];
+                [inst addObject:@"A5"];
+                [inst addObject:@"Lift the K-cup holder, insert a K-cup, close the lid. Then, press the confirm button again."];
+                return inst;
+            case SETTINGS:
+                [inst addObject:@"Go back to the main screen."];
+                [inst addObject:@"A5"];
+                [inst addObject:@"Lift the K-cup holder, insert a K-cup, close the lid. Then, press the confirm button again."];
+                return inst;
+            case TEMPERATURE:
+                [inst addObject:@"Go back to the main screen."];
+                [inst addObject:@"A5"];
+                [inst addObject:@"A5"];
+                [inst addObject:@"Lift the K-cup holder, insert a K-cup, close the lid. Then, press the confirm button again."];
+                return inst;
+            case TIME:
+                [inst addObject:@"Go back to the main screen."];
+                [inst addObject:@"A5"];
+                [inst addObject:@"A5"];
+                [inst addObject:@"Lift the K-cup holder, insert a K-cup, close the lid. Then, press the confirm button again."];
+                return inst;
+            case TURN_OFF_AFTER:
+                [inst addObject:@"Go back to the main screen."];
+                [inst addObject:@"A5"];
+                [inst addObject:@"A5"];
+                [inst addObject:@"Lift the K-cup holder, insert a K-cup, close the lid. Then, press the confirm button again."];
+                return inst;
+            case TURN_OFF_AT:
+                [inst addObject:@"Go back to the main screen."];
+                [inst addObject:@"A5"];
+                [inst addObject:@"A5"];
+                [inst addObject:@"Lift the K-cup holder, insert a K-cup, close the lid. Then, press the confirm button again."];
+                return inst;
+            case TURN_ON_AT:
+                [inst addObject:@"Go back to the main screen."];
+                [inst addObject:@"A5"];
+                [inst addObject:@"A5"];
+                [inst addObject:@"Lift the K-cup holder, insert a K-cup, close the lid. Then, press the confirm button again."];
+                return inst;
+            case PREHEATING:
+                [inst addObject:@"Wait for a few seconds while the machine preheats."];
+                [inst addObject:@"Lift the K-cup holder, insert a K-cup, close the lid. Then, press the confirm button again."];
+                return inst;
+            default:
                 break;
         }
+
     }
     
     if(strong != current.strong){
-        [inst appendString:@"C2 "];
+        [inst addObject:@"C2 "];
     }
     
     if(drinkSize != current.drinkSize) {
@@ -73,18 +130,18 @@
         
         if (current.drinkSize > drinkSize){
             // go left
-            [which appendString:@"A5 "];
+            [which appendString:@"A5"];
         } else {
             // go right
-            [which appendString:@"C5 "];
+            [which appendString:@"C5"];
         }
         
         for (int i = 0; i < fabs(current.drinkSize - drinkSize); i++) {
-            [inst appendString:which];
+            [inst addObject:which];
         }
     }
     // Trim the last white space and return
-    return [inst stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+    return inst;
 }
 /**
  * @ return NSString the colloquial representation of the size. Does not end in a space.
@@ -171,10 +228,73 @@
  */
 - (NSArray*) semanticInstructions:(Drink*) current
 {
-    NSMutableArray *inst = [NSMutableArray arrayWithCapacity:5];
+    NSMutableArray *inst = [NSMutableArray array];
     if (screenType != current.screenType) {
+        // switching pages switches the screen so we must update the current drink as such
         current.drinkSize = EIGHT;
         current.strong = NO;
+        current.drinkType = COFFEE;
+        // Ensure we don't have another screen currently, if so give some aux instructions to get to the default screen.
+        switch (current.screenType) {
+            case LIFT_TO_BREW:
+                [inst addObject:@"Lift the K-cup holder, insert a K-cup, close the lid. Then, press the confirm button again."];
+                return inst;
+            case PLEASE_ADD_WATER:
+                [inst addObject:@"Add water to the container. Then, press the confirm button again."];
+                return inst;
+            case SET_CLOCK_TO:
+                [inst addObject:@"Go back to the main screen."];
+                [inst addObject:@"A5"];
+                [inst addObject:@"A5"];
+                [inst addObject:@"A5"];
+                [inst addObject:@"Lift the K-cup holder, insert a K-cup, close the lid. Then, press the confirm button again."];
+                return inst;
+            case SETTINGS:
+                [inst addObject:@"Go back to the main screen."];
+                [inst addObject:@"A5"];
+                [inst addObject:@"Lift the K-cup holder, insert a K-cup, close the lid. Then, press the confirm button again."];
+                return inst;
+            case TEMPERATURE:
+                [inst addObject:@"Go back to the main screen."];
+                [inst addObject:@"A5"];
+                [inst addObject:@"A5"];
+                [inst addObject:@"Lift the K-cup holder, insert a K-cup, close the lid. Then, press the confirm button again."];
+                return inst;
+            case TIME: 
+                [inst addObject:@"Go back to the main screen."];
+                [inst addObject:@"A5"];
+                [inst addObject:@"A5"];
+                [inst addObject:@"Lift the K-cup holder, insert a K-cup, close the lid. Then, press the confirm button again."];
+                return inst;
+            case TURN_OFF_AFTER:
+                [inst addObject:@"Go back to the main screen."];
+                [inst addObject:@"A5"];
+                [inst addObject:@"A5"];
+                [inst addObject:@"A5"];
+                [inst addObject:@"Lift the K-cup holder, insert a K-cup, close the lid. Then, press the confirm button again."];
+                return inst;
+            case TURN_OFF_AT:
+                [inst addObject:@"Go back to the main screen."];
+                [inst addObject:@"A5"];
+                [inst addObject:@"A5"];
+                [inst addObject:@"A5"];
+                [inst addObject:@"Lift the K-cup holder, insert a K-cup, close the lid. Then, press the confirm button again."];
+                return inst;
+            case TURN_ON_AT:
+                [inst addObject:@"Go back to the main screen."];
+                [inst addObject:@"A5"];
+                [inst addObject:@"A5"];
+                [inst addObject:@"A5"];
+                [inst addObject:@"Lift the K-cup holder, insert a K-cup, close the lid. Then, press the confirm button again."];
+                return inst;
+            case PREHEATING:
+                [inst addObject:@"Wait for a few seconds while the machine preheats."];
+                [inst addObject:@"Lift the K-cup holder, insert a K-cup, close the lid. Then, press the confirm button again."];
+                return inst;
+            default:
+                break;
+
+        }
         switch (screenType) {
             case COFFEE_AND_TEA:
                 [inst addObject:@"Change tab Coffee"];
@@ -193,22 +313,45 @@
         }
     }
     
+    if (drinkType != current.drinkType) {
+        switch(drinkType) {
+            case COFFEE:
+                [inst addObject:@"Select coffee"];
+                [inst addObject:@"A2"];
+                break;               
+            case TEA:
+                [inst addObject:@"Select tea"];
+                [inst addObject:@"A3"];
+                break;     
+            case DRINK_CAFE:
+                [inst addObject:@"Select cafe"];
+                [inst addObject:@"A4"];
+                break;
+            case HOT_COCOA:
+                [inst addObject:@"Select cocoa"];
+                [inst addObject:@"A4"];
+                break;
+            case OTHER:
+                break;
+        }
+    }
+    
     if(strong != current.strong){
         [inst addObject:@"Select strong"];
         [inst addObject:@"C2"];
     }
     
     if (drinkSize != current.drinkSize){
-        NSMutableString *which = [NSMutableString stringWithString:@""];
         
+        NSString *which;
         if (current.drinkSize > drinkSize){
             // go left
             [inst addObject:@"Make smaller"];
-            [which appendString:@"A5"];
+            which = @"A5";
         } else {
             // go right
             [inst addObject:@"Make larger"];
-            [which appendString:@"C5"];
+            which = @"C5";
         }
         
         for (int i = 0; i < fabs(current.drinkSize - drinkSize); i++) {

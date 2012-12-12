@@ -13,6 +13,16 @@ typedef enum{
     COFFEE_AND_TEA,
     CAFE,
     ICE,
+    LIFT_TO_BREW,
+    PLEASE_ADD_WATER,
+    SET_CLOCK_TO,
+    SETTINGS,
+    TEMPERATURE,
+    TIME,
+    TURN_OFF_AFTER,
+    TURN_OFF_AT,
+    TURN_ON_AT,
+    PREHEATING
 }Type;
 
 #endif

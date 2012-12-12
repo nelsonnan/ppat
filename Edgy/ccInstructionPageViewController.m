@@ -63,8 +63,7 @@
 
 - (void) populateInstructions {
     [self clearInstructions];
-    NSString *instructionsString = [targetDrink instructions:currentDrink];
-    self.dataArray = [instructionsString componentsSeparatedByString:@" "];
+    self.dataArray = [targetDrink instructions:currentDrink];
     NSEnumerator *dataEnumerate = [dataArray objectEnumerator];
     NSString *data;
     int x=0;

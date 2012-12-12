@@ -268,8 +268,23 @@
     [type_templates setObject: [NSNumber numberWithInt:COFFEE_AND_TEA] forKey:@"coffeeAndTea.jpg.png"];
     [type_templates setObject: [NSNumber numberWithInt:CAFE] forKey:@"cafe.jpg.png"];
     [type_templates setObject: [NSNumber numberWithInt:ICE] forKey:@"brewOverIce.jpg.png"];
+
+    // Templates for screens which don't deal with drink making.
+    // TODO: Make these not mess up other template matching
     
-    Type best_type = (Type)[[type_templates objectForKey:[self findBestFile:type_templates :pixels :cvRect(0,0,pixels->width, 120)]] intValue];
+    [type_templates setObject:[NSNumber numberWithInt:LIFT_TO_BREW] forKey:@"otherLiftToBrew.jpg.png"];
+    [type_templates setObject:[NSNumber numberWithInt:PLEASE_ADD_WATER] forKey:@"otherPleaseAddWater.jpg.png"];
+    [type_templates setObject:[NSNumber numberWithInt:SET_CLOCK_TO] forKey:@"otherSetClockTo.jpg.png"];
+    [type_templates setObject:[NSNumber numberWithInt:SETTINGS] forKey:@"otherSettings.jpg.png"];
+    [type_templates setObject:[NSNumber numberWithInt:TEMPERATURE] forKey:@"otherTemperature.jpg.png"];
+    [type_templates setObject:[NSNumber numberWithInt:TIME] forKey:@"otherTime.jpg.png"];
+    [type_templates setObject:[NSNumber numberWithInt:TURN_OFF_AFTER] forKey:@"otherTurnOffAfter.jpg.png"];
+    [type_templates setObject:[NSNumber numberWithInt:TURN_OFF_AT] forKey:@"otherTurnOffAt.jpg.png"];
+    [type_templates setObject:[NSNumber numberWithInt:TURN_ON_AT] forKey:@"otherTurnOnAt.jpg.png"];
+    [type_templates setObject:[NSNumber numberWithInt:PREHEATING] forKey:@"otherPreheating.png"];
+     
+    
+    Type best_type = (Type)[[type_templates objectForKey:[self findBestFile:type_templates :pixels :cvRect(0,0,pixels->width, 140)]] intValue];
     
     NSMutableDictionary *drink_type_templates = [NSMutableDictionary dictionary];
     [drink_type_templates setObject: [NSNumber numberWithInt:COFFEE] forKey:@"coffee.jpg.png"];
@@ -280,6 +295,7 @@
     [drink_type_templates setObject: [NSNumber numberWithInt:COFFEE] forKey:@"icedCoffeeStrong.jpg.png"];
     [drink_type_templates setObject: [NSNumber numberWithInt:TEA] forKey:@"icedTea.jpg.png"];
     [drink_type_templates setObject: [NSNumber numberWithInt:DRINK_CAFE] forKey:@"icedCafe.jpg.png"];
+
     
     NSString *best_drink_type_filename = [self findBestFile:drink_type_templates :pixels :cvRect(0,100,pixels->width,175)];
     
@@ -296,7 +312,7 @@
     cvReleaseImage(&pixels);
     // Uncomment the line below to save the photo to phone's album. Using these images, transfer them over to the templates_png folder to use as template matchers.
     // NOTE: At time of this writing images were being saved as jpg's. Used command line tool "convert" from Imagick to make PNGs.
-    //UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
+    UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
     [view removeFromSuperview];
 }
 
@@ -332,7 +348,7 @@
 			best_val = min_val;
 		}
 	}
-    NSLog(@"BEST FILE: %@",bestFileName);
+    NSLog(@"BEST FILE: %@ with value: %f",bestFileName,best_val);
     
     cvReleaseImage(&template_image);
     cvReleaseImage(&imgResult);

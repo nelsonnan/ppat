@@ -485,6 +485,26 @@
 		2C1C72C3167405F000FB2EF4 /* coffeeStrongIced.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72AA167405F000FB2EF4 /* coffeeStrongIced.jpg.png */; };
 		2C1C72C4167405F000FB2EF4 /* teaIced.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72AB167405F000FB2EF4 /* teaIced.jpg.png */; };
 		2C1C72C5167405F000FB2EF4 /* teaIced.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72AB167405F000FB2EF4 /* teaIced.jpg.png */; };
+		2C1C72EA1675142100FB2EF4 /* otherLiftToBrew.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72E11675142100FB2EF4 /* otherLiftToBrew.jpg.png */; };
+		2C1C72EB1675142100FB2EF4 /* otherLiftToBrew.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72E11675142100FB2EF4 /* otherLiftToBrew.jpg.png */; };
+		2C1C72EC1675142100FB2EF4 /* otherPleaseAddWater.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72E21675142100FB2EF4 /* otherPleaseAddWater.jpg.png */; };
+		2C1C72ED1675142100FB2EF4 /* otherPleaseAddWater.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72E21675142100FB2EF4 /* otherPleaseAddWater.jpg.png */; };
+		2C1C72EE1675142100FB2EF4 /* otherSetClockTo.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72E31675142100FB2EF4 /* otherSetClockTo.jpg.png */; };
+		2C1C72EF1675142100FB2EF4 /* otherSetClockTo.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72E31675142100FB2EF4 /* otherSetClockTo.jpg.png */; };
+		2C1C72F01675142100FB2EF4 /* otherSettings.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72E41675142100FB2EF4 /* otherSettings.jpg.png */; };
+		2C1C72F11675142100FB2EF4 /* otherSettings.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72E41675142100FB2EF4 /* otherSettings.jpg.png */; };
+		2C1C72F21675142100FB2EF4 /* otherTemperature.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72E51675142100FB2EF4 /* otherTemperature.jpg.png */; };
+		2C1C72F31675142100FB2EF4 /* otherTemperature.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72E51675142100FB2EF4 /* otherTemperature.jpg.png */; };
+		2C1C72F41675142100FB2EF4 /* otherTime.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72E61675142100FB2EF4 /* otherTime.jpg.png */; };
+		2C1C72F51675142100FB2EF4 /* otherTime.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72E61675142100FB2EF4 /* otherTime.jpg.png */; };
+		2C1C72F61675142100FB2EF4 /* otherTurnOffAfter.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72E71675142100FB2EF4 /* otherTurnOffAfter.jpg.png */; };
+		2C1C72F71675142100FB2EF4 /* otherTurnOffAfter.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72E71675142100FB2EF4 /* otherTurnOffAfter.jpg.png */; };
+		2C1C72F81675142100FB2EF4 /* otherTurnOffAt.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72E81675142100FB2EF4 /* otherTurnOffAt.jpg.png */; };
+		2C1C72F91675142100FB2EF4 /* otherTurnOffAt.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72E81675142100FB2EF4 /* otherTurnOffAt.jpg.png */; };
+		2C1C72FA1675142100FB2EF4 /* otherTurnOnAt.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72E91675142100FB2EF4 /* otherTurnOnAt.jpg.png */; };
+		2C1C72FB1675142100FB2EF4 /* otherTurnOnAt.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72E91675142100FB2EF4 /* otherTurnOnAt.jpg.png */; };
+		2C1C72FD1676A5A300FB2EF4 /* otherPreheating.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72FC1676A5A300FB2EF4 /* otherPreheating.png */; };
+		2C1C72FE1676A5A300FB2EF4 /* otherPreheating.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C72FC1676A5A300FB2EF4 /* otherPreheating.png */; };
 		2C81545B16718DDD00FBA82D /* 4oz.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81545016718DDD00FBA82D /* 4oz.jpg.png */; };
 		2C81545C16718DDD00FBA82D /* 4oz.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81545016718DDD00FBA82D /* 4oz.jpg.png */; };
 		2C81545D16718DDD00FBA82D /* 6oz.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81545116718DDD00FBA82D /* 6oz.jpg.png */; };
@@ -944,6 +964,16 @@
 		2C1C72A9167405F000FB2EF4 /* coffeeNotStrongIced.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffeeNotStrongIced.jpg.png; sourceTree = "<group>"; };
 		2C1C72AA167405F000FB2EF4 /* coffeeStrongIced.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffeeStrongIced.jpg.png; sourceTree = "<group>"; };
 		2C1C72AB167405F000FB2EF4 /* teaIced.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teaIced.jpg.png; sourceTree = "<group>"; };
+		2C1C72E11675142100FB2EF4 /* otherLiftToBrew.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otherLiftToBrew.jpg.png; sourceTree = "<group>"; };
+		2C1C72E21675142100FB2EF4 /* otherPleaseAddWater.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otherPleaseAddWater.jpg.png; sourceTree = "<group>"; };
+		2C1C72E31675142100FB2EF4 /* otherSetClockTo.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otherSetClockTo.jpg.png; sourceTree = "<group>"; };
+		2C1C72E41675142100FB2EF4 /* otherSettings.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otherSettings.jpg.png; sourceTree = "<group>"; };
+		2C1C72E51675142100FB2EF4 /* otherTemperature.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otherTemperature.jpg.png; sourceTree = "<group>"; };
+		2C1C72E61675142100FB2EF4 /* otherTime.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otherTime.jpg.png; sourceTree = "<group>"; };
+		2C1C72E71675142100FB2EF4 /* otherTurnOffAfter.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otherTurnOffAfter.jpg.png; sourceTree = "<group>"; };
+		2C1C72E81675142100FB2EF4 /* otherTurnOffAt.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otherTurnOffAt.jpg.png; sourceTree = "<group>"; };
+		2C1C72E91675142100FB2EF4 /* otherTurnOnAt.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otherTurnOnAt.jpg.png; sourceTree = "<group>"; };
+		2C1C72FC1676A5A300FB2EF4 /* otherPreheating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otherPreheating.png; sourceTree = "<group>"; };
 		2C81545016718DDD00FBA82D /* 4oz.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4oz.jpg.png; sourceTree = "<group>"; };
 		2C81545116718DDD00FBA82D /* 6oz.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6oz.jpg.png; sourceTree = "<group>"; };
 		2C81545216718DDD00FBA82D /* 6ozIced.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6ozIced.jpg.png; sourceTree = "<group>"; };
@@ -1914,6 +1944,16 @@
 		2CF7068D1666C47B00FC89E7 /* templates_png */ = {
 			isa = PBXGroup;
 			children = (
+				2C1C72FC1676A5A300FB2EF4 /* otherPreheating.png */,
+				2C1C72E11675142100FB2EF4 /* otherLiftToBrew.jpg.png */,
+				2C1C72E21675142100FB2EF4 /* otherPleaseAddWater.jpg.png */,
+				2C1C72E31675142100FB2EF4 /* otherSetClockTo.jpg.png */,
+				2C1C72E41675142100FB2EF4 /* otherSettings.jpg.png */,
+				2C1C72E51675142100FB2EF4 /* otherTemperature.jpg.png */,
+				2C1C72E61675142100FB2EF4 /* otherTime.jpg.png */,
+				2C1C72E71675142100FB2EF4 /* otherTurnOffAfter.jpg.png */,
+				2C1C72E81675142100FB2EF4 /* otherTurnOffAt.jpg.png */,
+				2C1C72E91675142100FB2EF4 /* otherTurnOnAt.jpg.png */,
 				2C1C729F167405F000FB2EF4 /* coffeeStrong.jpg.png */,
 				2C1C72A0167405F000FB2EF4 /* icedCafe.jpg.png */,
 				2C1C72A1167405F000FB2EF4 /* icedCoffee.jpg.png */,
@@ -2327,6 +2367,16 @@
 				2C1C72C0167405F000FB2EF4 /* coffeeNotStrongIced.jpg.png in Resources */,
 				2C1C72C2167405F000FB2EF4 /* coffeeStrongIced.jpg.png in Resources */,
 				2C1C72C4167405F000FB2EF4 /* teaIced.jpg.png in Resources */,
+				2C1C72EA1675142100FB2EF4 /* otherLiftToBrew.jpg.png in Resources */,
+				2C1C72EC1675142100FB2EF4 /* otherPleaseAddWater.jpg.png in Resources */,
+				2C1C72EE1675142100FB2EF4 /* otherSetClockTo.jpg.png in Resources */,
+				2C1C72F01675142100FB2EF4 /* otherSettings.jpg.png in Resources */,
+				2C1C72F21675142100FB2EF4 /* otherTemperature.jpg.png in Resources */,
+				2C1C72F41675142100FB2EF4 /* otherTime.jpg.png in Resources */,
+				2C1C72F61675142100FB2EF4 /* otherTurnOffAfter.jpg.png in Resources */,
+				2C1C72F81675142100FB2EF4 /* otherTurnOffAt.jpg.png in Resources */,
+				2C1C72FA1675142100FB2EF4 /* otherTurnOnAt.jpg.png in Resources */,
+				2C1C72FD1676A5A300FB2EF4 /* otherPreheating.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2386,6 +2436,16 @@
 				2C1C72C1167405F000FB2EF4 /* coffeeNotStrongIced.jpg.png in Resources */,
 				2C1C72C3167405F000FB2EF4 /* coffeeStrongIced.jpg.png in Resources */,
 				2C1C72C5167405F000FB2EF4 /* teaIced.jpg.png in Resources */,
+				2C1C72EB1675142100FB2EF4 /* otherLiftToBrew.jpg.png in Resources */,
+				2C1C72ED1675142100FB2EF4 /* otherPleaseAddWater.jpg.png in Resources */,
+				2C1C72EF1675142100FB2EF4 /* otherSetClockTo.jpg.png in Resources */,
+				2C1C72F11675142100FB2EF4 /* otherSettings.jpg.png in Resources */,
+				2C1C72F31675142100FB2EF4 /* otherTemperature.jpg.png in Resources */,
+				2C1C72F51675142100FB2EF4 /* otherTime.jpg.png in Resources */,
+				2C1C72F71675142100FB2EF4 /* otherTurnOffAfter.jpg.png in Resources */,
+				2C1C72F91675142100FB2EF4 /* otherTurnOffAt.jpg.png in Resources */,
+				2C1C72FB1675142100FB2EF4 /* otherTurnOnAt.jpg.png in Resources */,
+				2C1C72FE1676A5A300FB2EF4 /* otherPreheating.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

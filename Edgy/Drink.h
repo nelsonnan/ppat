@@ -20,7 +20,7 @@
 
 - (id)initWithDrink:(Type)screen AndSize:(DrinkSize)size AndStrong:(BOOL)strength;
 - (id)initWithDrinkType:(Type)screen AndSize:(DrinkSize)size AndStrong:(BOOL)strength AndDrinkType:(DrinkType)drink;
-- (NSString*)instructions :(Drink*)current;
+- (NSArray*)instructions :(Drink*)current;
 - (NSArray*)semanticInstructions:(Drink*) current;
 - (NSString*) colloquialType;
 - (NSString*) colloquialSize;
